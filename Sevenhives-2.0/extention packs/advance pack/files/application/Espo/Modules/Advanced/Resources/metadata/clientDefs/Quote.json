@@ -1,0 +1,77 @@
+{
+  "controller": "Controllers.Record",
+  "filterList": [
+    "actual",
+    {
+      "name": "approved",
+      "style": "success"
+    }
+  ],
+  "recordViews": {
+    "detail": "Advanced:Quote.Record.Detail"
+  },
+  "bottomPanels": {
+    "detail": [
+      "__APPEND__",
+      {
+        "name": "items",
+        "label": "Items",
+        "view": "Advanced:Quote.Record.Panels.Items",
+        "notRefreshable": true,
+        "sticked": true
+      }
+    ],
+    "edit": [
+      "__APPEND__",
+      {
+        "name": "items",
+        "label": "Items",
+        "view": "Advanced:Quote.Record.Panels.Items",
+        "notRefreshable": true,
+        "sticked": true
+      }
+    ]
+  },
+  "menu": {
+    "list": {
+      "dropdown": [
+        {
+          "label": "Templates",
+          "link": "#Template",
+          "acl": "read",
+          "aclScope": "Template"
+        },
+        {
+          "label": "Taxes",
+          "link": "#Tax",
+          "acl": "read",
+          "aclScope": "Tax"
+        },
+        {
+          "label": "Shipping Providers",
+          "link": "#ShippingProvider",
+          "acl": "read",
+          "aclScope": "ShipingProvider"
+        }
+      ]
+    }
+  },
+  "formDependency": {
+    "status": {
+      "map": {
+        "Approved": [
+          {
+            "action": "show",
+            "fields": ["dateInvoiced", "invoiceNumber"]
+          }
+        ]
+      },
+      "default": [
+        {
+          "action": "hide",
+          "fields": ["dateInvoiced", "invoiceNumber"]
+        }
+      ]
+    }
+  }
+}

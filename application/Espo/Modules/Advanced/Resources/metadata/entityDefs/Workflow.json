@@ -1,0 +1,126 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "entityType": {
+            "type": "varchar",
+            "required": true,
+            "view": "Advanced:Workflow.Fields.EntityType"
+        },
+        "type": {
+            "type": "enum",
+            "required": true,
+            "options": ["afterRecordSaved", "afterRecordCreated"]
+        },
+        "isActive": {
+            "type": "bool",
+            "default": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "conditionsAll": {
+            "type": "jsonArray"
+        },
+        "conditionsAny": {
+            "type": "jsonArray"
+        },
+        "actions": {
+            "type": "jsonArray"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    },
+    "conditionFieldTypes": {
+        "varchar": "varchar",
+        "enum": "enum",
+        "enumInt": "enum",
+        "enumFloat": "enum",
+        "phone": "varchar",
+        "email": "varchar",
+        "url": "varchar",
+        "int": "int",
+        "currency": "currency",
+        "float": "float",
+        "bool": "bool",
+        "password": "varchar",
+        "text": "text",
+        "wysiwyg": "text",
+        "link": "link",
+        "file": "link",
+        "image": "link",
+        "linkParent": "linkParent",
+        "date": "date",
+        "datetime": "date",
+        "linkMultiple": "linkMultiple"
+    },
+    "fieldDefinitions": {
+        "date": "date",
+        "datetime": "date",
+        "datetimeOptional": "date"
+    },
+    "fieldTypeComparison": {
+        "enumInt": ["int"],
+        "enumFloat": ["float"],
+        "date": ["datetime", "datetimeOptional"],
+        "datetime": ["date"],
+        "datetimeOptional": ["date", "datetime"],
+        "float": ["enumFloat"]
+    },
+    "entityListToIgnore": [
+        "PhoneNumber",
+        "Notification",
+        "EmailAddress",
+        "Attachment",
+        "Extension",
+        "Currency",
+        "Reminder",
+        "PasswordChangeRequest",
+        "Workflow",
+        "AuthToken",
+        "Team",
+        "User",
+        "Role",
+        "EmailAccount",
+        "EmailTemplate",
+        "ExternalAccount",
+        "Integration",
+        "Job",
+        "Preferences",
+        "ScheduledJob",
+        "ScheduledJobLogRecord",
+        "Settings",
+        "UniqueId",
+        "InboundEmail"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "controller": "Controllers.Record",
+  "recordViews":{
+     "detail":"Advanced:Workflow.Record.Detail",
+     "edit":"Advanced:Workflow.Record.Edit",
+     "list":"Advanced:Workflow.Record.List"
+  }
+}

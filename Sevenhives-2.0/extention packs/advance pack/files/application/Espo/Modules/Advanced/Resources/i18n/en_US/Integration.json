@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "apiKey": "API Key",
+        "createEmails": "Fetch sent Emails",
+        "markEmailsOptedOut": "Mark email addresses as Opted Out for Unsubscribed Recipients",
+        "hardBouncedAction": "Hard Bounced Handling"
+    },
+    "options": {
+        "hardBouncedAction": {
+            "setAsInvalid": "Set Email Address as Invalid", 
+            "removeFromList": "Remove from List", 
+            "setAsInvalidAndRemove": "Both of Actions"
+        }
+    },
+    "help": {
+        "Google": "<p><b>Obtain OAuth 2.0 credentials from the Google Developers Console.</b></p><p>Visit <a href=\"https://console.developers.google.com/project\">Google Developers Console</a> to obtain OAuth 2.0 credentials such as a Client ID and Client Secret that are known to both Google and Sevenhives application.</p>",
+        "MailChimp": "<p><b>MailChimp Configuration</b></p><p>You can get your API Key in your MailChimp Account, in Extras tab select API keys, or click <a href='https://admin.mailchimp.com/account/api/' target='_blank'>here</a></p>"
+    },
+    "tooltips": {
+        "createEmails": "Fetch sent emails from MailChimp and relate to your Recipients in Sevenhives. Recommendation: Do not fetch emails if you use big recipient lists."
+    }
+    
+}

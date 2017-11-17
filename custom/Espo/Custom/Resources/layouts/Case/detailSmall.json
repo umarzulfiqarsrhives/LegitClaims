@@ -1,0 +1,57 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "mstatus"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "priority"
+                }
+            ],
+            [
+                {
+                    "name": "daysInProgress"
+                },
+                {
+                    "name": "number"
+                }
+            ],
+            [
+                {
+                    "name": "startDate"
+                },
+                {
+                    "name": "dueDate"
+                }
+            ],
+            [
+                {
+                    "name": "descriptionD",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "name",
+        "width": 32,
+        "link": true
+    },
+    {
+        "name": "addressPostalCode"
+    },
+    {
+        "name": "address"
+    },
+    {
+        "name": "status",
+        "width": 17
+    },
+    {
+        "name": "emailAddress",
+        "notSortable": true
+    },
+    {
+        "name": "createdAt",
+        "width": 18
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "collection": {
+        "sortBy": "createdBy",
+        "asc": false
+    },
+    "fields": {
+        "points": {
+            "type": "int",
+            "required": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "priority": {
+            "type": "enum",
+            "options": [
+                "Low",
+                "Normal",
+                "High",
+                "Urgent",
+                "Blocker"
+            ],
+            "default": "Normal",
+            "audited": true,
+            "required": false,
+            "isSorted": false
+        },
+        "type": {
+            "type": "enum",
+            "required": false,
+            "options": [
+                "Bug",
+                "Enhancement",
+                "Design Only",
+                "Epic"
+            ],
+            "audited": true,
+            "isSorted": false,
+            "isCustom": true
+        },
+        "taskNumber": {
+            "type": "autoincrement",
+            "autoincrement": true,
+            "unique": true,
+            "isCustom": true
+        },
+        "managerComments": {
+            "type": "text",
+            "required": false,
+            "rows": 4,
+            "lengthOfCut": 400,
+            "seeMoreDisabled": false,
+            "isCustom": true
+        },
+        "description": {
+            "type": "text",
+            "required": true,
+            "seeMoreDisabled": false
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "options": {    
+        "calendarDefaultEntity" : {
+            "Call": "Call",
+            "Meeting":"Meeting"
+        },
+        
+        "calendarDirection": {
+            "EspoToGC": "One-way: Sevenhives -> Google Calendar",
+			"GCToEspo": "One-way: Google Calendar -> Sevenhives",
+			"Both": "Two-way"
+        }
+        
+    },
+    "fields": {
+        "calendarStartDate": "Sync since",
+        "calendarEntityTypes": "Sync Entities and Identification Labels",
+        "calendarDirection": "Direction",
+        "calendarMonitoredCalendars": "Other Calendars",
+        "calendarMainCalendar": "Main Calendar",
+        "calendarDefaultEntity": "Default Entity"
+    },
+    "tooltips": {
+        "calendarEntityTypes": "For type recognizing  event's name has to start from identification label. Label for default entity can be empty. Recommendation: Do not change identification labels after you saved synchronization setting",
+        "calendarDefaultEntity": "Unrecognized Event will be loaded as selected Entity"
+    }
+}

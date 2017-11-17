@@ -1,0 +1,10 @@
+[
+    {
+        "label":"General",
+        "rows":[
+            [{"name":"name"},{"name": "isActive"}],
+            [{"name":"entityType"},{"name":"type"}],
+            [{"name": "description","fullWidth": true}]
+        ]
+    }
+]

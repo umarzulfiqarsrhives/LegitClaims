@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "userName": {
+            "tooltipText": "Letters a-z, numbers 0-9, dots, hyphens, @-signs and underscores are allowed.",
+            "audited": true,
+            "trim": false,
+            "readOnly": false
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Advanced Pack",
+  "version": "1.7.0",
+  "type": "extension",
+  "acceptableVersions": [],
+  "releaseDate": "2016-02-11",
+  "author": "Sevenhives",
+  "description": "Reports, Workflows, Quotes, Producs, Google Calendar Sync, MailChimp Integration."
+}

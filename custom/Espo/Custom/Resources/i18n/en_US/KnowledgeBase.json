@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create KnowledgeBase": "Create Knowledge Base"
+    },
+    "fields": {
+        "assignedUser": "Assigned User"
+    }
+}

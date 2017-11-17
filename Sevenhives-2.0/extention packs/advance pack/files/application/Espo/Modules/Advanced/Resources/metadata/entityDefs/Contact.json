@@ -1,0 +1,14 @@
+{
+    "links": {
+        "quotesBilling": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "billingContact"
+        },
+        "quotesShipping": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "shippingContact"
+        }
+    }
+}

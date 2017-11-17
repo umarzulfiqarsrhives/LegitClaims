@@ -1,0 +1,11 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": true,
+    "acl": true,
+    "module": "Advanced",
+    "customizable": true,
+    "importable": true,
+    "notifications": true,
+    "object": true
+}

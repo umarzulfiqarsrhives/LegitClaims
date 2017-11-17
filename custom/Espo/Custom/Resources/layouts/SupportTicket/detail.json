@@ -1,0 +1,35 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "ticketNumber"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "category"
+                }
+            ],
+            [
+                {
+                    "name": "dueDate"
+                },
+                false
+            ]
+        ]
+    }
+]

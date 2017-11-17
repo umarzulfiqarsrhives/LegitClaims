@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact",
+        "width": 18
+    },
+    {
+        "name": "status",
+        "width": 15
+    },
+    {
+        "name": "type",
+        "width": 15
+    },
+    {
+        "name": "propertyType",
+        "width": 15
+    },
+    {
+        "name": "assignedUser",
+        "width": 15
+    }
+]

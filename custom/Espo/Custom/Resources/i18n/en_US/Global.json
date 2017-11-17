@@ -1,0 +1,14 @@
+{
+    "scopeNames": {
+        "Task": "Task",
+        "Contact": "Contact",
+        "Case": "Project",
+        "Meeting": "Meeting"
+    },
+    "scopeNamesPlural": {
+        "Task": "Tasks",
+        "Contact": "Contacts",
+        "Case": "Projects",
+        "Meeting": "Meetings"
+    }
+}

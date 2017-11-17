@@ -1,0 +1,202 @@
+{
+  "controller": "real-estate:controllers/real-estate-request",
+  "boolFilterList": [
+    "onlyMy"
+  ],
+  "filterList": [
+    "actual",
+    "actualSale",
+    "actualRent",
+    {
+      "name": "completed",
+      "style": "success"
+    }
+  ],
+  "recordViews": {
+    "detail": "real-estate:views/real-estate-request/record/detail"
+  },
+  "views": {
+    "detail": "real-estate:views/real-estate-request/detail"
+  },
+  "sidePanels": {
+    "detail": [
+      {
+        "name": "activities",
+        "label": "Activities",
+        "view": "crm:views/record/panels/activities"
+      },
+      {
+        "name": "history",
+        "label": "History",
+        "view": "crm:views/record/panels/history"
+      },
+      {
+        "name": "tasks",
+        "label": "Tasks",
+        "view": "Crm:Record.Panels.Tasks"
+      }
+    ]
+  },
+  "relationshipPanels": {
+    "opportunities": {
+      "layout": "listForRequest",
+      "view": "real-estate:views/real-estate-request/record/panels/opportunities",
+      "rowActionsView": "views/record/row-actions/relationship-no-unlink",
+      "select": false
+    }
+  },
+  "formDependency": {
+    "propertyType": {
+      "map": {
+        "Apartment": [
+          {
+            "action": "show",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floor",
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "floorCount"
+            ]
+          }
+        ],
+        "Separate House": [
+          {
+            "action": "show",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floorCount",
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "floor"
+            ]
+          }
+        ],
+        "Office": [
+          {
+            "action": "show",
+            "fields": [
+              "floor",
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floorCount"
+            ]
+          }
+        ],
+        "Room": [
+          {
+            "action": "show",
+            "fields": [
+              "floor"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floorCount",
+              "yearBuilt"
+            ]
+          }
+        ],
+        "Land Lot": [
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floor",
+              "floorCount",
+              "yearBuilt"
+            ]
+          }
+        ],
+        "Warehouse": [
+          {
+            "action": "show",
+            "fields": [
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floor",
+              "floorCount"
+            ]
+          }
+        ],
+        "Retail": [
+          {
+            "action": "show",
+            "fields": [
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floor",
+              "floorCount"
+            ]
+          }
+        ],
+        "Farm": [
+          {
+            "action": "show",
+            "fields": [
+              "yearBuilt"
+            ]
+          },
+          {
+            "action": "hide",
+            "fields": [
+              "bedroomCount",
+              "bathroomCount",
+              "floor",
+              "floorCount"
+            ]
+          }
+        ]
+      },
+      "default": [
+        {
+          "action": "show",
+          "fields": [
+            "yearBuilt",
+            "bedroomCount",
+            "bathroomCount",
+            "floor",
+            "floorCount"
+          ]
+        }
+      ]
+    }
+  },
+  "additionalLayouts": {
+    "listForProperty": {
+      "type": "list"
+    }
+  }
+}

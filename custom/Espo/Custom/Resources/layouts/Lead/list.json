@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "width": 25,
+        "link": true
+    },
+    {
+        "name": "accountName"
+    },
+    {
+        "name": "addressPostalCode"
+    },
+    {
+        "name": "modifiedBy"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "emailAddress",
+        "notSortable": true
+    }
+]

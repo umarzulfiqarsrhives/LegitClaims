@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "source": {
+            "type": "enum",
+            "options": [
+                "Sevenhives"
+            ],
+            "default": "Sevenhives",
+            "required": false,
+            "isSorted": false,
+            "audited": false
+        }
+    }
+}

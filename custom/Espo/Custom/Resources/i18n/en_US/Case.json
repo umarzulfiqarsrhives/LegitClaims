@@ -1,0 +1,46 @@
+{
+    "fields": {
+        "call": "Call",
+        "name": "Title",
+        "type": "Type",
+        "descriptionD": "Description",
+        "responses": "Responses",
+        "documents": "Documents",
+        "status": "Dev Status",
+        "mstatus": "Status",
+        "startDate": "Start Date",
+        "dueDate": "Due Date",
+        "daysInProgress": "Days In Progress",
+        "assignedUser": "Manager",
+        "description": "Comments"
+    },
+    "options": {
+        "type": {
+            "_empty_": "Design",
+            "Problem": "Problem",
+            "Others": "Others"
+        },
+        "status": {
+            "New": "New",
+            "Assigned": "Assigned",
+            "Pending": "Pending",
+            "Closed": "Closed",
+            "Rejected": "Rejected",
+            "Duplicate": "Duplicate"
+        },
+        "mstatus": {
+            "Ahead of deadline": "Ahead of deadline",
+            "On track ": "On track ",
+            "Already some delay": "Already some delay",
+            "Already Significant delay": "Already Significant delay",
+            "Delay Expected": "Delay Expected",
+            "Major Issues Noted": "Major Issues Noted"
+        }
+    },
+    "links": {
+        "call": "Call"
+    },
+    "labels": {
+        "Create Case": "Create Project"
+    }
+}

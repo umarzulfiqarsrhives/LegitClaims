@@ -1,0 +1,97 @@
+{
+    "fields": {
+        "Name": "Name",
+        "entityType": "Ziel Entität\/Modul",
+        "type": "Triggertyp",
+        "isActive": "Aktiv",
+        "description": "Beschreibung",
+        "usersToMakeToFollow": "Benutzer zu machen, um dem Datensatz zu folgen",
+        "whatToFollow": "Was beobachten"
+    },
+
+    "labels": {
+        "Create Workflow": "Regel erstellen",
+        "General": "Allgemein",
+        "Conditions": "Bedingungen",
+        "Actions": "Aktionen",
+        "All": "Alle",
+        "Any": "Irgendein(e)",
+        "Email Address": "E-Mail Adresse",
+        "Email Template": "E-Mail Vorlage",
+        "From": "Von",
+        "To": "An",
+        "immediately": "Sofort",
+        "later": "Später",
+        "today": "heute",
+        "plus": "plus",
+        "minus": "minus",
+        "days": "Tage",
+        "Link": "Link",
+        "Entity": "Entität\/Modul",
+        "Add Field": "Feld hinzufügen",
+        "equals": "ist gleich",
+        "wasEqual": "war gleich",
+        "notEquals": "ist nicht gleich",
+        "wasNotEqual": "war nicht gleich",
+        "changed": "geändert",
+        "notEmpty": "nicht leer",
+        "isEmpty": "Leer",
+        "value": "Wert",
+        "field": "Feld",
+        "true": "wahr",
+        "false": "falsch",
+        "greaterThan": "größer als",
+        "lessThan": "kleiner als",
+        "greaterThanOrEquals": "größer oder gleich",
+        "lessThanOrEquals": "kleiner oder gleich",
+        "between": "zwischen",
+        "on": "für",
+        "before": "vor",
+        "after": "nach",
+        "beforeToday": "vor heute",
+        "afterToday": "nach heute",
+        "recipient": "Empfängert",
+        "messageTemplate": "Nachrichtenvorlage",
+        "users": "Benutzer",
+        "Target Entity": "Ziel Entität\/Modul"
+    },
+
+    "emailAddressOptions": {
+        "currentUser": "Aktueller Benutzer",
+        "specifiedEmailAddress": "Spezifizierte E-Mail Adresse",
+        "assignedUser": "Zugewiesener Benutzer",
+        "targetEntity": "Ziel Entität\/Modul",
+        "specifiedUsers": "Spezifizierter Benutzer"
+    },
+
+    "options": {
+        "type": {
+            "afterRecordSaved": "Nach dem Speichern des Datensatzes",
+            "afterRecordCreated": "Nach dem Erstellen des Datensatzes"
+        },
+        "subjectType": {
+            "value": "Wert",
+            "field": "Feld"
+        }
+    },
+
+    "actionTypes": {
+        "sendEmail": "E-Mail senden",
+        "createEntity": "Entität\/Modul erstellen",
+        "createRelatedEntity": "Verbundene Entität\/Modul erstellen",
+        "updateEntity": "Entität\/Modul aktualisieren",
+        "updateRelatedEntity": "Verknüpfte Entitäten aktualisieren",
+        "makeFollowed": "Beobachtet erstellen",
+        "createNotification": "Benachrichtigungen erstellen"
+    },
+
+    "texts": {
+        "allMustBeMet": "Alle müssen zutreffen",
+        "atLeastOneMustBeMet": "Zumindest eine muss zutreffen"
+    },
+
+    "messages": {
+        "loopNotice": "Passen Sie bitte auf, dass Workflow Regeln nicht in einer Endlosschleife enden.",
+        "messageTemplateHelpText": "Verfügbare Variablen:\n{entity} - Zielsatz\n{user} - Aktueller Benutzer"
+    }
+}

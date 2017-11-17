@@ -1,0 +1,144 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": false,
+            "audited": false
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "",
+                "Problem",
+                "Others"
+            ],
+            "audited": true,
+            "required": false,
+            "isSorted": false
+        },
+        "descriptionD": {
+            "type": "wysiwyg",
+            "required": false,
+            "seeMoreDisabled": false,
+            "isCustom": true
+        },
+        "responses": {
+            "type": "wysiwyg",
+            "required": false,
+            "seeMoreDisabled": false,
+            "isCustom": true
+        },
+        "documents": {
+            "layoutListDisabled": true,
+            "type": "attachmentMultiple",
+            "required": false,
+            "isCustom": true
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "New",
+                "Assigned",
+                "Pending",
+                "Closed",
+                "Rejected",
+                "Duplicate"
+            ],
+            "default": "New",
+            "view": "views/fields/enum-styled",
+            "style": {
+                "Closed": "success",
+                "Duplicate": "danger",
+                "Rejected": "danger"
+            },
+            "audited": true,
+            "required": false,
+            "isSorted": false
+        },
+        "priority": {
+            "type": "enum",
+            "options": ["Low", "Normal", "High", "Urgent"],
+            "view": "views/fields/enum-styled",
+            "style": {
+                "Low": " label label-table label-info",
+                "High": " label label-table label-warning",
+                "Normal": " label label-table label-primary",
+                "Urgent": " label label-table label-danger"
+            },
+            "default": "Normal",
+            "audited": true
+        },
+        "mstatus": {
+            "type": "enum",
+            "required": true,
+            "options": [
+                "Ahead of deadline",
+                "On track",
+                "Already some delay",
+                "Already Significant delay",
+                "Delay Expected",
+                "Major Issues Noted"
+            ],
+			"view": "views/fields/enum-styled",
+            "style": {
+                "Ahead of deadline": " label label-table label-success",
+                "On track": " label label-table label-success",
+                "Already some delay": " label label-table label-warning", 
+				"Already Significant delay": " label label-table label-danger",
+				"Delay Expected": " label label-table label-warning",
+				"Major Issues Noted": " label label-table label-danger"
+            },
+            "audited": true,
+            "isSorted": false,
+            "isCustom": true
+        },
+        "startDate": {
+            "notNull": false,
+            "type": "datetime",
+            "required": true,
+            "audited": false,
+            "isCustom": true
+        },
+        "dueDate": {
+            "notNull": false,
+            "type": "datetime",
+            "required": false,
+            "after": "startDate",
+            "audited": false,
+            "isCustom": true
+        },
+        "daysInProgress": {
+            "type": "varchar",
+            "required": false,
+            "trim": true,
+            "audited": true,
+            "isCustom": true,
+            "default": "0"
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user",
+            "required": false,
+            "audited": false
+        },
+        "description": {
+            "type": "text",
+            "required": false,
+            "seeMoreDisabled": false
+        }
+    },
+    "collection": {
+        "sortBy": "number",
+        "asc": false
+    },
+    "links": {
+        "documents": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "name": "Name",
+        "qty": "Qty",
+        "quantity": "Quantity",
+        "listPrice": "List Price",
+        "unitPrice": "Unit Price",
+        "amount": "Amount",
+        "taxRate": "Tax Rate",
+        "product": "Product",
+        "order": "Line Number",
+        "quote": "Quote"
+    },
+    "links": {
+        "quote": "Quote"
+    }
+}

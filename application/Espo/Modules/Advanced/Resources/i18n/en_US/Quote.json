@@ -1,0 +1,54 @@
+{
+    "labels": {
+        "Create Quote": "Create Quote",
+        "Taxes": "Taxes",
+        "Shipping Providers": "Shipping Providers",
+        "Add Item": "Add Item",
+        "Templates": "Templates"
+    },
+    "fields": {
+        "status": "Status",
+        "number": "Quote Number",
+        "invoiceNumber": "Invoice Number",
+        "account": "Account",
+        "opportunity": "Opportunity",
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "billingContact": "Billing Contact",
+        "shippingContact": "Shipping Contact",
+        "tax": "Tax",
+        "taxRate": "Tax Rate",
+        "shippingCost": "Shipping Cost",
+        "shippingProvider": "Shipping Provider",
+        "taxAmount": "Tax Amount",
+        "discountAmount": "Discount Amount",
+        "amount": "Amount",
+        "preDiscountedAmount": "Pre-Discounted Amount",
+        "grandTotalAmount": "Grand Total Amount",
+        "itemList": "Item List",
+        "dateQuoted": "Date Quoted",
+        "dateInvoiced": "Date Invoiced"
+    },
+    "links": {
+        "items": "Items",
+        "billingContact": "Billing Contact",
+        "shippingContact": "Shipping Contact",
+        "opportunity": "Opportunity",
+        "account": "Account",
+        "tax": "Tax"
+    },
+    "options": {
+        "status": {
+            "Draft": "Draft",
+            "In Review": "In Review",
+            "Presented": "Presented",
+            "Approved": "Approved",
+            "Rejected": "Rejected",
+            "Canceled": "Canceled"
+        }
+    },
+    "presetFilters": {
+        "actual": "Actual",
+        "approved": "Approved"
+    }
+}

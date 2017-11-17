@@ -1,0 +1,29 @@
+[
+    {
+        "name": "taskNumber",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 30,
+        "link": true
+    },
+    {
+        "name": "status",
+        "width": 12,
+        "align": "left"
+    },
+    {
+        "name": "priority"
+    },
+    {
+        "name": "dateEnd"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "parent"
+    }
+]

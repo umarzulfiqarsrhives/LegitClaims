@@ -1,0 +1,101 @@
+{
+    "fields": {
+        "Name": "Name",
+        "entityType": "Target Entity",
+        "type": "Trigger Type",
+        "isActive": "Active",
+        "description": "Description",
+        "usersToMakeToFollow": "Users to make to follow the record",
+        "whatToFollow": "What to Follow"
+    },
+
+    "labels": {
+        "Create Workflow": "Create Rule",
+        "General": "General",
+        "Conditions": "Conditions",
+        "Actions": "Actions",
+        "All": "All",
+        "Any": "Any",
+        "Email Address": "Email Address",
+        "Email Template": "Email Template",
+        "From": "From",
+        "To": "To",
+        "immediately": "Immediately",
+        "later": "Later",
+        "today": "today",
+        "plus": "plus",
+        "minus": "minus",
+        "days": "days",
+        "Link": "Link",
+        "Entity": "Entity",
+        "Add Field": "Add Field",
+        "equals": "equals",
+        "wasEqual": "was equal",
+        "notEquals": "not equals",
+        "wasNotEqual": "was not equal",
+        "changed": "changed",
+        "notEmpty": "not empty",
+        "isEmpty": "empty",
+        "value": "value",
+        "field": "field",
+        "true": "true",
+        "false": "false",
+        "greaterThan": "greater than",
+        "lessThan": "less than",
+        "greaterThanOrEquals": "greater than or equals",
+        "lessThanOrEquals": "less than or equals",
+        "between": "between",
+        "on": "on",
+        "before": "before",
+        "after": "after",
+        "beforeToday": "before today",
+        "afterToday": "after today",
+        "recipient": "Recipient",
+        "has": "has",
+        "messageTemplate": "Message Template",
+        "users": "Users",
+        "Target Entity": "Target Entity"
+    },
+
+    "emailAddressOptions": {
+        "currentUser": "Current User",
+        "specifiedEmailAddress": "Specified Email Address",
+        "assignedUser": "Assigned User",
+        "targetEntity": "Target Entity",
+        "specifiedUsers": "Specified Users",
+        "teamUsers": "Team Users",
+        "followers": "Followers",
+        "specifiedTeams": "Users of specified Teams"
+    },
+
+    "options": {
+        "type": {
+            "afterRecordSaved": "After record saved",
+            "afterRecordCreated": "After record created"
+        },
+        "subjectType": {
+            "value": "value",
+            "field": "field"
+        }
+    },
+
+    "actionTypes": {
+        "sendEmail": "Send Email",
+        "createEntity": "Create Entity",
+        "createRelatedEntity": "Create Related Entity",
+        "updateEntity": "Update Entity",
+        "updateRelatedEntity": "Update Related Entity",
+        "makeFollowed": "Make Followed",
+        "createNotification": "Create Notification"
+    },
+
+    "texts": {
+        "allMustBeMet": "All must be met",
+        "atLeastOneMustBeMet": "At least one must be met"
+    },
+
+    "messages": {
+        "loopNotice": "Be careful about a possible looping through two or more workflow rules continuously.",
+        "messageTemplateHelpText": "Available variables:\n{entity} - target record,\n{user} - current user."
+    }
+}

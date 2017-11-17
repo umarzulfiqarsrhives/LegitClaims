@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "documents": {
+            "layoutListDisabled": true,
+            "type": "attachmentMultiple",
+            "required": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "documents": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments"
+        }
+    },
+    "collection": {
+        "sortBy": "dateStart",
+        "asc": false
+    }
+}

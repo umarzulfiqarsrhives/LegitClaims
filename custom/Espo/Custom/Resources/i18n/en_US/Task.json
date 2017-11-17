@@ -1,0 +1,39 @@
+{
+    "labels": {
+        "Create Task": "Create Task"
+    },
+    "fields": {
+        "points": "Points",
+        "status": "Status",
+        "priority": "Priority",
+        "type": "Type",
+        "taskNumber": "Task Number",
+        "managerComments": "Manager Comments",
+        "description": "Description"
+    },
+    "options": {
+        "status": {
+            "Not Started": "Open",
+            "Started": "In progress",
+            "Completed": "Completed",
+            "In QA": "In QA",
+            "Won't Fix": "Won't Fix",
+            "Reopend": "Reopend",
+            "Ready for Review": "Ready for Review",
+            "Sent To Client For Review": "Sent To Client For Review"
+        },
+        "priority": {
+            "Low": "Low",
+            "Normal": "Normal",
+            "High": "High",
+            "Urgent": "Urgent",
+            "Blocker": "Blocker"
+        },
+        "type": {
+            "Bug": "Bug",
+            "Enhancement": "Enhancement",
+            "Design Only": "Design Only",
+            "Epic": "Epic"
+        }
+    }
+}

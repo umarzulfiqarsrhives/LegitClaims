@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "saleMarkup": {
+            "type": "int",
+            "min": 0
+        },
+        "rentMarkup": {
+            "type": "int",
+            "min": 0
+        }
+    }
+}

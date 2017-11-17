@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "apiKey": {
+            "type": "varchar",
+            "maxLength": 255,
+            "required": true
+        },
+        "createEmails": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "markEmailsOptedOut": {
+            "type": "bool"
+        },
+        "hardBouncedAction": {
+            "type": "enum",
+            "options": ["setAsInvalid", "removeFromList", "setAsInvalidAndRemove"]
+        }
+    },
+    "view": "Advanced:MailChimp.Integration",
+    "allowUserAccounts": false,
+    "authMethod": "MailChimp",
+    "clientClassName": "\\Espo\\Modules\\Advanced\\Core\\MailChimp\\Clients\\MailChimp"
+}
+

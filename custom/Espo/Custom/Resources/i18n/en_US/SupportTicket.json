@@ -1,0 +1,25 @@
+{
+    "labels": {
+        "Create SupportTicket": "Create Support Ticket"
+    },
+    "fields": {
+        "ticketNumber": "Ticket Number",
+        "name": "Issue Title",
+        "dueDate": "Due Date",
+        "category": "Category",
+        "priority": "Priority"
+    },
+    "options": {
+        "category": {
+            "Customer Support": "Customer Support",
+            "Company Internal": "Company Internal"
+        },
+        "priority": {
+            "Low": "Low",
+            "Medium": "Medium",
+            "High": "High",
+            "Urgent": "Urgent",
+            "Blocker": "Blocker"
+        }
+    }
+}

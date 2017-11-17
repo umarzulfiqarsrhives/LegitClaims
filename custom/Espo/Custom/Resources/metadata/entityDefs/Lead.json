@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "areaPractice": {
+            "type": "wysiwyg",
+            "required": false,
+            "default": "<ul><li>Commercial litigation</li></ul>",
+            "minHeight": 150,
+            "seeMoreDisabled": false,
+            "isCustom": true
+        }
+    }
+}

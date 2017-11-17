@@ -1,0 +1,47 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [{"name": "name"},{"name":"type", "readOnly": true}],        
+            [false, {"name": "entityType", "readOnly": true}],    
+            [{"name": "description", "fullWidth": true}]
+        ]
+    },
+    {
+        "label": "Parameters",
+        "rows": [
+            [
+                {
+                    "name": "columns",
+                    "view": "Advanced:Report.Fields.ColumnsList",
+                    "params": {
+                        "required": true
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Filters",
+        "rows": [
+            [
+                {
+                    "name": "filters",
+                    "view": "Advanced:Report.Fields.Filters"
+                },
+                {
+                    "name": "runtimeFilters",
+                    "view": "Advanced:Report.Fields.RuntimeFilters"
+                }
+            ],
+            [
+                {
+                    "name": "filtersControl",
+                    "customLabel": "",
+                    "view": "Advanced:Report.Fields.FiltersControl",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

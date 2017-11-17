@@ -1,0 +1,6 @@
+{
+    "fields": {
+        "saleMarkup": "Default Markup for Sale (%)",
+        "rentMarkup": "Default Markup for Rent (%)"
+    }
+}

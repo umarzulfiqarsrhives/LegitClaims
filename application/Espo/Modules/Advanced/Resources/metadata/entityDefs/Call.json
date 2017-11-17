@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "googleCalendar": {
+            "type": "link",
+            "readOnly": true,
+            "disabled": true
+        },
+        "googleCalendarEventId": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        }
+    },
+    "links": {
+        "googleCalendar": {
+            "type": "belongsTo",
+            "entity": "GoogleCalendar"
+        }
+    }
+}
