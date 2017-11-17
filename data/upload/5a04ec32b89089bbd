@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM5PR0501MB2402.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Fri, 10 Nov 2017 00:00:36 +0000
+
+Final-Recipient: rfc822;daven.naghen@maplessolicitors.com
+Action: failed
+Status: 5.7.1
+Diagnostic-Code: smtp;554 5.7.1 Message rejected because of unacceptable content.  For help, please quote incident ID 03Uw00CiW.
+Remote-MTA: dns;sniper1.spamsniper.co.uk
+
+

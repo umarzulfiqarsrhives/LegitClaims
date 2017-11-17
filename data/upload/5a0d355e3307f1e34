@@ -1,0 +1,464 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=/b+2Ccxz2TF4w/B6nQJ6yKvMPzbXOejR3hAD/JqySiE=;
+ b=kPw3W5rlgANxXBOL+M29aazcv5lx5NLBGzfcA8GWyzf0BDFhyOX9ZEsWoI35qPjbjPK9pZk5mqQbWulAPUJB5RtJB6BL0EF6MFpgUcd/I0x3zzhsrl1NAsR9/HwwkhrkJjgsKLccE/seC8kpMjet2S3mVkOS05UQ+3aX//u9k6U=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from www.legitclaims.co.uk (46.101.48.166) by
+ AM0PR0502MB3891.eurprd05.prod.outlook.com (2603:10a6:208:20::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.239.5; Thu, 16
+ Nov 2017 06:51:07 +0000
+Date: Thu, 16 Nov 2017 06:50:14 +0000
+To: 0ilgd545.zk3@20mail.eu, ali@zapro.uk, eddiemunz@mailcatch.com, edna.grobler@gmail.com, faisal.ishfaq@srhives.com, faisalwahab1230@gmail.com, gabriella-dunshea@kleid.leathermenshoes.com, jberard@triconbuilds.com, mae@b.searchengineranker.email, merissawray92@idea.novodigs.com, mikecherylryan@yahoo.com, nunya2u8sh@mail.ru, rayanpayorvri@mail.ru, redseekins@yahoo.com, shagging21@gmail.com
+From: Legit Claims <hello@legitclaims.co.uk>
+Subject: Legit Claims Post
+Message-ID: <b7747be518a8b658b7f84b1ac1a227b2@www.legitclaims.co.uk>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [46.101.48.166]
+X-ClientProxiedBy: CWLP265CA0021.GBRP265.PROD.OUTLOOK.COM
+ (2603:10a6:401:10::33) To AM0PR0502MB3891.eurprd05.prod.outlook.com
+ (2603:10a6:208:20::21)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: c593f38d-3bfb-4c73-ab0f-08d52cbe69ea
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(7168017)(4627115)(201702281549075)(2017052603258);SRVR:AM0PR0502MB3891;
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3891;3:C46cfhb1YLekGebGg8gG+nwH4OmO/YFG/KxPeEcEytpTk8wtGxkEiyBbVSIL3hy0iK8mg6+iSr25UCBxUu8nK4Le9YehOqEaUm6/WP/rIR07up5C+YXzUX6GKL1KBdVh5051UjMQGknsnGlEakd8IhmJINbi6EXGBqVYBFEi8Zvc2Uoof4TsAJ3BruUknvoYz0BTAD74hGpLRSHxcWw8oj7kIp+2lkAxgsWhjEGTzkSZlFurXrkiGz6cin/sOmaj;25:9BQ4xPKTYCt+mOqDsz1cr+lE0AdHJHHV4cpk/Wz4EnyCOKzo8oI/5OpGTA1JpnWsJ6URitYgYrlVlgZF/GovMhUmi8RRha4na93m/LIQsm20M6x053s5WcMz5zADh72VLLe42XGN3mn3WYgtHuivSLR9Ngs0sLzycLFX/p8ZkuSkCoJamf+d2eAEjr+2qXpq4NCdx2f+OZpb6eA4x8KU/ngswds+wVTsJs/ID4sgqmO5Y/qBud37TDOl3hAgFnvahr4w2+Ri1/Y/dDG8o3Dn5URqVba+R9I6ExS3A2a01P1ZA1hyDgFVT8L6hdaFxz/IcD1O5i+9+N7UJhz4TYFDvA==;31:d3igoL1zLDAfdwt5eFOPJStRPqS7QLsOKZUtckmI+/bIEDsaLqdIw56OE8Etdd0PEmoubCSOSQGAL83WYFPALLz2myc2PkO1jSjuKIcYe1FPxvbKuA24OBbTsPqa6o9y79iA0KZn7ek8gUSFyma2TbDZUQ9nuialjM9pQr8jKhQqOx7eFEiixCCY86gkYG6J4cUD8aEtjwaYjayv0zF+1Fo3LDqTu3CuQY/wTOy8hpI=
+X-MS-TrafficTypeDiagnostic: AM0PR0502MB3891:
+X-Microsoft-Antispam-PRVS: <AM0PR0502MB3891801C095F0DEFD76EB967E02E0@AM0PR0502MB3891.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:(148322886591682)(62403747172241)(227612066756510)(231433314529491)(81227570615382);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(8121501046)(5005006)(93006095)(93001095)(100000703101)(100105400095)(10201501046)(3002001)(3231022)(6041248)(20161123562025)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123558100)(20161123564025)(20161123555025)(20161123560025)(2016111802025)(6043046)(6072148)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM0PR0502MB3891;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM0PR0502MB3891;
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3891;4:lX33hmr4g+nUuMvQHnOLw6uh61JSQ+8KWJoYc74KoMrTAg0pd9oJ9PRhjBaJUNGjKfTF5IRASXNIWo1+Gpg5r+hxVME2/NEtmp/+g8Ld0YutGbfrCvr0QCIvyNKwgwR5uI7rhX+lrN/T5GMOMOi8M8CGNrk2ydEtZYQ7cYrQ8osLZ9kx62PidvFItDrs3e7IxaHWwUtXdQMW8lo0klDTtSag1/xs8dwzxZ/Wu5W9iXFPhEAEQBwmihrWRslKhp+bxBRXtYzuMNWVZ6v/Bx9wsaOuU0OFXkRPyyMraELzG0vXhDS4Ryioz4PzNed38XL6EB83zGRI650183dPYj1Ahb+r2LoE4fMBz9wP3A/iVvJbxLsse2OCrGVAN7G0/gHF0e9WWmetl39g0dy1OIqATYUmCMCIXOmyuK+JgWGiMjoozoyYYdD/qKH3vRvMCZJjT8mcdFVOjlz9SzI35ZPiFg==
+X-Forefront-PRVS: 0493852DA9
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(346002)(376002)(39830400002)(199003)(189002)(19626245004)(89996002)(53936002)(478600001)(74482002)(19630485002)(69596002)(8746002)(606006)(81166006)(101416001)(236005)(8676002)(86362001)(81156014)(39060400002)(16526018)(50986999)(316002)(23466002)(23846002)(108616004)(53416004)(5566004)(861006)(6306002)(6666003)(2521001)(68736007)(55016002)(33646002)(25786009)(189998001)(19627405001)(2906002)(23676003)(24736003)(42882006)(6116002)(8936002)(733005)(50466002)(7116003)(7736002)(13146002)(3846002)(106356001)(7416002)(105586002)(50226002)(5660300001)(97736004)(3480700004)(19619215002)(66066001)(74826001)(18360200003)(105646017)(921003)(110096011)(47956004)(15398625002)(1121003);DIR:OUT;SFP:1101;SCL:1;SRVR:AM0PR0502MB3891;H:www.legitclaims.co.uk;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;AM0PR0502MB3891;23:qpLAZxoTJkzED7fQqZOhRReYOlvTBRoNXZdbHj9?=
+ =?us-ascii?Q?v2Ww3KmLWQMds9ENCNDKxhpPYGLLoCPHYlUF8jUg7phWJbmbV8uvZ8+13fOq?=
+ =?us-ascii?Q?nzhCsNQQyrnfAx/kxVjoaqPwQQeLjofa5XbE84eR7nOsiXXITCkWTe1ruxuv?=
+ =?us-ascii?Q?094EnUJQSZCZKDuxRvTb2rPcQTQxJgwyorib16ldmn3NV6Jow0J6v+9CLK0r?=
+ =?us-ascii?Q?hDuZx6s+o4HtqJBwz9dl/dr0bHG2u+gJgJqoOOT1RXZpZlCGEUSoisPDgpOU?=
+ =?us-ascii?Q?WOJ2VdxSuRAE0D7GPa7n0rw5ORBMT9FobvQu1tEjilmkAOc4rTagxxQxqZqG?=
+ =?us-ascii?Q?Fes+Z93pPexm6qJO5iGOGK8P6zTcee6yMvCQONdB+2MoSc+Be/rjtAsTv9BX?=
+ =?us-ascii?Q?/wNf7IDBbu/w5dEn/pVQT1fya972T6H7WCftIuVLzsBeUH+rsXjz0hQAGqTb?=
+ =?us-ascii?Q?ORY4TnVe7CkFDEnvddWVKxZ/qXCaw8OBv0s9fT2MOXkN7tkQeXwuAgRMW617?=
+ =?us-ascii?Q?HlMY4DhSG5OgtPOID6LRkxI/YYZzvjfUVm8xHuVsu7AW453ZSiwCfiBdIXcf?=
+ =?us-ascii?Q?uLB//eR44f8WCZNKY9qsl2VSXik5tH8UbrkULVLP9/AwI/oWeMZhTstIZKEU?=
+ =?us-ascii?Q?VONwZuWXM+4taX2Ck1YwRG04RqulUC79STsYAC1olk6OXxV95G+Vx6FG2p42?=
+ =?us-ascii?Q?msaLQVJVt9DvKy8CX67Y+hEHw+5apRYfKVbBrU/QxyMdC2vgsgm05yhKE+nO?=
+ =?us-ascii?Q?hOAWYDYtfll7qVaHjf9tCYq9vwGWndk+J9YHbaOg2+xfE6o1XzbFDVPAKx6L?=
+ =?us-ascii?Q?cEOKyNgOilIqu7EIXZQebGh6lSxsmSk0GiSG3+kyD0q7b/UlZ3Xs5OmKxLrC?=
+ =?us-ascii?Q?QUIh/xNOzo6p3oWxT/5LxwB7kym6r8MBEODC028HfHrHFRXEegiRGrPfK3fj?=
+ =?us-ascii?Q?nuzgACVX/ruuCS3MuxN0Rod2UCP5rEIGenTmhiL0JReN2TDLLOfPTKyl6gTK?=
+ =?us-ascii?Q?Bw1V5gVSARRVsLHWYsgvXauUF10epmLevE5cUlE7FoLkRvEJKuJ64Rttz/iJ?=
+ =?us-ascii?Q?Zix3qg2JY3hYwhYu54oxopA+GthCs+Kb0gt//ou9qsC8l+Z6ojCQVxtDyfsV?=
+ =?us-ascii?Q?CTQu2DgNQ9rSVenFWSAnoxLyoBolNxJ5hjVCbBrI7mNRA1QBpPFbetevJ/PL?=
+ =?us-ascii?Q?P2flCyQkcCwqApxffoVIVoe4wN/81S0pgtSy7zs/j9gk35qpji8pAL2voY2X?=
+ =?us-ascii?Q?CVYgIuXIQP7pgO7NyO/DVm5XPCK44LXJVTvS0bInlbFyNRWmpnVBw04YkW0/?=
+ =?us-ascii?Q?4NIoyQmqQ1vIsx3thj3iD18jVWrfpsElojSL8aHoFySsmeS1ov5EbB21+RBZ?=
+ =?us-ascii?Q?nlY4Ji2MjW8FpU9SkMrf6VkSF/aBujlqfzH59X2nLL5oYboNjItbzCAZl3XX?=
+ =?us-ascii?Q?bzCbi/OAUvyGTRR6IYeijHjHEFthInenr+BGiya9aji9ZRhngnmMzrx2fCzB?=
+ =?us-ascii?Q?yR2G/3/Lqi16+v3jh+RKHZL80cvQ1W0N0yR+RfT5bJ3oySGW+SAy4/6YgNbV?=
+ =?us-ascii?Q?ZUrMkW2xTbdVQJ0ipiw=3D=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3891;6:SN+0PKHmVif85RMjhON3qaWLcAG9BUntNVKW7XIq0gDdrmAzIQrZrL3VT1GOKNdmucviEPXmWp9Bi+WXQm2K4CsetkM7Si85lcsPUkkntOapqaqIAHjo3hwfikkyMzGFwBCYPCyP5BRZrskOA8ANjPMbEJWMQgrCcgeusJHn7Qmg8wKowMS881stON0sYoGlgS4WlQFGBEa9FwjmEM70iUsFJTVTf27lJPMebCzJeRRreySCAkqadX9x3OaRy2Rs+s8XqsQNzfRLZhaCFaU9sX3u8kAfiSPfuVnfVUbDg+rNGlPSrYl/WrXa/u/N6lQW8rVXDs+qto5548CWQid4SRqFhK+AFI3iCxlOeTzA2PY=;5:iaRzDIwBeoDGQHny2HtPG+JuoJEJUrDUUVEcZZWuzjaKI41csQYDm7TOfigOlcmTQBoPKrBP3QixynZu2dZ1DkolNJ10DvUdTrkeC/0rvqGjAZZOrlQru6ynmkP2fbkaEdfce86khYFQB5PiwMNdBmN9+34+EIuFQVK+tD4QGVU=;24:Sfsj/dHExmFGbamJ0pvnfdv01GgOCGNmVSuecsgw5JZjkfolHLhK58pE/YYsZTf8YUckdP7bCQDGXOWS8lor95ZNOGTOfQUg3tHQMoYve4g=;7:znq94V3MIEuJll8iV5fXAhePfFz1xf2cK3UpbiSBwXm9icebBl0AGXWLcPefQdAJna9OXA7WiyATqRMMoGigNpMpFLqwHHhpPpo296UOx2HrVqH+vcWj3jH2KnGKsVnF87s4KSGD1QDRxluI2m2XtovHag45yr/Tvc+jKw2jxQkkKEmPguJ0Nx8TsJrb8VGZcZvpNQHd7BlYIVc7gb5lBxt0VA5eNyacWLe4VZsXjYf11LhaRzem0W2AM5DcXbso
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2017 06:51:07.2375 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c593f38d-3bfb-4c73-ab0f-08d52cbe69ea
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR0502MB3891
+MIME-Version: 1.0
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><!--[if gte mso 15]><xml><o:OfficeDocumentSettings><o:AllowPNG/><=
+o:PixelsPerInch></o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif=
+]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"> <=
+meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <meta name=3D"vi=
+ewport" content=3D"width=3Ddevice-width, initial-scale=3D1"><title></title>=
+ <style type=3D"text/css">p{margin:10px 0;padding:0;}table{border-collapse:=
+collapse;}h1,h2,h3,h4,h5,h6{display:block;margin:0;padding:0;}img,a img{bor=
+der:0;height:auto;outline:none;text-decoration:none;}body,#bodyTable,#bodyC=
+ell{height:100%;margin:0;padding:0;width:100%;}.mcnPreviewText{display:none=
+ !important;}#outlook a{padding:0;}img{-ms-interpolation-mode:bicubic;}tabl=
+e{mso-table-lspace:0pt;mso-table-rspace:0pt;}.ReadMsgBody{width:100%;}.Exte=
+rnalClass{width:100%;}p,a,li,td,blockquote{mso-line-height-rule:exactly;}a[=
+href^=3Dtel],a[href^=3Dsms]{color:inherit;cursor:default;text-decoration:no=
+ne;}p,a,li,td,body,table,blockquote{-ms-text-size-adjust:100%;-webkit-text-=
+size-adjust:100%;}.ExternalClass,.ExternalClass p,.ExternalClass td,.Extern=
+alClass div,.ExternalClass span,.ExternalClass font{line-height:100%;}a[x-a=
+pple-data-detectors]{color:inherit !important;text-decoration:none !importa=
+nt;font-size:inherit !important;font-family:inherit !important;font-weight:=
+inherit !important;line-height:inherit !important;}.templateContainer{max-w=
+idth:600px !important;}a.mcnButton{display:block;}.mcnImage{vertical-align:=
+bottom;}.mcnTextContent{word-break:break-word;}.mcnTextContent img{height:a=
+uto !important;}.mcnDividerBlock{table-layout:fixed !important;}/*@tab Page=
+@section Heading 1@style heading 1*/h1{/*@editable*/color:#222222;/*@editab=
+le*/font-family:Helvetica;/*@editable*/font-size:40px;/*@editable*/font-sty=
+le:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@ed=
+itable*/letter-spacing:normal;/*@editable*/text-align:center;}/*@tab Page@s=
+ection Heading 2@style heading 2*/h2{/*@editable*/color:#222222;/*@editable=
+*/font-family:Helvetica;/*@editable*/font-size:34px;/*@editable*/font-style=
+:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@edit=
+able*/letter-spacing:normal;/*@editable*/text-align:left;}/*@tab Page@secti=
+on Heading 3@style heading 3*/h3{/*@editable*/color:#444444;/*@editable*/fo=
+nt-family:Helvetica;/*@editable*/font-size:22px;/*@editable*/font-style:nor=
+mal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@editable=
+*/letter-spacing:normal;/*@editable*/text-align:left;}/*@tab Page@section H=
+eading 4@style heading 4*/h4{/*@editable*/color:#999999;/*@editable*/font-f=
+amily:Georgia;/*@editable*/font-size:20px;/*@editable*/font-style:italic;/*=
+@editable*/font-weight:normal;/*@editable*/line-height:125%;/*@editable*/le=
+tter-spacing:normal;/*@editable*/text-align:left;}/*@tab Header@section Hea=
+der Container Style*/#templateHeader{/*@editable*/background-color:#373b44;=
+/*@editable*/background-image:none;/*@editable*/background-repeat:no-repeat=
+;/*@editable*/background-position:center;/*@editable*/background-size:cover=
+;/*@editable*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/paddin=
+g-top:6px;/*@editable*/padding-bottom:6px;}/*@tab Header@section Header Int=
+erior Style*/.headerContainer{/*@editable*/background-color:transparent;/*@=
+editable*/background-image:none;/*@editable*/background-repeat:no-repeat;/*=
+@editable*/background-position:center;/*@editable*/background-size:cover;/*=
+@editable*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-t=
+op:0;/*@editable*/padding-bottom:0;}/*@tab Header@section Header Text*/.hea=
+derContainer .mcnTextContent,.headerContainer .mcnTextContent p{/*@editable=
+*/color:#808080;/*@editable*/font-family:Helvetica;/*@editable*/font-size:1=
+6px;/*@editable*/line-height:150%;/*@editable*/text-align:left;}/*@tab Head=
+er@section Header Link*/.headerContainer .mcnTextContent a,.headerContainer=
+ .mcnTextContent p a{/*@editable*/color:#00ADD8;/*@editable*/font-weight:no=
+rmal;/*@editable*/text-decoration:underline;}/*@tab Body@section Body Conta=
+iner Style*/#templateBody{/*@editable*/background-color:#FFFFFF;/*@editable=
+*/background-image:none;/*@editable*/background-repeat:no-repeat;/*@editabl=
+e*/background-position:center;/*@editable*/background-size:cover;/*@editabl=
+e*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:36px;=
+/*@editable*/padding-bottom:45px;}/*@tab Body@section Body Interior Style*/=
+.bodyContainer{/*@editable*/background-color:transparent;/*@editable*/backg=
+round-image:none;/*@editable*/background-repeat:no-repeat;/*@editable*/back=
+ground-position:center;/*@editable*/background-size:cover;/*@editable*/bord=
+er-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:0;/*@editabl=
+e*/padding-bottom:0;}/*@tab Body@section Body Text*/.bodyContainer .mcnText=
+Content,.bodyContainer .mcnTextContent p{/*@editable*/color:#808080;/*@edit=
+able*/font-family:Helvetica;/*@editable*/font-size:16px;/*@editable*/line-h=
+eight:150%;/*@editable*/text-align:left;}/*@tab Body@section Body Link*/.bo=
+dyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{/*@editabl=
+e*/color:#00ADD8;/*@editable*/font-weight:normal;/*@editable*/text-decorati=
+on:underline;}/*@tab Footer@section Footer Style*/#templateFooter{/*@editab=
+le*/background-color:#373b44;/*@editable*/background-image:none;/*@editable=
+*/background-repeat:no-repeat;/*@editable*/background-position:center;/*@ed=
+itable*/background-size:cover;/*@editable*/border-top:0;/*@editable*/border=
+-bottom:0;/*@editable*/padding-top:11px;/*@editable*/padding-bottom:11px;}/=
+*@tab Footer@section Footer Interior Style*/.footerContainer{/*@editable*/b=
+ackground-color:transparent;/*@editable*/background-image:none;/*@editable*=
+/background-repeat:no-repeat;/*@editable*/background-position:center;/*@edi=
+table*/background-size:cover;/*@editable*/border-top:0;/*@editable*/border-=
+bottom:0;/*@editable*/padding-top:0;/*@editable*/padding-bottom:0;}/*@tab F=
+ooter@section Footer Text*/.footerContainer .mcnTextContent,.footerContaine=
+r .mcnTextContent p{/*@editable*/color:#FFFFFF;/*@editable*/font-family:Hel=
+vetica;/*@editable*/font-size:12px;/*@editable*/line-height:150%;/*@editabl=
+e*/text-align:center;}/*@tab Footer@section Footer Link*/.footerContainer .=
+mcnTextContent a,.footerContainer .mcnTextContent p a{/*@editable*/color:#F=
+FFFFF;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underlin=
+e;}@media only screen and (min-width:768px){.templateContainer{width:600px =
+!important;}}@media only screen and (max-width: 480px){body,table,td,p,a,li=
+,blockquote{-webkit-text-size-adjust:none !important;}}@media only screen a=
+nd (max-width: 480px){body{width:100% !important;min-width:100% !important;=
+}}@media only screen and (max-width: 480px){.mcnImage{width:100% !important=
+;}}@media only screen and (max-width: 480px){.mcnCartContainer,.mcnCaptionT=
+opContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentC=
+ontainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnC=
+aptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCap=
+tionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnIma=
+geCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{max-w=
+idth:100% !important;width:100% !important;}}@media only screen and (max-wi=
+dth: 480px){.mcnBoxedTextContentContainer{min-width:100% !important;}}@medi=
+a only screen and (max-width: 480px){.mcnImageGroupContent{padding:9px !imp=
+ortant;}}@media only screen and (max-width: 480px){.mcnCaptionLeftContentOu=
+ter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{padding-to=
+p:9px !important;}}@media only screen and (max-width: 480px){.mcnImageCardT=
+opImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnT=
+extContent{padding-top:18px !important;}}@media only screen and (max-width:=
+ 480px){.mcnImageCardBottomImageContent{padding-bottom:9px !important;}}@me=
+dia only screen and (max-width: 480px){.mcnImageGroupBlockInner{padding-top=
+:0 !important;padding-bottom:0 !important;}}@media only screen and (max-wid=
+th: 480px){.mcnImageGroupBlockOuter{padding-top:9px !important;padding-bott=
+om:9px !important;}}@media only screen and (max-width: 480px){.mcnTextConte=
+nt,.mcnBoxedTextContentColumn{padding-right:18px !important;padding-left:18=
+px !important;}}@media only screen and (max-width: 480px){.mcnImageCardLeft=
+ImageContent,.mcnImageCardRightImageContent{padding-right:18px !important;p=
+adding-bottom:0 !important;padding-left:18px !important;}}@media only scree=
+n and (max-width: 480px){.mcpreview-image-uploader{display:none !important;=
+width:100% !important;}}@media only screen and (max-width: 480px){/*@tab Mo=
+bile Styles@section Heading 1@tip Make the first-level headings larger in s=
+ize for better readability on small screens.*/h1{/*@editable*/font-size:30p=
+x !important;/*@editable*/line-height:125% !important;}}@media only screen =
+and (max-width: 480px){/*@tab Mobile Styles@section Heading 2@tip Make the =
+second-level headings larger in size for better readability on small screen=
+s.*/h2{/*@editable*/font-size:26px !important;/*@editable*/line-height:125%=
+ !important;}}@media only screen and (max-width: 480px){/*@tab Mobile Style=
+s@section Heading 3@tip Make the third-level headings larger in size for be=
+tter readability on small screens.*/h3{/*@editable*/font-size:20px !importa=
+nt;/*@editable*/line-height:150% !important;}}@media only screen and (max-w=
+idth: 480px){/*@tab Mobile Styles@section Heading 4@tip Make the fourth-lev=
+el headings larger in size for better readability on small screens.*/h4{/*@=
+editable*/font-size:18px !important;/*@editable*/line-height:150% !importan=
+t;}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@section =
+Boxed Text@tip Make the boxed text larger in size for better readability on=
+ small screens. We recommend a font size of at least 16px.*/.mcnBoxedTextCo=
+ntentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextConten=
+t p{/*@editable*/font-size:14px !important;/*@editable*/line-height:150% !i=
+mportant;}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@s=
+ection Header Text@tip Make the header text larger in size for better reada=
+bility on small screens.*/.headerContainer .mcnTextContent,.headerContainer=
+ .mcnTextContent p{/*@editable*/font-size:16px !important;/*@editable*/line=
+-height:150% !important;}}@media only screen and (max-width: 480px){/*@tab =
+Mobile Styles@section Body Text@tip Make the body text larger in size for b=
+etter readability on small screens. We recommend a font size of at least 16=
+px.*/.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{/*@edi=
+table*/font-size:16px !important;/*@editable*/line-height:150% !important;}=
+}@media only screen and (max-width: 480px){/*@tab Mobile Styles@section Foo=
+ter Text@tip Make the footer content text larger in size for better readabi=
+lity on small screens.*/.footerContainer .mcnTextContent,.footerContainer .=
+mcnTextContent p{/*@editable*/font-size:14px !important;/*@editable*/line-h=
+eight:150% !important;}}</style></head> <body><span class=3D"mcnPreviewText=
+" style=3D"display:none; font-size:0px; line-height:0px; max-height:0px; ma=
+x-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">=
+</span> <center> <table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable"> <tr> <td al=
+ign=3D"center" valign=3D"top" id=3D"bodyCell"> <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td align=3D"center" valign=
+=3D"top" id=3D"templateHeader" data-template-container=3D""><!--[if gte mso=
+ 9]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"600" style=3D"width:600px;"><tr><td align=3D"center" valign=3D"t=
+op" width=3D"600" style=3D"width:600px;"><![endif]--><table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"=
+templateContainer"><tr> <td valign=3D"top" class=3D"headerContainer"><table=
+ class=3D"mcnImageBlock" style=3D"min-width:100%;" width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0"> <tbody class=3D"mcnImageBlockOuter=
+"> <tr> <td style=3D"padding:9px" class=3D"mcnImageBlockInner" valign=3D"to=
+p"> <table class=3D"mcnImageContentContainer" style=3D"min-width:100%;" wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"=
+> <tbody><tr> <td class=3D"mcnImageContent" style=3D"padding-right: 9px; pa=
+dding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" val=
+ign=3D"top"> <img alt=3D"" src=3D"http://staging.zapro.uk/htmzil/legit_emai=
+ls_images/legitclaims-logo.png" style=3D"max-width:617px; padding-bottom: 0=
+; display: inline !important; vertical-align: bottom;" class=3D"mcnImage" w=
+idth=3D"308.5" align=3D"middle"> </td></tr></tbody></table> </td></tr></tbo=
+dy></table></td></tr></table><!--[if gte mso 9]></td></tr></table><![endif]=
+--></td></tr><tr><td align=3D"center" valign=3D"top" id=3D"templateBody" da=
+ta-template-container=3D""><!--[if gte mso 9]><table align=3D"center" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:60=
+0px;"><tr><td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:=
+600px;"><![endif]--><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" class=3D"templateContainer"><tr> <td valig=
+n=3D"top" class=3D"bodyContainer"><table class=3D"mcnTextBlock" style=3D"mi=
+n-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0"> <tbody class=3D"mcnTextBlockOuter"> <tr> <td class=3D"mcnTextBlockInne=
+r" style=3D"padding-top:9px;" valign=3D"top"><!--[if mso]><table align=3D"l=
+eft" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"width:100%;"><tr><![endif]--><!--[if mso]><td valign=3D"top" width=3D"6=
+00" style=3D"width:600px;"><![endif]--> <table style=3D"max-width:100%; min=
+-width:100%;" class=3D"mcnTextContentContainer" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=
+=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; padding-bot=
+tom:9px; padding-left:18px;" valign=3D"top"> <h3> <a href=3D"https://www.le=
+gitclaims.co.uk/blog/no-win-no-fee-mean/"> What does No-Win No-Fee mean?</a=
+></h3><p><h1 style=3D"text-align: center;">The Sometimes Unknown Complexity=
+ Concerning a <strong>No-Win No-Fee</strong>&nbsp;Agreement.</h1>=0A=
+<p>If you search the web today on <strong>personal injury</strong> claims y=
+ou will come across the words <strong>No-Win No-Fee</strong>.</p>=0A=
+<p>Most accept that this means you will not be liable for solicitor=E2=80=
+=99s fees if you don=E2=80=99t win your claim. Although there are a few mor=
+e details around this agreement that we think you should know.</p>=0A=
+<h2>The Solicitor Takes the Risk in Your Case</h2>=0A=
+<p>Ironically, for the victims of life-changing injuries who would need the=
+ money the most. The high cost of obtaining the necessary legal help to mak=
+e successful <strong>personal injury</strong> claims is the most deterring =
+factor. The introduction of <strong>No-Win No-Fee</strong> agreements addre=
+ssed this dilemma. It gave claimants the opportunity to pursue their case e=
+ven if they did not have the funds to pay the upfront fees required to hire=
+ a no win no fee <strong>solicitor.</strong></p>=0A=
+<p><img class=3D"aligncenter wp-image-486" src=3D"https://www.legitclaims.c=
+o.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Solicitor.jpg" alt=3D"Leg=
+it Claims - Solicitor" width=3D"500" height=3D"370" srcset=3D"https://www.l=
+egitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Solicitor.jpg=
+ 593w, https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-=
+Claims-Solicitor-300x222.jpg 300w" sizes=3D"(max-width: 500px) 100vw, 500px=
+"></p>=0A=
+<p>When an individual and a law firm get into such an agreement, it essenti=
+ally&nbsp;means&nbsp;that the law firm is willing to offer you a service wh=
+ile covering all legal aspects of your situation. The individual does not i=
+ncur any upfront costs at all. In other words, the <strong>=E2=80=98No- Win=
+ No- Fee=E2=80=99</strong> <strong>solicitor </strong>takes the risk on you=
+r case.</p>=0A=
+<h2>How Does <strong>No-Win No-Fee</strong> Work?</h2>=0A=
+<p>Under this agreement, the claimant only pays the <strong>solicitor</stro=
+ng>=E2=80=99s fee if the claim is decided in their favor. This fee is usual=
+ly a percentage of the awarded compensation. This is because the costs are =
+directly recovered from the compensation.</p>=0A=
+<p><img class=3D"aligncenter wp-image-480" src=3D"https://www.legitclaims.c=
+o.uk/blog/wp-content/uploads/2017/11/Legit-Claims-No-Win-No-Fee-Agreement.j=
+pg" alt=3D"Legit Claims - No Win No Fee Agreement" width=3D"550" height=3D"=
+324" srcset=3D"https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/1=
+1/Legit-Claims-No-Win-No-Fee-Agreement.jpg 640w, https://www.legitclaims.co=
+.uk/blog/wp-content/uploads/2017/11/Legit-Claims-No-Win-No-Fee-Agreement-30=
+0x177.jpg 300w" sizes=3D"(max-width: 550px) 100vw, 550px"></p>=0A=
+<p>The law now permits solicitors to state a percentage of your recovered d=
+amages as success fees. The parties at the commencement of the case&nbsp;si=
+gn a CFA (Conditional Fee Agreement). This stipulates the percentages and p=
+ayment terms. It is a good idea to ask your <strong>solicitor </strong>all =
+the particulars. Agree to them before you sign on the dotted line.</p>=0A=
+<h2>What You Should Know</h2>=0A=
+<p>The insurance companies other party will recover a major portion of the =
+cost in the event of a successful <strong>personal injury</strong> claim.&n=
+bsp; The CFA stipulates that the compensation payout is limited to the perc=
+entage.</p>=0A=
+<p>If the claim is unsuccessful, the fees payable after the fact will depen=
+d on this same agreement. While you are exempt from the <strong>solicitor</=
+strong>=E2=80=99s fees, in some agreements the court costs, expert=E2=80=99=
+s charges and any other miscellaneous expenses are the claimant=E2=80=99s r=
+esponsibility.</p>=0A=
+<h2>Typical <strong>No-Win No-Fee</strong> Percentage</h2>=0A=
+<p>Generally speaking, the typical <strong>No-Win No-Fee</strong> percentag=
+e is 25%. The quote by Alexander pope comes to mind here: =E2=80=9CFools ru=
+sh in where angels fear to tread.=E2=80=9D&nbsp; Be sure to read the fine p=
+rint before you sign any legally binding documents.</p>=0A=
+<p><img class=3D"aligncenter wp-image-483" src=3D"https://www.legitclaims.c=
+o.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Claim-Agreement-Details.j=
+pg" alt=3D"Legit Claims - Claim Agreement Details" width=3D"550" height=3D"=
+304" srcset=3D"https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/1=
+1/Legit-Claims-Claim-Agreement-Details.jpg 672w, https://www.legitclaims.co=
+.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Claim-Agreement-Details-30=
+0x166.jpg 300w" sizes=3D"(max-width: 550px) 100vw, 550px"></p>=0A=
+<p>On a last note- discuss every aspect of the claim with your <strong>soli=
+citor</strong>. The majorities of law firms in the UK genuinely care about =
+the individuals involved in <strong>personal injury</strong> claims and ass=
+ist with such cases at great risk to themselves and their firms.</p>=0A=
+<p>If you are considering a <strong>personal injury</strong> claim, it=E2=
+=80=99s worth consulting a <strong>solicitor </strong>about filing <strong>=
+a No-Win No-Fee</strong> claim. You will receive impartial and cost-free ad=
+vice.</p>=0A=
+<p>To find a <strong>solicitor</strong> to assist you in your claim, go to =
+<a href=3D"https://www.legitclaims.co.uk/" target=3D"_blank" rel=3D"noopene=
+r">Legit Claims</a>&nbsp;for a comprehensive directory of <strong>personal =
+injury</strong> lawyers in the UK.</p>=0A=
+</p></td></tr></tbody></table><!--[if mso]></td><![endif]--><!--[if mso]></=
+tr></table><![endif]--> </td></tr></tbody></table></td></tr></table><!--[if=
+ gte mso 9]></td></tr></table><![endif]--></td></tr><tr><td align=3D"center=
+" valign=3D"top" id=3D"templateFooter" data-template-container=3D""><!--[if=
+ gte mso 9]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"600" style=3D"width:600px;"><tr><td align=3D"center" val=
+ign=3D"top" width=3D"600" style=3D"width:600px;"><![endif]--><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ class=3D"templateContainer"><tr> <td valign=3D"top" class=3D"footerContain=
+er"><table class=3D"mcnFollowBlock" style=3D"min-width:100%;" width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody class=3D"mcnFoll=
+owBlockOuter"> <tr> <td style=3D"padding:9px" class=3D"mcnFollowBlockInner"=
+ valign=3D"top" align=3D"center"> <table class=3D"mcnFollowContentContainer=
+" style=3D"min-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0"> <tbody><tr> <td style=3D"padding-left:9px;padding-right:9=
+px;" align=3D"center"> <table style=3D"min-width:100%;" class=3D"mcnFollowC=
+ontent" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <t=
+body><tr> <td style=3D"padding-top:9px; padding-right:9px; padding-left:9px=
+;" valign=3D"top" align=3D"center"> <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center"> <tbody><tr> <td valign=3D"top" align=3D"=
+center"><!--[if mso]> <table align=3D"center" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"> <tr><![endif]--><!--[if mso]> <td align=3D"center" val=
+ign=3D"top"><![endif]--> <table style=3D"display:inline;" cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td style=3D"pa=
+dding-right:10px; padding-bottom:9px;" class=3D"mcnFollowContentItemContain=
+er" valign=3D"top"> <table class=3D"mcnFollowContentItem" width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody><tr> <td style=3D"pa=
+dding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" v=
+align=3D"middle" align=3D"left"> <table width=3D"" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=3D"mcnFollow=
+IconContent" width=3D"24" valign=3D"middle" align=3D"center"> <a href=3D"#"=
+ target=3D"_blank"><img src=3D"https://cdn-images.mailchimp.com/icons/socia=
+l-block-v2/color-facebook-48.png" style=3D"display:block;" class=3D"" width=
+=3D"24" height=3D"24"></a> </td><td class=3D"mcnFollowTextContent" style=3D=
+"padding-left:5px;" valign=3D"middle" align=3D"left"> <a href=3D"#" target=
+=3D"" style=3D"font-family: Helvetica;font-size: 14px;text-decoration: none=
+;color: #FFFFFF;">Facebook</a> </td></tr></tbody></table> </td></tr></tbody=
+></table> </td></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if =
+mso]> <td align=3D"center" valign=3D"top"><![endif]--> <table style=3D"disp=
+lay:inline;" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+"> <tbody><tr> <td style=3D"padding-right:10px; padding-bottom:9px;" class=
+=3D"mcnFollowContentItemContainer" valign=3D"top"> <table class=3D"mcnFollo=
+wContentItem" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0"> <tbody><tr> <td style=3D"padding-top:5px; padding-right:10px; padding-b=
+ottom:5px; padding-left:9px;" valign=3D"middle" align=3D"left"> <table widt=
+h=3D"" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tb=
+ody><tr> <td class=3D"mcnFollowIconContent" width=3D"24" valign=3D"middle" =
+align=3D"center"> <a href=3D"#" target=3D"_blank"><img src=3D"https://cdn-i=
+mages.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style=3D"di=
+splay:block;" class=3D"" width=3D"24" height=3D"24"></a> </td><td class=3D"=
+mcnFollowTextContent" style=3D"padding-left:5px;" valign=3D"middle" align=
+=3D"left"> <a href=3D"#" target=3D"" style=3D"font-family: Helvetica;font-s=
+ize: 14px;text-decoration: none;color: #FFFFFF;">Twitter</a> </td></tr></tb=
+ody></table> </td></tr></tbody></table> </td></tr></tbody></table><!--[if m=
+so]> </td><![endif]--><!--[if mso]> <td align=3D"center" valign=3D"top"><![=
+endif]--> <table style=3D"display:inline;" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"left"> <tbody><tr> <td style=3D"padding-right:10p=
+x; padding-bottom:9px;" class=3D"mcnFollowContentItemContainer" valign=3D"t=
+op"> <table class=3D"mcnFollowContentItem" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0"> <tbody><tr> <td style=3D"padding-top:5px; =
+padding-right:10px; padding-bottom:5px; padding-left:9px;" valign=3D"middle=
+" align=3D"left"> <table width=3D"" cellspacing=3D"0" cellpadding=3D"0" bor=
+der=3D"0" align=3D"left"> <tbody><tr> <td class=3D"mcnFollowIconContent" wi=
+dth=3D"24" valign=3D"middle" align=3D"center"> <a href=3D"#" target=3D"_bla=
+nk"><img src=3D"https://cdn-images.mailchimp.com/icons/social-block-v2/colo=
+r-instagram-48.png" style=3D"display:block;" class=3D"" width=3D"24" height=
+=3D"24"></a> </td><td class=3D"mcnFollowTextContent" style=3D"padding-left:=
+5px;" valign=3D"middle" align=3D"left"> <a href=3D"#" target=3D"" style=3D"=
+font-family: Helvetica;font-size: 14px;text-decoration: none;color: #FFFFFF=
+;">Instagram</a> </td></tr></tbody></table> </td></tr></tbody></table> </td=
+></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if mso]> <td alig=
+n=3D"center" valign=3D"top"><![endif]--> <table style=3D"display:inline;" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr>=
+ <td style=3D"padding-right:0; padding-bottom:9px;" class=3D"mcnFollowConte=
+ntItemContainer" valign=3D"top"> <table class=3D"mcnFollowContentItem" widt=
+h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody><tr> <t=
+d style=3D"padding-top:5px; padding-right:10px; padding-bottom:5px; padding=
+-left:9px;" valign=3D"middle" align=3D"left"> <table width=3D"" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=
+=3D"mcnFollowIconContent" width=3D"24" valign=3D"middle" align=3D"center"> =
+<a href=3D"https://www.legitclaims.co.uk/" target=3D"_blank"><img src=3D"ht=
+tps://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" sty=
+le=3D"display:block;" class=3D"" width=3D"24" height=3D"24"></a> </td><td c=
+lass=3D"mcnFollowTextContent" style=3D"padding-left:5px;" valign=3D"middle"=
+ align=3D"left"> <a href=3D"https://www.legitclaims.co.uk/" target=3D"" sty=
+le=3D"font-family: Helvetica;font-size: 14px;text-decoration: none;color: #=
+FFFFFF;">Website</a> </td></tr></tbody></table> </td></tr></tbody></table> =
+</td></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if mso]> </tr=
+></table><![endif]--> </td></tr></tbody></table> </td></tr></tbody></table>=
+ </td></tr></tbody></table> </td></tr></tbody></table><table class=3D"mcnDi=
+viderBlock" style=3D"min-width:100%;" width=3D"100%" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0"> <tbody class=3D"mcnDividerBlockOuter"> <tr> <td=
+ class=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 10px 18p=
+x;"> <table class=3D"mcnDividerContent" style=3D"min-width: 100%;border-top=
+: 2px solid #454952;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0"> <tbody><tr> <td> <span></span> </td></tr></tbody></table><!-- <=
+td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"> <hr class=3D"mc=
+nDividerContent" style=3D"border-bottom-color:none; border-left-color:none;=
+ border-right-color:none; border-bottom-width:0; border-left-width:0; borde=
+r-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left=
+:0;"/>--> </td></tr></tbody></table><table class=3D"mcnTextBlock" style=3D"=
+min-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0"> <tbody class=3D"mcnTextBlockOuter"> <tr> <td class=3D"mcnTextBlockI=
+nner" style=3D"padding-top:9px;" valign=3D"top"><!--[if mso]><table align=
+=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" s=
+tyle=3D"width:100%;"><tr><![endif]--><!--[if mso]><td valign=3D"top" width=
+=3D"600" style=3D"width:600px;"><![endif]--> <table style=3D"max-width:100%=
+; min-width:100%;" class=3D"mcnTextContentContainer" width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td c=
+lass=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; padding=
+-bottom:9px; padding-left:18px;" valign=3D"top"> Suite 6057 | 1 Fore Street=
+ | Moorgate | London | EC2Y 9DT | United Kingdom | 02038657978<br>Legit Cla=
+ims =C2=A9 2017<br>&nbsp; </td></tr></tbody></table><!--[if mso]></td><![en=
+dif]--><!--[if mso]></tr></table><![endif]--> </td></tr></tbody></table></t=
+d></tr></table><!--[if gte mso 9]></td></tr></table><![endif]--></td></tr><=
+/table> </td></tr></table> </center> </body></html>
+

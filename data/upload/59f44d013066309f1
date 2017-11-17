@@ -1,0 +1,14 @@
+Reporting-MTA: dns;VI1PR0502MB3901.eurprd05.prod.outlook.com
+Received-From-MTA: dns;localhost
+Arrival-Date: Thu, 26 Oct 2017 10:04:01 +0000
+
+Final-Recipient: rfc822;test@gmail.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser r78si3398246pfd.208 - gsmtp
+Remote-MTA: dns;mx.google.com
+
+

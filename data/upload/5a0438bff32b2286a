@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM5PR0501MB2403.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Thu, 9 Nov 2017 10:30:39 +0000
+
+Final-Recipient: rfc822;davidcroft@rocketmail.com
+Action: failed
+Status: 5.0.350
+Diagnostic-Code: smtp;550 5.0.350 Remote server returned an error -> 554 delivery error: dd This user doesn't have a rocketmail.com account (davidcroft@rocketmail.com) [0] - mta1455.mail.bf1.yahoo.com
+Remote-MTA: dns;mta1455.mail.bf1.yahoo.com
+
+

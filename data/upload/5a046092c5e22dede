@@ -1,0 +1,10 @@
+Reporting-MTA: dns;HE1PR0501MB2412.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Tue, 7 Nov 2017 14:00:24 +0000
+
+Final-Recipient: rfc822;philip.shepherd@gatesheadsolicitors.com
+Action: failed
+Status: 5.4.316
+Diagnostic-Code: smtp;550 5.4.316 Message expired, connection refused
+
+

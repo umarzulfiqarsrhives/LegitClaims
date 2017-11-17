@@ -1,0 +1,907 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=liJiK/ScpJCku0QvJNudyk5bjD1HG343F++1Jh4gRts=;
+ b=PfzLO40/H6scWnidN2zKvDnevewFM358uoIHvdH9gA2Fa2EaRM12yO2US1mLdeWH12523H4ixWIRmr5wEYVVoN/O5bLB3vGmOP/GDgqiZRTzT1PZz+6kZnW700BPHjcK0uZcX+R+RtbLmGiIEreParYqDScSnNaUYGqcoUyf3qQ=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from admin (203.128.31.180) by
+ VI1PR0502MB3902.eurprd05.prod.outlook.com (2603:10a6:803:c::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.197.13; Fri, 10
+ Nov 2017 06:10:27 +0000
+Date: Fri, 10 Nov 2017 06:10:27 +0000
+X-QueueItemId: 5a0542c9c7fa3630e
+Precedence: =?UTF-8?Q?bulk?=
+List-Unsubscribe: =?UTF-8?Q?<http://localhost/marketing=3FentryPoint=3Dunsubscribe&id=3D5a0542c9c7fa3630e>?=
+From: =?UTF-8?Q?shatty?= <hello@legitclaims.co.uk>
+Sender: <hello@legitclaims.co.uk>
+To: wrong123we_2435@gmail.com
+Subject: =?UTF-8?Q?Introduction?=
+Content-Type: multipart/alternative;
+ boundary="=_81289e91609d0065db99fa6c5fe21eb6"
+Message-ID: <07de263d1d7b11e12b047645547e3c1e/1510294227/5406@espo>
+X-Originating-IP: [203.128.31.180]
+X-ClientProxiedBy: CWLP265CA0042.GBRP265.PROD.OUTLOOK.COM
+ (2603:10a6:401:11::30) To VI1PR0502MB3902.eurprd05.prod.outlook.com
+ (2603:10a6:803:c::23)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 0a690b76-62f9-4219-d66a-08d52801bda7
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603258);SRVR:VI1PR0502MB3902;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3902;3:GGl05Mfgo9gUe/AMSXAQ46kQmbf5NOOVNG5b5jV1qhmN5Rmhv6s8a9hrORqIseUZY0zmRSi6MFNWIJAVoFwr/YlfzeS8tp7s2AwKO3THQ9ZK7TPDWnOLk3ElMDkZ2KaKlXtO18TZ8nucMhPtQrMuRxa2w87jCHSHT7tklDGB1jEPCTMTuuYKtaG4cNscC/Bd0EVJH21w3KYTmTndxAwCoKXapZBU53AyliMddNQKjHhc3OewlWjo9+xAXfQCDccY;25:7fOwEvBdWbBqRGkkg2u+3ZV7Sa6h+EctoGTLfXPnoSxXJsyYEdCTYBSbp6ctOoZ8gId21m96A1U0QQqAbNjVTvFrvEIBapNqfA0+WPl9aNdfVLuZXbvQqW/jUGaKvhyasR0MTrYIMhgExc2JQ8bPVp6mRu+2Q12poBgtgYnJ0He5oVb1/eMKHmUL2q1ej9jBpa7f4m3m6+yvs5XGK0cFkhAO1SESjUsktoRYMx7f8bBMtdVXUYrDoNQQgwYjDanzpk6qSn+tNwIz8VqqJ0+QtPBn4loahkOra23w350Z5roTUR88cw3zm1i7qauMeJxhKB74S4x1GsWhm54Pj5IpvQ==;31:nDYx+3CIzTae0wfrFRU2SipWaKZc4u5a4p56k7Q5elpg1yhfeDdG6NFrTA8wyZONpm8tQ/F6iHxailtyKCml/m+kosZeV1wa89GZJM6XhO+4M6QHXL1pqw1oR+CSDfaHeOO3W+E1Jjn/EjG7/zhJCYrD7j18dhJ9LE4+R7f2izr+tb/RdiY2AjFhN5daITm2mzCe7TDQJTJ1GE82e+ICTB9bvQHZtR7nR5GMhwRLytc=
+X-MS-TrafficTypeDiagnostic: VI1PR0502MB3902:
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851)(265634631926514)(275809806118684)(21532816269658);
+X-Microsoft-Antispam-PRVS: <VI1PR0502MB3902C0D70153E63A8E402C22E0540@VI1PR0502MB3902.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(5005006)(8121501046)(93006095)(93001095)(3002001)(10201501046)(3231021)(100000703101)(100105400095)(6041248)(20161123562025)(20161123558100)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123555025)(20161123564025)(2016111802025)(20161123560025)(6043046)(6072148)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:VI1PR0502MB3902;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:VI1PR0502MB3902;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3902;4:PLw5fU8DfTD4RxopjN0s3uX9QRf05GUNuUUISijJFM3wak8Gqnvr9uy95LESxiYTMPwP5UtubiyrONX02VxzptSTOhxl+e18lnUTW05++tIpE3iazcTFYVXQS2d5sbi5yiayNjkExE3al9FXa+eJA53ZqQXd5UvSvCE12WTKpu4Zsl96tdRa+W1KkpYBtSIbmQNZfLohKVbZBPLmHWLksHgQ9hmA8L7i+dgUMuS54i6DVG9AIdivjSvNeRla7On8h+fv2+HGqFNqAv9BxlXlA+uYHrybOIyX8Nr34ryQBWPt0Tl70jMuNsUUQrpSYCxX9BvIJ02g43eL2RDWZ8WMwM3bn2U7OeKZm6sq1GZ704dxKtVKy+lTKQox/ZQEeV+Gj69+mUDnH11bCFWo8xZhZJreSvQ42Perb2UdKNIfPQg=
+X-Forefront-PRVS: 0487C0DB7E
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(7916004)(346002)(376002)(39830400002)(51414003)(199003)(86874003)(189002)(105586002)(18926415007)(2351001)(305945005)(25786009)(106356001)(118296001)(7736002)(2361001)(189998001)(6486002)(18926405002)(54356999)(6306002)(74482002)(146002)(68736007)(101416001)(733005)(6496005)(33646002)(53936002)(53946003)(50986999)(221733001)(47976999)(81166006)(236005)(16526018)(478600001)(39060400002)(7846003)(6392003)(9686003)(66066001)(861006)(86362001)(2906002)(15974865002)(3480700004)(97736004)(8936002)(81156014)(6116002)(3846002)(8676002)(606006)(7066003)(33716001)(16586007)(84326002)(316002)(5660300001)(42882006)(7116003)(6916009)(555904003)(10490500001)(105646017)(14444003)(579004);DIR:OUT;SFP:1101;SCL:1;SRVR:VI1PR0502MB3902;H:admin;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;VI1PR0502MB3902;23:U3lQ09bL23eC3wYsvkZakAXCPjhfIGBqngz/MXm?=
+ =?us-ascii?Q?DLD37h4fGgOzcSQL5zYF8aHOdPJH0LAUSfaN6tvaq3QwUSwd8Un9G7GhG4ha?=
+ =?us-ascii?Q?f22X+/xPxvznUYXjsV0cYEIXm979A+ETpx8VwxxN7W8vVkJTc8UFgxJQdQ8W?=
+ =?us-ascii?Q?pdy2vjmZteyYVGqjXhzGw5NNYqrMa4KXQgA4i6ERzif7Y1xTYB3VqrHO2XrJ?=
+ =?us-ascii?Q?IWwxa//eSvqGc9oLhYN3zETqgHay7tVqUyBrvTIqNKef4m6rOjJGp0LfpTXN?=
+ =?us-ascii?Q?7BR/geP6RCq0ZVrdfenu07kJW6DIo3/ZujRt6edF8V5EpWd7Ubq2QtTb2W6O?=
+ =?us-ascii?Q?GkBGNLaClT4fjLEBI3/ShZQrUV188kvatnZyEtd0LlzfQLT8jQMGJAOatbk0?=
+ =?us-ascii?Q?ncxEPXpuPERhJc4YK6aVPY/dDmhMuFW/4w7+G/3rJSzyRlxDdUsPJJjlNh8c?=
+ =?us-ascii?Q?zmxFdI9QNJrHcEfAH5FtdnbteOT5mkhBoyamRlKmKusPQJoQEEq9ggONTStb?=
+ =?us-ascii?Q?ZWktKEBaYuNv4vPL2L4s1Oaueig7gWyR+AjhW2hFBvGmsfwIlyKPuhGvBSTY?=
+ =?us-ascii?Q?F/f40yMw17qx6VD35SskYS4aQP36JEEOz3PWwDC/aWbhJU5PgspLnXbuTOgr?=
+ =?us-ascii?Q?ihLy+O+fzOHGUzQ8Q7K/yBlKhoB7P7KLHhMdtOtmOuZ2m24w/rUFn5iLz/x7?=
+ =?us-ascii?Q?/jkHirWJFiorqqBb2wdjV74cmHOcbnwJ5Be8mSUJE6GsjWwaHAFYKqsNlFRE?=
+ =?us-ascii?Q?vxFhcK4Nv0uww74hMhgprgUvKnw7eYM+/elOtr3V8b6w2cK1KfRsVhVo+yz6?=
+ =?us-ascii?Q?GCyrE0vICFqh1/WP3D6+pkD9w2sOzyn2F/gKkvzAyrqoPLAP14F9wH++A9Gl?=
+ =?us-ascii?Q?NMThh7RKE9aChmE+019k/+0Xf6fmY0j+xnVYKrxnIX5hLEu7LSEEHOp35jXU?=
+ =?us-ascii?Q?K8SxUBbbaicaaKrSxSXoXfoK43VumGd/oFbHFeEJyRiI2Itrg3y7TkzAj72Z?=
+ =?us-ascii?Q?1KY0bcP7DQ5w+eWElOxoRcHy4Qw181eO3S4bVbfn6iNKr+N64XnO6MGXHWFl?=
+ =?us-ascii?Q?rIQDXsGn87AJgrPDkV6VfGvLax9tvc4n8K+N/uRmNVn2IGN2p1GEwRxtTOZQ?=
+ =?us-ascii?Q?ExLUWhdVhqA+REp6x2+9Gg7ULbzCpIDLpk+U8Qy1cilkjjD45YDjSmikDJFC?=
+ =?us-ascii?Q?B7DoXdZWB6o+9EUwMxsHaldeFhfgDLpJNfslwXehMJTWH8bs/huEBMkPQxTn?=
+ =?us-ascii?Q?6ZiyI3Z+k0k/gGzda4hLtUFDAMPCvfYKi4IWl8t0FdysOzWeeXOzHcakqqUr?=
+ =?us-ascii?Q?MW4ACSrJFK1iBedzSks0wuDi+ifnk0XIfgy/a4V2l5piwLrJBrkpf1v3e9aF?=
+ =?us-ascii?Q?tRRF+/Mk3pp4TMysZzvex0nJSm02bQ8DbaVuMgbwxt+e8Zxb4JWXIjP7br09?=
+ =?us-ascii?Q?DUnfgJX7L9qjNJ/3kVPm0DF1Yvwbqio5x+GVc1GDNEzG6pjSzA/Jba0X2Hd2?=
+ =?us-ascii?Q?O5z1lLX94J0omkf6Qvo5Ou5lo1JcUM2nV4AD6pPaFVJsoruqS0/95hwP0hWb?=
+ =?us-ascii?Q?fs1GN71E4Y/LO2IXI0g=3D=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3902;6:GBe+LnhtS0Jwdjth6no9ius6gL0ApZ8W+jlmguHHNM4iZ7Gw6QwO7tDe8bS71TY2C8OeFqqLQPmWKZ4eX5ZTxoHPmMsvIYlFAEzy60hkyMhuEPWSoJI3fRoEvO9Rd5xAnBo7snV3euT9u8gCq+LQjMTBF4MjU2ETVSOquuDG/jAFnvNPzLsxgdTHelzgCYLnoZNQlw7+HJwkZgQ+2Y9+J9qprf9V6bEPq9+M+BewJT7e6DzV8rHq8HD/vLikfbBEBfNmkreCvc3lqk0iimMrDVkhrScTRt8TgbM1hF+NajO9PDuMHQCa3zCDSZCiSQsfErLOrjEVqDqIjRwLGzibHxTWOwooGtZ1sz4R25CRQws=;5:0CFhNpX/H7xjNAK6JllGf9Asso6nc4QMq9tYoGOMY3k4a8LHIJgBezIcp0g57aGbcwqTx+fvncdDzjlAMuuwDbfzv2RvRcPb9ImAHhcJsUGQpEe1KdQdJij+7jqT+QU87OTgOmeIdq2VNAoBecsretX2+/ZY2yINYkC8tMCQB/0=;24:6c42Tk/mWb0Sxi7R9PhsVcT/4LPs0MbeEsK3xJoNxM5E+MYhkfJYK3DLeD4CHpQ6MBnc8yr+gV+sI1p+XWvW4YleK3OblyoSI5CbWJIaNyk=;7:AssQeCRMM2K9Uvgc0pBSry4RjVh4GDBWWKS6TmKaDRcJTzI2tGIpXbEzXeJdyi1dnrvoquIgVUsIWsvw+1dh9AnmFlgHxBfccbdELj2t8LLz1bTs9DbU2v1vkd60WY3f29PPmaT25Zh2DBjhMX5/jcRzQE7CuGdqwP/HBCqHi9JJTI6F7PdPR8xbCP2pCh/ajqIvlI9JOLEyWGAOWB2cAEHF3FEjmJZSEgaB5obOs4WqbhKzrpVnxY+E82XLmUMI
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Nov 2017 06:10:27.6795 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0a690b76-62f9-4219-d66a-08d52801bda7
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0502MB3902
+MIME-Version: 1.0
+
+--=_81289e91609d0065db99fa6c5fe21eb6
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+My=0Aname is Ali Elaouzi and I head up business development with Legit C=
+laims. I was=0Ahoping to connect with you, regarding a valuable sales pr=
+oposition which we=0Awould like to share with you.&nbsp; The=0Aessence o=
+f our culture is to thoroughly understand our clients=E2=80=99 needs and=
+ to=0Adesign solutions to meet those needs.&nbsp; Therefore,=0Awe=E2=80=
+=99ve managed to design, develop,=0Aand deploy an online claims platform=
+.&nbsp; Our=0Aportal facilitates and establishes communication between y=
+ou, the legal service=0Aproviders, and your potentially new clients.&nbs=
+p;=0AWe have an exemplary relationship with a team of dedicated IT=0Aspe=
+cialists who have a breadth of knowledge and experience working on mobil=
+e=0Aapps, website design &amp; development, digital marketing services &=
+amp;=0Abusiness automation software.Furthermore, we have a dedicated tea=
+m of Account Managers delegated to handle your portfolio from inception=
+ to service delivery.I will need to briefly discuss this with=0Ayou and=
+ would like to schedule a call for some time tomorrow.&nbsp; I will only=
+ need around 3 minutes of your=0Atime as the service we offer is pretty=
+ much self-explanatory.Please feel free to visit our Homepage=0Aat www.l=
+egitclaims.co.uk=0APlease note the following features and benefits=0Aof=
+ our system that sets us apart from other companies.=C2=B7&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AQualified lead Generation=C2=B7&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AIntuitive=0AGraphic User=
+ Interface =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0ASecu=
+re user Authentication=0A=C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;=0ASolicitors=0ADirectory=0AOutlining your services =C2=B7&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AConnecting=0Ayou to=0Ayour P=
+otential Clients =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=0ASocial media Presence&nbsp; =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;=0ASearch Engine Optimization=C2=B7&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;=0ARank higher on Prominent Search Engines=0A=C2=
+=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AVideo Testimonials=
+ =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AShowcase your=
+ expertise AND experience =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;=0AUnlimited Published Blogs with your Opinions=0Aon Hot Topics=
+=C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AWebchat Initiat=
+e Live Chat=0Awith Perspective Clients =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;=0AClient reviews =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;=0AGeolocations=0ATracking user=E2=80=99s Geographi=
+c locations =C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AApp=
+ointed Account Managers=0Adelegated Mon-Fri 9am-6pm=C2=B7&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AMulti user Access=C2=B7&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0ADashboard=C2=B7&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AWeb call back Feature =C2=B7&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AFixed Flat Rate Fees =E2=80=93&nb=
+sp;Annual &amp; Monthly=0Apayments benefit cash flow and marketing budge=
+ts=C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0ATrusted&nbsp;=
+And&nbsp;Secure&nbsp;Electronic&nbsp;Communication&nbsp;System=C2=B7&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AAll&nbsp;payments=0Aare t=
+aken via&nbsp;Direct Debit&nbsp;using=0Aour&nbsp;BACS&nbsp;Approved=0AAg=
+ency ensuring you are fully covered=0Aby the&nbsp;Direct Debit Guarantee=
+ Scheme=C2=B7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0AIndustry=
+ Regulated And Compliant&nbsp; &nbsp;I look forward to=0Aspeaking with y=
+ou,&nbsp;=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0AYours Sincerely=
+,&nbsp;Ali ElaouziBusiness=0ADevelopment Manager&nbsp;=0D=0A=0D=0ALegit=
+=0AClaims Limited=0D=0ASuite=0A101 | 45 King William Street&nbsp;|&nbsp;=
+London&nbsp;|=0AEC4R 9ANEmail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=0A: &nbsp; ali@legitclaims.co.ukTelephone&nbsp;&=
+nbsp;=0A: &nbsp;0203 714 5678Mobile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;=0A: 0740 094 4493Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;=0A: www.legitclaims.co.uk__________________________________=
+_________________________________=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0Awww.legitclaims.co.uk&nbsp;=
+is=0Aa website operated by Legit Claims Ltd a company registered in Engl=
+and and=0AWales.&nbsp; This website allows subscribed solicitors to adve=
+rtise their=0Aservices to general public.&nbsp; Facilitating direct comm=
+unication between Law=0AFirm solicitors and the public.&nbsp; We do not=
+ provide any other claims=0Amanagement or legal services.&nbsp; Users of=
+ the website are under no=0Aobligation to enter into any contract with a=
+ny of the solicitors advertising on=0Athe website.&nbsp; This is a free=
+ facility to public users.=0D=0A=0D=0A=0D=0A=0D=0AUnsubscribe
+--=_81289e91609d0065db99fa6c5fe21eb6
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+></p><p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"fon=
+t-family:&quot;Arial&quot;,sans-serif">My=0A=
+name is Ali Elaouzi and I head up business development with Legit Claims. I=
+ was=0A=
+hoping to connect with you, regarding a valuable sales proposition which we=
+=0A=
+would like to share with you.&nbsp; The=0A=
+essence of our culture is to thoroughly understand our clients=E2=80=99 nee=
+ds and to=0A=
+design solutions to meet those needs.&nbsp; Therefore,=0A=
+we=E2=80=99ve managed to <span style=3D"color: rgb(44, 44, 44); background-=
+image: initial; background-position: initial; background-size: initial; bac=
+kground-repeat: initial; background-attachment: initial; background-origin:=
+ initial; background-clip: initial;">design, develop,=0A=
+and deploy an online claims platform.&nbsp; <o:p></o:p></span></span></p><p=
+ class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-famil=
+y:&quot;Arial&quot;,sans-serif">Our=0A=
+portal facilitates and establishes communication between you, the legal ser=
+vice=0A=
+providers, and your potentially new clients.&nbsp;=0A=
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;mso-fareast-=
+language:=0A=
+EN-GB">We have an exemplary relationship with a team of dedicated IT=0A=
+specialists who have a breadth of knowledge and experience working on mobil=
+e=0A=
+apps, website design &amp; development, digital marketing services &amp;=0A=
+business automation software.</span></p><p class=3D"MsoNormal" style=3D"tex=
+t-align:justify"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;ms=
+o-fareast-language:=0A=
+EN-GB"><o:p>Furthermore, we have a dedicated team of Account Managers deleg=
+ated to handle your portfolio from inception to service delivery.</o:p></sp=
+an></p><p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"f=
+ont-family:&quot;Arial&quot;,sans-serif">I will need to briefly discuss thi=
+s with=0A=
+you and would like to schedule a call for some time tomorrow.&nbsp; I will =
+only need around 3 minutes of your=0A=
+time as the service we offer is pretty much self-explanatory.<o:p></o:p></s=
+pan></p><p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"=
+font-family:&quot;Arial&quot;,sans-serif">Please feel free to visit our Hom=
+epage=0A=
+at </span><a href=3D"http://www.legitclaims.co.uk/"><span style=3D"font-fam=
+ily:&quot;Arial&quot;,sans-serif">www.legitclaims.co.uk</span></a><span sty=
+le=3D"font-family:&quot;Arial&quot;,sans-serif">=0A=
+<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:justify"><=
+span style=3D"font-family:&quot;Arial&quot;,sans-serif">Please note the fol=
+lowing features and benefits=0A=
+of our system that sets us apart from other companies.<o:p></o:p></span></p=
+><p class=3D"MsoListParagraphCxSpFirst" style=3D"text-align:justify;text-in=
+dent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Qualified</span></i></b><i><span style=3D"font-size:10.0pt;line-height=
+:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> lead <b>Generation</b></span></i><i><spa=
+n style=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,=
+sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Intuitive=0A=
+</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Graphic<b> </b>User<b> Interface </b></span></i><i><span style=3D"font=
+-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot=
+;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB"><o:p></o:p></s=
+pan></i></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:jus=
+tify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Secure</span></i></b><i><span style=3D"font-size:10.0pt;line-height:10=
+7%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> user <b>Authentication</b>=0A=
+</span></i><i><span style=3D"font-size:10.0pt;line-height:107%;font-family:=
+&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Solicitors=0A=
+</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Directory=0A=
+<b>Outlining</b> your services </span></i><i><span style=3D"font-size:10.0p=
+t;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Connecting=0A=
+</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">you<b> </b>to<b>=0A=
+</b>your<b> Potential Clients </b></span></i><i><span style=3D"font-size:10=
+.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Social</span></i></b><i><span style=3D"font-size:10.0pt;line-height:10=
+7%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> media <b>Presence</b>&nbsp; </span></i><=
+i><span style=3D"font-size:=0A=
+10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareas=
+t-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListParagraphCxSpMid=
+dle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Search</span></i></b><i><span style=3D"font-size:10.0pt;line-height:10=
+7%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> Engine <b>Optimization</b></span></i><i>=
+<span style=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&qu=
+ot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Rank</span></i></b><i><span style=3D"font-size:10.0pt;line-height:107%=
+;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> higher on <b>Prominent</b> Search <b>Eng=
+ines</b>=0A=
+</span></i><i><span style=3D"font-size:10.0pt;line-height:107%;font-family:=
+&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Video</span></i></b><i><span style=3D"font-size:10.0pt;line-height:107=
+%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> Testimonials </span></i><i><span style=
+=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-se=
+rif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Showcase</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=
+107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> your expertise <b>AND</b> experience </s=
+pan></i><i><span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot=
+;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB"><o:p></o:p></s=
+pan></i></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:jus=
+tify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Unlimited</span></i></b><i><span style=3D"font-size:10.0pt;line-height=
+:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> Published <b>Blogs</b> with your <b>Opin=
+ions</b>=0A=
+on <b>Hot</b> Topics</span></i><i><span style=3D"font-size:10.0pt;line-heig=
+ht:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Webchat </span></i></b><i><span style=3D"font-size:10.0pt;line-height:=
+107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB">Initiate Live <b>Chat</b>=0A=
+with <b>Perspective</b> Clients <b><o:p></o:p></b></span></i></p><p class=
+=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18=
+.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Client</span></i></b><i><span style=3D"font-size:10.0pt;line-height:10=
+7%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> reviews </span></i><i><span style=3D"fon=
+t-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Geolocations=0A=
+</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Tracking<b> </b>user=E2=80=99s <b>Geographic</b> locations </span></i>=
+<b><i><span style=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Ar=
+ial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></b></p><p class=3D"MsoLi=
+stParagraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Appointed</span></i></b><i><span style=3D"font-size:10.0pt;line-height=
+:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> Account <b>Managers</b>=0A=
+delegated Mon-Fri 9am-6pm</span></i><i><span style=3D"font-size:10.0pt;line=
+-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot=
+;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB"><o:p></o:p></s=
+pan></i></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:jus=
+tify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Multi</span></i></b><i><span style=3D"font-size:10.0pt;line-height:107=
+%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> user <b>Access</b></span></i><i><span st=
+yle=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans=
+-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpMiddle" style=3D"text-align:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Dashboard</span></i></b><b><i><span style=3D"font-size:10.0pt;line-hei=
+ght:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot=
+;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB"><o:p></o:p></s=
+pan></i></b></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align=
+:justify;text-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Web</span></i></b><i><span style=3D"font-size:10.0pt;line-height:107%;=
+font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> call back <b>Feature</b> </span></i><i><=
+span style=3D"font-size:10.0pt;line-height:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot=
+;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB"><o:p></o:p></s=
+pan></i></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:=
+ 7.15pt; text-indent: -18pt; line-height: normal; background-image: initial=
+; background-position: initial; background-size: initial; background-repeat=
+: initial; background-attachment: initial; background-origin: initial; back=
+ground-clip: initial;"><!--[if !supportLists]--><span style=3D"font-size:10=
+.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;=0A=
+mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB">Fixed</span></i></b><i><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB;=0A=
+mso-bidi-font-weight:bold"> Flat <b>Rate</b> Fees =E2=80=93&nbsp;<b>Annual<=
+/b> &amp; </span></i><b><i><span style=3D"font-size:10.0pt;font-family:=0A=
+&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&=
+quot;;color:black;=0A=
+mso-themecolor:text1;mso-fareast-language:EN-GB">Monthly</span></i></b><i><=
+span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;mso=
+-fareast-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB">=0A=
+payments benefit cash flow and marketing budgets<o:p></o:p></span></i></p><=
+p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:justify;text-ind=
+ent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB">Trusted</span></i></b><i><span style=3D"font-si=
+ze:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB;mso-bidi-font-weight:bold">&nbsp;</span></i><i><=
+span style=3D"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quo=
+t;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB">And&nbsp;<b>Secure</b>&nbsp;Electronic&nbsp;<b>=
+Communication</b>&nbsp;System<o:p></o:p></span></i></p><p class=3D"MsoListP=
+aragraphCxSpMiddle" style=3D"margin-bottom: 7.15pt; text-indent: -18pt; lin=
+e-height: normal; background-image: initial; background-position: initial; =
+background-size: initial; background-repeat: initial; background-attachment=
+: initial; background-origin: initial; background-clip: initial;"><!--[if !=
+supportLists]--><span style=3D"font-size:10.0pt;font-family:Symbol;mso-fare=
+ast-font-family:Symbol;=0A=
+mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB">All</span></i></b><b><i><span style=3D"font-size:10.0pt;font-=
+family:=0A=
+&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&=
+quot;;color:black;=0A=
+mso-themecolor:text1;mso-fareast-language:EN-GB">&nbsp;payments</span></i><=
+/b><i><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;mso-fareast-font-family:=0A=
+&quot;Times New Roman&quot;;color:black;mso-themecolor:text1;mso-fareast-la=
+nguage:EN-GB">=0A=
+are taken via&nbsp;<b>Direct</b> <b>Debit</b>&nbsp;using=0A=
+our&nbsp;<b>BACS</b>&nbsp;Approved=0A=
+<b>Agency</b> ensuring you are fully covered=0A=
+by the&nbsp;<b>Direct Debit Guarantee Scheme</b><b><o:p></o:p></b></span></=
+i></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"text-align:justify;t=
+ext-indent:-18.0pt;=0A=
+mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style=3D"font-size:=
+10.0pt;line-height:107%;font-family:Symbol;mso-fareast-font-family:=0A=
+Symbol;mso-bidi-font-family:Symbol;color:black;mso-themecolor:text1;mso-far=
+east-language:=0A=
+EN-GB">=C2=B7<span style=3D"font-variant-numeric: normal; font-stretch: nor=
+mal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roma=
+n&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+</span></span><!--[endif]--><b><i><span style=3D"font-size:10.0pt;line-heig=
+ht:=0A=
+107%;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-themecolor:te=
+xt1">Industry</span></i></b><i><span style=3D"font-size:10.0pt;line-height:=
+107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+color:black;mso-themecolor:text1"> Regulated And <b>Compliant</b>&nbsp; </s=
+pan></i><i><span style=3D"font-size:10.0pt;line-height:107%;font-family:&qu=
+ot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p></o:p></span></i></p><p class=3D"MsoListPa=
+ragraphCxSpLast" style=3D"text-align:justify"><i><span style=3D"font-size:9=
+.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p>&nbsp;</o:p></span></i></p><p class=3D"Mso=
+Normal" style=3D"text-align:justify"><span style=3D"font-family:&quot;Arial=
+&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;=0A=
+color:black;mso-themecolor:text1;mso-fareast-language:EN-GB">I look forward=
+ to=0A=
+speaking with you,<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=
+=3D"font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p><p>=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+</p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,san=
+s-serif">Yours Sincerely,</span></p><p class=3D"MsoListParagraph" style=3D"=
+text-align:justify"><i><span style=3D"font-size:10.0pt;line-height:107%;fon=
+t-family:&quot;Arial&quot;,sans-serif;=0A=
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-themeco=
+lor:text1;=0A=
+mso-fareast-language:EN-GB"><o:p>&nbsp;</o:p></span></i></p><p style=3D"mar=
+gin:0cm;margin-bottom:.0001pt"><span style=3D"font-size:11.0pt;=0A=
+font-family:&quot;Arial&quot;,sans-serif">Ali Elaouzi</span><o:p></o:p></p>=
+<p class=3D"xmsonospacing" style=3D"margin: 0cm 0cm 0.0001pt; background-im=
+age: initial; background-position: initial; background-size: initial; backg=
+round-repeat: initial; background-attachment: initial; background-origin: i=
+nitial; background-clip: initial;"><span style=3D"color: black; font-family=
+: Arial, sans-serif; font-size: 11pt;">Business=0A=
+Development Manager&nbsp;</span></p><p class=3D"xmsonospacing" style=3D"mar=
+gin: 0cm 0cm 0.0001pt; background-image: initial; background-position: init=
+ial; background-size: initial; background-repeat: initial; background-attac=
+hment: initial; background-origin: initial; background-clip: initial;"><spa=
+n style=3D"color: black; font-family: Arial, sans-serif; font-size: 11pt;">=
+<br></span><span style=3D"font-size:11.0pt;=0A=
+font-family:&quot;Arial&quot;,sans-serif;color:#212121"><br></span></p><p c=
+lass=3D"xmsonospacing" style=3D"margin: 0cm 0cm 0.0001pt; background-image:=
+ initial; background-position: initial; background-size: initial; backgroun=
+d-repeat: initial; background-attachment: initial; background-origin: initi=
+al; background-clip: initial;"><span style=3D"font-size:11.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:black">Legit=0A=
+Claims Limited</span></p><p class=3D"xmsonospacing" style=3D"margin: 0cm 0c=
+m 0.0001pt; background-image: initial; background-position: initial; backgr=
+ound-size: initial; background-repeat: initial; background-attachment: init=
+ial; background-origin: initial; background-clip: initial;"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><br>=
+</span></p><p class=3D"xmsonospacing" style=3D"margin: 0cm 0cm 0.0001pt; ba=
+ckground-image: initial; background-position: initial; background-size: ini=
+tial; background-repeat: initial; background-attachment: initial; backgroun=
+d-origin: initial; background-clip: initial;"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><o:p></o:p></span>=
+</p><p class=3D"xmsonospacing" style=3D"margin: 0cm 0cm 0.0001pt; backgroun=
+d-image: initial; background-position: initial; background-size: initial; b=
+ackground-repeat: initial; background-attachment: initial; background-origi=
+n: initial; background-clip: initial;"><span style=3D"font-size:11.0pt;font=
+-family:&quot;Arial&quot;,sans-serif;color:black">Suite=0A=
+101 | 45 King William Street</span><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Arial&quot;,sans-serif;color:#212121">&nbsp;|&nbsp;</span><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck">London&nbsp;|=0A=
+EC4R 9AN<o:p></o:p></span></p><p class=3D"xmsonospacing" style=3D"margin: 0=
+cm 0cm 0.0001pt; background-image: initial; background-position: initial; b=
+ackground-size: initial; background-repeat: initial; background-attachment:=
+ initial; background-origin: initial; background-clip: initial;"><span styl=
+e=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"=
+>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+: &nbsp; ali@legitclaims.co.uk<o:p></o:p></span></p><p class=3D"xmsonospaci=
+ng" style=3D"margin: 0cm 0cm 0.0001pt; background-image: initial; backgroun=
+d-position: initial; background-size: initial; background-repeat: initial; =
+background-attachment: initial; background-origin: initial; background-clip=
+: initial;"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:black">Telephone&nbsp;&nbsp;=0A=
+: &nbsp;0203 714 5678<o:p></o:p></span></p><p class=3D"xmsonospacing" style=
+=3D"margin: 0cm 0cm 0.0001pt; background-image: initial; background-positio=
+n: initial; background-size: initial; background-repeat: initial; backgroun=
+d-attachment: initial; background-origin: initial; background-clip: initial=
+;"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:black">Mobile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=0A=
+: 0740 094 4493<o:p></o:p></span></p><p class=3D"xmsonospacing" style=3D"ma=
+rgin: 0cm 0cm 0.0001pt; background-image: initial; background-position: ini=
+tial; background-size: initial; background-repeat: initial; background-atta=
+chment: initial; background-origin: initial; background-clip: initial;"><sp=
+an style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+: www.legitclaims.co.uk<o:p></o:p></span></p><p class=3D"xmsonormal" style=
+=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; background-image: initia=
+l; background-position: initial; background-size: initial; background-repea=
+t: initial; background-attachment: initial; background-origin: initial; bac=
+kground-clip: initial;"><span style=3D"font-size:11.0pt;=0A=
+font-family:&quot;Arial&quot;,sans-serif;color:black">_____________________=
+______________________________________________</span><o:p></o:p></p><p clas=
+s=3D"MsoNormal">=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+</p><p class=3D"xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; background-image: initial; background-position: initial; backgroun=
+d-size: initial; background-repeat: initial; background-attachment: initial=
+; background-origin: initial; background-clip: initial;"><span style=3D"fon=
+t-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a href=
+=3D"http://www.legitclaims.co.uk/" target=3D"_blank" id=3D"LPNoLP">www.legi=
+tclaims.co.uk</a>&nbsp;is=0A=
+a website operated by Legit Claims Ltd a company registered in England and=
+=0A=
+Wales.&nbsp; This website allows subscribed solicitors to advertise their=
+=0A=
+services to general public.&nbsp; Facilitating direct communication between=
+ Law=0A=
+Firm solicitors and the public.&nbsp; We do not provide any other claims=0A=
+management or legal services.&nbsp; Users of the website are under no=0A=
+obligation to enter into any contract with any of the solicitors advertisin=
+g on=0A=
+the website.&nbsp; This is a free facility to public users.<o:p></o:p></spa=
+n></p><div tabindex=3D"-1" style=3D"color: rgb(0, 0, 0); font-family: wf_se=
+goe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, s=
+ans-serif; font-size: medium;"><div autoid=3D"_rp_3" aria-label=3D"Message =
+Contents" role=3D"presentation" tabindex=3D"0"><div class=3D"_rp_85" tabind=
+ex=3D"-1" aria-label=3D"Expanded Message Contents" style=3D"min-width: 350p=
+x; clear: both;"><div tabindex=3D"-1" autoid=3D"_rp_u" class=3D"_rp_K4 ms-b=
+order-color-neutralLight ShowReferenceAttachmentsLinks ShowConsesusScheduli=
+ngLink" style=3D"border-color: rgb(234, 234, 234); min-height: 70px; border=
+-bottom-width: 1px; border-bottom-style: solid; position: relative; padding=
+-bottom: 20px;"><div class=3D"_rp_X4 _rp_W4" style=3D"margin-left: 62px; ma=
+rgin-top: 12px;"><div role=3D"document"><div autoid=3D"_rp_x" class=3D"_rp_=
+M4" id=3D"Item.MessagePartBody" style=3D"clear: both; position: relative; t=
+op: -5px; width: auto; word-wrap: break-word; padding-top: 4px;"><div class=
+=3D"_rp_N4 ms-font-weight-regular ms-font-color-neutralDark rpHighlightAllC=
+lass rpHighlightBodyClass" id=3D"Item.MessageUniqueBody" tabindex=3D"0" sty=
+le=3D"font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP=
+&quot;, Tahoma, Arial, sans-serif, serif, EmojiFont; color: rgb(33, 33, 33)=
+; font-size: 15px; outline: none;"><div class=3D"rps_699"><div dir=3D"ltr">=
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size: 12pt; co=
+lor: rgb(0, 0, 0); font-family: Calibri, Helvetica, sans-serif, serif, Emoj=
+iFont;"><p style=3D"margin-bottom: 0px;"><span style=3D"font-family: Calibr=
+i, Arial, Helvetica, sans-serif, EmojiFont, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &q=
+uot;Android Emoji&quot;, EmojiSymbols, EmojiFont, &quot;Apple Color Emoji&q=
+uot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quo=
+t;, &quot;Android Emoji&quot;, EmojiSymbols, EmojiFont, &quot;Apple Color E=
+moji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symb=
+ol&quot;, &quot;Android Emoji&quot;, EmojiSymbols, EmojiFont, &quot;Apple C=
+olor Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe U=
+I Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols; font-size: 12pt;">=
+<br></span></p><p style=3D"margin-bottom: 0px;"><br></p><div id=3D"x_Signat=
+ure"><div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size: 12p=
+t; font-family: Calibri, Arial, Helvetica, sans-serif, EmojiFont, &quot;App=
+le Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Seg=
+oe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols, EmojiFont, &qu=
+ot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &qu=
+ot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols, EmojiFon=
+t, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoj=
+i, &quot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols, Em=
+ojiFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoCol=
+orEmoji, &quot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbo=
+ls;"><p style=3D"margin-bottom: 0px;"></p></div></div></div></div></div></d=
+iv></div><span class=3D"PersonaPaneLauncher"><div ariatabindex=3D"-1" class=
+=3D"_pe_d _pe_32" aria-expanded=3D"false" tabindex=3D"-1" aria-haspopup=3D"=
+false" style=3D"outline: none; overflow: hidden; width: 643px; display: tab=
+le; vertical-align: middle; white-space: nowrap;"></div></span></div><div c=
+lass=3D"_rp_S4" style=3D"clear: both;"></div></div></div></div></div></div>=
+<div class=3D"_rp_f" tabindex=3D"-1" style=3D"position: relative; width: 70=
+5px; height: 1px; color: rgb(0, 0, 0); font-family: wf_segoe-ui_normal, &qu=
+ot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif; font-si=
+ze: medium;"></div><p class=3D"MsoNormal"><span style=3D"font-family:&quot;=
+Arial&quot;,sans-serif"><o:p></o:p></span></p><p></p><br><br><a href=3D"htt=
+p://localhost/marketing?entryPoint=3Dunsubscribe&amp;id=3D5a0542c9c7fa3630e=
+">Unsubscribe</a><img width=3D"1" height=3D"1" border=3D"0" src=3D"http://l=
+ocalhost/marketing?entryPoint=3DcampaignTrackOpened&amp;id=3D5a0542c9c7fa36=
+30e">=
+
+--=_81289e91609d0065db99fa6c5fe21eb6--
+

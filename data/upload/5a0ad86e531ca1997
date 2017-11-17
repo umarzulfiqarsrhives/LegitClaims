@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM5PR0501MB2401.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Tue, 14 Nov 2017 10:18:25 +0000
+
+Final-Recipient: rfc822;christopher@uk.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 <christopher@uk.com>: Recipient address rejected: User unknown in virtual alias table
+Remote-MTA: dns;relay.emailme.com
+
+

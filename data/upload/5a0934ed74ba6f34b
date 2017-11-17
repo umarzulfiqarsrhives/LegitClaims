@@ -1,0 +1,87 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=KHdZDSZxGKBA+fQc9W/j+5cTc07AmfF3PysVQdyftzQ=;
+ b=LKsJUGbT+PLJlKBSm5cUvsgYIEeQKLomVAYYW05RGaEy0wpeTwyMWb9qG3Y91z1dnYIryzVjvCCtrHkmbLFa3LICz/JdgPxchRm8BebEC62YLJXmixtqsiuCRUWG+9Oq5FjfdXYw7xrx27ib1qI0JMLuAKU/IU/c0UFTY9gU/aY=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from admin (13.58.22.215) by
+ VI1PR0502MB3903.eurprd05.prod.outlook.com (2603:10a6:803:c::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Mon, 13
+ Nov 2017 05:56:45 +0000
+Date: Mon, 13 Nov 2017 05:56:30 +0000
+From: =?UTF-8?Q?Admin?= <hello@legitclaims.co.uk>
+Sender: <hello@legitclaims.co.uk>
+To: muhammad.shahzad@srhives.com,
+ muhammad1test.shahzad@srhives.com
+Subject: =?UTF-8?Q?Case=20has=20been=20created?=
+Content-Type: multipart/alternative;
+ boundary="=_06bf0d995cfb5f30bc01028902dbec5b"
+Message-ID: <da81adb642f4f53064df0cd496caa4cd/1510552590/3111@espo>
+X-Originating-IP: [13.58.22.215]
+X-ClientProxiedBy: MWHPR22CA0028.namprd22.prod.outlook.com
+ (2603:10b6:300:69::14) To VI1PR0502MB3903.eurprd05.prod.outlook.com
+ (2603:10a6:803:c::24)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 08f53ee9-6875-4c95-9427-08d52a5b534d
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603258);SRVR:VI1PR0502MB3903;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3903;3:RF5JHPLfo1dBZOjvWsV3qT6qXpPmE2ibF7iv9MSox6VbhVOzE0JA9kHYmlEdjXEQHr0fRjLtTJVX/Mxj3D1u5xnia4Fkg/4H0YBso1n+eNAw7LVxTCt9mtH/Hg55vT5SWwBM+7u2v5tUjMgvd/xdGIoW6SbM8J0V7xG3yIT8ApzG8ArC93gXcZp5jR1T4nMx7qidjc6vRznIH5oivzCtl9nzdUsXPS5cimBcyI+dSo1kv1Ut8uyPv+hp1bCSRe53;25:yALMq0Gzs3GP3cfjhAirpsc2/8QB9fbIW/cV3iZpTCz5PCloR02ovUdi9sbT0mepabA4KnT6j+oGFLpaqC0Wtnc4RDqSgEELKD3WfbrEUxmtlbY7RzmpwCNwD5S8nBjpsQ4q0gsQbXMKt9983cg7prSR3zANqHI8Dy8vhYlU18CGfxpv7jdyky6NcdPTIH75So/EOQ6SgQA7IYctySFb0QemfpnH2gXcpPhry2BuxvNevOzklHbkUFQJJZTxG7oRpOXO+sN9tMXAyfwoT9oWCt22ESFUeEpeEiqxmMyGOcdqHARmwCr21VCSCk5YUOoz1fwKAH6VefZ7GKnTgeeBEw==;31:nD5zm+37xhaHExjtZVH1KP8IO4EWN7pQ8YDbjbaCea+qcBwfRW6q8j7BeohCiE/gaevXC1ziaWWYmJMs+LMVq/fZQf+XVRTlRywnxVSIoBFr48pcLpoLobgNi/8iFt1iNfqs/1fbsGWr5x4AGIc0p8EP5YGsXtA212NrluMxccfLXIbUslKTTzgeiDQgapy+I4mDcOHuPRKpem0mKant789+k8pHVM41Zl6Bx/TljHU=
+X-MS-TrafficTypeDiagnostic: VI1PR0502MB3903:
+X-Microsoft-Antispam-PRVS: <VI1PR0502MB3903050882E880789A0FA813E02B0@VI1PR0502MB3903.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(8121501046)(5005006)(3002001)(93006095)(93001095)(3231022)(10201501046)(100000703101)(100105400095)(6041248)(20161123564025)(20161123560025)(2016111802025)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123555025)(20161123562025)(20161123558100)(6072148)(6043046)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:VI1PR0502MB3903;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:VI1PR0502MB3903;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3903;4:qov9sATSvQgofsNh/y4aLvKY2CFIBP6QQN/McK5eJXi9Q6CTh8LH+jm3cIJ9IUN5mAZBGvhfbRrY2KYdguULnVlQF80AebN0f6BZlaKf2bB82JdRLPoaLv6VlvOuiAX9NvquBLyofbsQ0J9MnWl2ksGL55CxBBP/8TEnPZqDbP+9ZTyB4YdEpLeb0CH5yH4E79Sfwq3pFITFkedansg2OOaS0wfc0Yyup1p2WoH85YN1JYRAjKdf5dWFdUp5TpLRYkBkCQ/lkpqKNq9LP6ndWw==
+X-Forefront-PRVS: 0490BBA1F0
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(6009001)(7916004)(39830400002)(376002)(346002)(199003)(189002)(7846003)(6496005)(5000100001)(118296001)(478600001)(6116002)(450100002)(16526018)(101416001)(3846002)(54356999)(42882006)(97736004)(74482002)(6392003)(9686003)(3480700004)(5660300001)(50986999)(68736007)(6486002)(106356001)(189998001)(316002)(105586002)(8936002)(16586007)(33716001)(564344004)(66066001)(81156014)(81166006)(25786009)(6666003)(53936002)(8676002)(33646002)(2906002)(86362001)(305945005)(7736002)(84326002)(140573002);DIR:OUT;SFP:1101;SCL:1;SRVR:VI1PR0502MB3903;H:admin;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;VI1PR0502MB3903;23:Po6WKCONfy5qNvWyRiU6smVTvoqnB7E3omIFOps?=
+ =?us-ascii?Q?X/aWE5KChYTFBY18jqlFlf832sxdGbN5zFFSHs+sPQ9yBH1m4mUiA/3mWKo/?=
+ =?us-ascii?Q?SZ9gTOTDIgbzMwDbQcNRlBnrh7TmfTBPROJ+4aCjrr1NLZfskZookH3WoJiC?=
+ =?us-ascii?Q?OUY6UCdQE640Yp8L2Cfu8iSzJbfsgDf8xifEY0VfTKBBrDx214uA0aO4zfge?=
+ =?us-ascii?Q?JWgY83Py3sqDs021Vl7UuTgPOjqz344IkKZ7SN0JQZ14dhWz96OsMD5ogaV0?=
+ =?us-ascii?Q?lNsM1AynI33GZQw0QK9AMJ2qmU1TlXw3F8gicM/ToezpRVCW4zR5b9BzHSrR?=
+ =?us-ascii?Q?rEmXdQTriL9oNxDbo4KmmKi/HAZjVH45ZRwD0uWnFJB6Y0Gik8LAxP1VhAvh?=
+ =?us-ascii?Q?wq17nvULXjJ3+KL1FqV8MwtAgEFCg0ZEApDoOlokGPHvjeBKfs7B77Y4x+ge?=
+ =?us-ascii?Q?9xyNogX7arZD13uHgkIDw89neA5uW3Zk0wAOW5sVNG/+Fvi4Ubmn0Lhk6Q1I?=
+ =?us-ascii?Q?pnr8GxNIebY1w0Mi951uD4+YpXNLUW5U8WOwm5/Y5L3Tnxy19wbol4UrQbnc?=
+ =?us-ascii?Q?pJ4uGl9aderI7sdCHNMxYAL8MMpd9+XVRFP1qJv9rgmCHGlDkHwGJiGEmuCB?=
+ =?us-ascii?Q?B+QNj5emiG++sWwIHpkCcFF/yKtPLqIz4t1smRQ4w7ympOPkgUWKP8vxIedU?=
+ =?us-ascii?Q?5nJO98/UIF4Tb72s1K+SXIk85U2MRQeYd5kYBwgus7eXz5h3ygsZVXR7lJUV?=
+ =?us-ascii?Q?yw4a9IJboCLnwRfjB3ox1f4bMNc1M8thInlrmA2xTXsNt62VJK6/zBVMuTP9?=
+ =?us-ascii?Q?dZJvCSKJkP/zNEwReNPS9gU5C4VgcNfJUiS6bs9fMcb6I5Le/pigb2JGBcf0?=
+ =?us-ascii?Q?k4dcGNh0g5cQy8UqgkOePr+rxSN8yLC+/7H1ITOxX4VRbU70/rSLAg/eA+9f?=
+ =?us-ascii?Q?WyHh7K9bbaNjLHc75JuP668/BtgsUpZTBhDTZ2NqfPWjYIInIP7veh9xT9Ke?=
+ =?us-ascii?Q?y+q6vzSL7Q+dbKY8sB91Rl/gGuAShPTyazN2txlRKPjyIv3ClodVoAcrlbEj?=
+ =?us-ascii?Q?TTFn7UAVXfpg4LOW78PMjhD5c5hdRnPIA9tuD8z85abzlPCQR1jRA7fMG0pg?=
+ =?us-ascii?Q?0N4+CFFoYf3o4sQNcYor0iY48kZ/7B2VsWeGM5TC+aZYexRxBYnKzNQ=3D?=
+ =?us-ascii?Q?=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0502MB3903;6:0plkGdD/QiB2tMU3Z55Ph1zhBCfjbjSRtn8bmkuQXoKuc21FBf0JQwgxFppHu2//emun/L+Lna0sV9+gCK8dtD+Wd6BpXwc4m92RKkaGr5+L06ZNSbfWtgpZsMuTenG29Uel2NhStWS9Z12zHZ66REXebaueHIcRMQKrZe7AsjSPKl8ZRLUfqTRKotfPTNzpFsT9yKVxxuUn07nxvasduTw10U6ewjdWlONcX2XR3gKTU2OMTs3vZ2Ul8Z8bmWrPasmxW4QrZRM0OVnEliDB6schpBSLcS74qko+BEBlwS86t9Q9DJtlZFEswgcRGAlVW2lt+SqH3+njWtNc83TANSsFGOKKuIrbyThlUNZQAN8=;5:8OiQjMw8k3uz6b9HhM26FBh3RDBE+ivziH482xUPzPR07dmUIVN4+s2UurA0vjtHyfnwGN7JJqmTMO+Ohdq3Xzn+sII2p7fDEkposrWOo46xEdFPhSurwYK1/NyBayNtvKA4UqNJSKLuoDmDGNq7ceU8QLgMoQs1zFPn+68QayA=;24:itLxFMX0wfVm/hyAIpX734wmMiCiLZ/1bVfi5Jpuym6+1tSf9oEqJnW3rTMDYq3tXlUvns0cYYDz/ZCFV9cKuXRdMvhx++In9+Yb74FdTv4=;7:6NgtnZme4twQqAyNqSzSaJ1+w9gdT7Yv9NASac0uAwYpdUzjq/AN3Z//2ldvEcVp4lunF64iTkCmqhx58FKL0wW7fN6ihZX9sysYXQUWLQ62zik09zWWsEtGpJ5XmPbYgwuiFsEXI1VDf57hkl/DguGGOcKR8JQtbdIRyQJ/Kc30QKwMwmY1t2NpZAMGhhsien4aoeQHHzAJwe6h2TcU8tRIQrId41PIO1SaGlmCcKaTAQY9/4n7K02yCUCeA7It
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Nov 2017 05:56:45.7651 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 08f53ee9-6875-4c95-9427-08d52a5b534d
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0502MB3903
+MIME-Version: 1.0
+
+--=_06bf0d995cfb5f30bc01028902dbec5b
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+shatty,=0A=0ACase '{Case.name}' has been created with number {Case.numbe=
+r} and assigned to Admin.=0A=0A=0A=0A=0A=0A=0A=0A
+--=_06bf0d995cfb5f30bc01028902dbec5b
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+>shatty,</p><p>Case '{Case.name}' has been created with number {Case.number=
+} and assigned to Admin.</p><p><br></p><p><br></p>=
+
+--=_06bf0d995cfb5f30bc01028902dbec5b--
+

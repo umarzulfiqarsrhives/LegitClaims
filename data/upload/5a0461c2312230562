@@ -1,0 +1,1457 @@
+Received: from HE1PR0501CA0028.eurprd05.prod.outlook.com (2603:10a6:3:1a::38)
+ by VI1PR0501MB2688.eurprd05.prod.outlook.com (2603:10a6:800:a2::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.178.6; Thu, 9 Nov
+ 2017 14:07:04 +0000
+Received: from HE1EUR02FT028.eop-EUR02.prod.protection.outlook.com
+ (2a01:111:f400:7e05::205) by HE1PR0501CA0028.outlook.office365.com
+ (2603:10a6:3:1a::38) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.178.6 via Frontend
+ Transport; Thu, 9 Nov 2017 14:07:03 +0000
+Authentication-Results: spf=neutral (sender IP is 104.47.2.236)
+ smtp.mailfrom=legitclaims.co.uk; waymanandlong.co.uk; dkim=pass (signature
+ was verified) header.d=NETORGFT1945665.onmicrosoft.com;waymanandlong.co.uk;
+ dmarc=none action=none header.from=legitclaims.co.uk;
+Received-SPF: Neutral (protection.outlook.com: 104.47.2.236 is neither
+ permitted nor denied by domain of legitclaims.co.uk)
+Received: from EUR01-DB5-obe.outbound.protection.outlook.com (104.47.2.236) by
+ HE1EUR02FT028.mail.protection.outlook.com (10.152.10.102) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.197.9 via Frontend Transport; Thu, 9 Nov 2017 14:07:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=g4vJHkWSjY1vwr3gL7q+wpPCoals4NBKZfpwcyYXzgI=;
+ b=bRY9LYRUf/rwvGKb53CEnjS5a0mOQoFTMOMUxdLO5rRGYw8H2YHxFpKpVFrFIePZZW/fu0ct5gQtVjVO7PWh8IdVXcnAviuFNK5CdVefrebyn6GIHfnGUMVDJHT3DAVGO6q94eCzTPHb7RWgOnG+DvINZmAUmCAZO5Db9rLenBo=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=ali@legitclaims.co.uk; 
+Received: from admin (18.220.103.184) by
+ HE1PR0501MB2827.eurprd05.prod.outlook.com (2603:10a6:3:c1::16) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Thu, 9
+ Nov 2017 14:06:59 +0000
+Date: Thu, 09 Nov 2017 14:06:36 +0000
+From: =?UTF-8?Q?Ali=20Elaouzi?= <ali@legitclaims.co.uk>
+Sender: <ali@legitclaims.co.uk>
+To: <paul@waymanandlong.co.uk>
+CC: <stephan@waymanandlong.co.uk>
+Subject: =?UTF-8?Q?Mr=20Povey=20:=203=20Months=20Free=20Trial:=20Legit=20Claims=20Limited?=
+Content-Type: multipart/alternative;
+ boundary="=_5cab876771df01f1e9576ae2eb8f8745"
+Message-ID: <Lead/58db3fe23751c35b7/1510236396/5493@espo>
+X-Originating-IP: [18.220.103.184]
+X-ClientProxiedBy: BN6PR1701CA0014.namprd17.prod.outlook.com
+ (2603:10b6:405:15::24) To HE1PR0501MB2827.eurprd05.prod.outlook.com
+ (2603:10a6:3:c1::16)
+Return-Path: ali@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 4b092a88-ae17-420a-0c29-08d5277b2723
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603249);SRVR:HE1PR0501MB2827;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;HE1PR0501MB2827;3:yavNqzeUa7jDE5HBPfMFRMlZNfIXzTj4DEV7G3fPhjjexR1ukSA5dDgN54w05tNjYNPJm4Kv3Jszwp6KTfB2DzmA9NfqS8GwE34IlvLajOqsnK3pBPgk3jbHfvIuRQP04Lbm/ghkV59otgP3C9zM2WR/XJQ/7eimyv5RFIz9u3x8IzdEPBvoJEXV8H/41Q3ZV4pItT6d3RN/wHfrsnUMsFmMLqAwi/wv7sNQdOn0xn0DKE6FGu36dNavGQfrTQ5X;25:z48KT2THJeAIkQ2L5PNr/YwnsE5q890wXaePsPiWmjj6SxO/cCZz7OGP6Taj0+5luZwWJuyn0QUq9QBRTemLq0EM6DRdrNfcY2S5OxhGVP9L3AVcm+PfxxOu7JlEZMSWl54eJTrSNcrk+Kq6e2RrCW5SIoQh/xBALAw61KE/kvuzkIchyGbBry5wip/84k/ebK9C9CN3DoGLfQqjH8adbVSfvxLxyhLLiU3xHKlSG4epi0tGRdi7pQZIoljAMfF9PFlzJwrMgO93ULybtzer+rZhhXl8bnGquzXELzc2VY10nktD2DOEi2ssciit9ihBroqz48BrTOYXdFL2pcQOVw==;31:UxBEE9im9T7OLKXHkGjklmk5AZu3dDBY9QPEA9k/zaxHcEFgOA6wdYlxVcRs5H3IqkhUT2+SuVLKzjE/sYmOl6Q+H5ZGCjDdG33wSDeJ5kC/WdH+xJ1NsdLz7XXdd6LWo5UVzdygZy3xWVZ5NZNjFngdAmCeC2+ymP4wcqdcWrhx8qi+60/KgwEsQm3dlznO7In2MiHFLaYd0bYXXh4DPqi2LgcwB29GMFX5pMBk6WE=
+X-MS-TrafficTypeDiagnostic: HE1PR0501MB2827:|VI1PR0501MB2688:
+X-Exchange-Antispam-Report-Test: UriScan:(269995582827781)(231433314529491);UriScan:(269995582827781)(231433314529491);
+X-Microsoft-Antispam-PRVS: <HE1PR0501MB2827AAEE47086F72ABD383CAE6570@HE1PR0501MB2827.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-CFA-Test: =?us-ascii?Q?BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101?=
+ =?us-ascii?Q?)(100105300095)(100000702101)(100105100095)(6040450)(2401047?=
+ =?us-ascii?Q?)(5005006)(8121501046)(10201501046)(3231021)(93006095)(93001?=
+ =?us-ascii?Q?095)(3002001)(100000703101)(100105400095)(6041248)(201703131?=
+ =?us-ascii?Q?423075)(201702281528075)(201703061421075)(201703061406153)(2?=
+ =?us-ascii?Q?0161123564025)(20161123560025)(20161123562025)(2016112355502?=
+ =?us-ascii?Q?5)(20161123558100)(2016111802025)(6072148)(6043046)(20170807?=
+ =?us-ascii?Q?1742011)(100000704101)(100105200095)(100000705101)(100105500?=
+ =?us-ascii?Q?095);SRVR:HE1PR0501MB2827;BCL:0;PCL:0;RULEID:(100000800101)(?=
+ =?us-ascii?Q?100110000095)(100000801101)(100110300095)(100000802101)(1001?=
+ =?us-ascii?Q?10100095)(100000803101)(100110400095)(100000804101)(10011020?=
+ =?us-ascii?Q?0095)(100000805101)(100110500095);SRVR:HE1PR0501MB2827;BCL:0?=
+ =?us-ascii?Q?;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100?=
+ =?us-ascii?Q?105300095)(100000702101)(100105100095)(2401047)(8121501046)(?=
+ =?us-ascii?Q?9101536074)(3231021)(100000703101)(100105400095)(10201501046?=
+ =?us-ascii?Q?)(3002001)(93006095)(93003095)(201708071742011)(100000704101?=
+ =?us-ascii?Q?)(100105200095)(100000705101)(100105500095);SRVR:VI1PR0501MB?=
+ =?us-ascii?Q?2688;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(1000008?=
+ =?us-ascii?Q?01101)(100110300095)(100000802101)(100110100095)(10000080310?=
+ =?us-ascii?Q?1)(100110400095)(100000804101)(100110200095)(100000805101)(1?=
+ =?us-ascii?Q?00110500095);SRVR:VI1PR0501MB2688;?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;HE1PR0501MB2827;4:l7elXMOZOLC3Y2HUtE+oKUCHPQGtaZ1x1cAbrWlo2rPQ9OayoOqQmqHOyvj8LjNxiyVY+qJFClYcXAYfDoncqSLgw78QSHsyNY0GnrYWp3VlcHSMorHX265zUU+3+thqVD/W3TKF+f4aJ/GKm1uWdHd6ft8/Pwze8IfWmvMkjSCUn70xuLNdd6umCtJbFm9bch7a2YLWgZiwE+YDlyr7wwSdrovakvP5k3Q8QPKqvuFBMXPYeh7dJ09TECKX4U+RfeZYW7NCiT7rUitpjiPDrH4kGRCeo1BjtYBoWwV4JKoiqMZe1ffQnKSjvB+Ejg9Eqa5E4FnwQn/dRRe997q3UXyxwi25q9XWdxwkK9o8x80=
+X-Forefront-PRVS: 0486A0CB86
+X-Forefront-Antispam-Report-Untrusted: SFV:SPM;SFS:(10009020)(7916004)(346002)(376002)(39830400002)(189002)(199003)(501624003)(6666003)(2906002)(189998001)(53946003)(84326002)(106356001)(305945005)(4326008)(8676002)(2361001)(16200700003)(606006)(7066003)(16526018)(236005)(50986999)(5660300001)(6306002)(9686003)(33716001)(54356999)(5140100006)(450100002)(861006)(74482002)(6496005)(19619215002)(86362001)(19627405001)(6916009)(478600001)(66066001)(101416001)(68736007)(6392003)(733005)(15974865002)(5890100001)(42882006)(53936002)(7846003)(97736004)(7736002)(2351001)(105586002)(316002)(53386004)(16586007)(81166006)(6116002)(25786009)(8936002)(6486002)(555904003)(3846002)(81156014)(10490500001)(142123002)(105646017)(166563002)(14444003)(55084003);DIR:OUT;SFP:1501;SCL:5;SRVR:HE1PR0501MB2827;H:admin;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;HE1PR0501MB2827;23:EzQu9EPW/CjD1yDSbc7dZRqhcWfAtSIWpJyjD2I?=
+ =?us-ascii?Q?wAt5LsoRyI010Ybu4xAFpSlW0vZNxg4eBi+ihrBZXfB1Dm1rTj7uVUGHarPk?=
+ =?us-ascii?Q?h5F74I2Qg5nlId99xZIXb8Ra46DhPwN5v+JoPeCkU+fN0aSG45ofmUeU/WkZ?=
+ =?us-ascii?Q?fxtWEdoekqgYX1JdeEumfClN0vm+iRerTnMMqAnMeBfC12zXYpxggYr0xlEe?=
+ =?us-ascii?Q?D9EiODw+cfAHJVFUiKYhKGOUhEG5a2N8WE+52JfvgoEwXZwxZCsCIdKicu6S?=
+ =?us-ascii?Q?KnL+j0wOJOBABdhhKO3bJwAnS+mWdxp6/DHO31A5XmRYK6a67YGNIRSX2jeq?=
+ =?us-ascii?Q?H565d0qlJr0fZA1/zyBkTu/WpGBJ8gbPdYrdrycH55lVA1gG11UhMyt5GDg2?=
+ =?us-ascii?Q?yZvdoFJKXXH/TjDf2MJlV0Qd1D0BNrRHzAGTfCnpt1zwT75/6ju+3feKpvOF?=
+ =?us-ascii?Q?ZojO+1J+AdPnBQLBJVS3tW4wkgk1npbO3/zVH9F3QjIsMVdlW/IC6uEubPYL?=
+ =?us-ascii?Q?7Gsm+9gQsffo2ER0fn8rUS4fGzBDZMGbALS1u6b6GUXXjCywzZRp09/cYyso?=
+ =?us-ascii?Q?WffifeR1Rw4B0uNQ3yVrRxkcYgec5IGK6N2AJKS8KJL9abiLo3bRd9WouLz2?=
+ =?us-ascii?Q?7gGFli15pBL+1ys4MMPSFTABHXF7rbotlVrDj6VTBaAXBjpCksw/f8JUwNSn?=
+ =?us-ascii?Q?FwC669NKAps7h2mUt2S23Cn6xpJ19ZlqTqkOerwZjyAoYBsmAezwWrI93zeF?=
+ =?us-ascii?Q?mrAAonNF6fA1HJMYm0y6m8jJVOAwYoGeItwRdLrK90sGnkf0ccQy83W9MfY9?=
+ =?us-ascii?Q?2r+e9zvFGKzpCf/Pd3XYEksd66BghFnHGEgOva6M4bI/9Jy1nYinvX6EcNw5?=
+ =?us-ascii?Q?LTqRwVrwEJLZk+L2eR/xCNm+g+b4d1wvmfTnuV92p+ggxJVGiPDXN88i67xa?=
+ =?us-ascii?Q?t1ypvLY6rUGcO2aFMttrCLZ3DwCO/kIicc4LDGNzWbW+GOVkWc3z7ftyPAbx?=
+ =?us-ascii?Q?2TNyrRUYVOy+qHWg/nZhberrmkTf0CBzm9ZZCa+sMBMQzMAWCKmjw2+5pg1e?=
+ =?us-ascii?Q?0CP6tLOpqy/daMR2kUHzGW5JnZUXxv9eYlyGqJFEL6V3FpSUMUd8KKO0VdD1?=
+ =?us-ascii?Q?6jfQSD4y0SDQTtXq04R7gLCSi6PBIhLDQzwJPS+PZVC6uCeq9GXRrrdebysJ?=
+ =?us-ascii?Q?AJFw6V/txnz4zuwMQQxlkly4fiUFJ4wZM90lMN6TbRxjEJZ7+zVaT4XaY+il?=
+ =?us-ascii?Q?w9HHJDbBrXgCitrYaO3tlNvQv98oy5QrqA4creL+kNWi7EuoTe0TZnytj3aG?=
+ =?us-ascii?Q?jSXYzWJxdro6XP5A1xIw4zVMdMDZgQVOiMI2NYnFEvS8GnM88ncD2QepicMy?=
+ =?us-ascii?Q?ZJo5GR8HdDV4QB6NKr6AlqF+J/eep52rnlW434U2iiuZbG1/XPOa9SlXMuhy?=
+ =?us-ascii?Q?f2vnu6bzV2SkPPHmoluKakbmQQzXSDdM6mqlHDOkjczqP83Sv7j6SSIk4Co3?=
+ =?us-ascii?Q?B3sVuNpZt58YJONEzweNzCdfCoACbhPdhol/ZwP7TlaFGEYk/6Pzdxo3e+6Y?=
+ =?us-ascii?Q?gJux2eFeujN+fZhDqVPnD2DLfkRfXyEXYz4WvuGcxjXRTUmy5JnAFUCOg/Vf?=
+ =?us-ascii?Q?ZwN/sIi76x0SNuFeu3u6ctA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;HE1PR0501MB2827;6:k82bLmuZPHmiOYXOjqUIDVW1JIbAIZ2gx/e597bN00f948Bc9coe79aa4tiwlPGa0vg2wuacm2cydX67Jo7UF7G4Sv6rdF8LZXkYL2oVz10sfA/pKO/iSH7PvnqKerov4ReEiW0SCpK5ZBJulkWgtVuzQnGTQgE/oAoPVR+WeTOQrjWGucVXw+FjMqQwMxHqgAMMQ/WfTiKsr+UsaA5p7+6PP1XvaBP/rybgHadZApYaFsLviUxDnFnzti9a8nZz3bpYCEbnu1Ax1tJx6znbxqWtQN0LwNqlmg21f6GlVzgk6tQbBxHHY6ZtihVZxLuvD+QWjWA1i1FcmxAPuwGpMs2o6S5sMKUQRaDh7XuMNwE=;5:PrhyNI4BRhsKO0kvU758RStSH00CQ0U7w+FEp8FUSKy9+lMQsTW8h6YkJs7ZPYaI0jAPU+7iLy9PJrNLxPSVZjzeAeUl15odYPkiwSJg5gu9I8efXq17k1Kql6Lv6zY5SL1mM8ZMmBuA0kuSziUksKxI0+HmumvZrU+vzyqsXTE=;24:m5V3nTzAIrPx72bytIhGLiuCiZZ42gFKwWmuZsPNwIBHg0zeLmvAUa+5zk83mJNQBRbxl3I4YgXoHS+zMQcXAw==;7:BGDThQvFC/k4VPxuGdC6DoRUi9TWkLD375DKeQjkfLgwDIhw3P4td5wqToGSqWP/qpMg9ZqEKkgpw3Wy+C+BVAurCD1CPziOlNPuHfFRAecpdDBWaa/Z/C4yUuc49v2axKqwcZG3ds1c7RuPwAS8T8lLDXfj/SAgiBjMurxmz2lkJEwTV4Y8Ra5NabNzh6ek8nGqDdvYD/WLfe+j0vQVh8wftl9Px/chT72B/yGiC4ibniCAC5zXj3Y+9k3hu7vo
+SpamDiagnosticOutput: 1:22
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR0501MB2827
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: e0de6a38-ef26-45c6-8b15-231b92c678b8:0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: HE1EUR02FT028.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: HE1EUR02FT028.eop-EUR02.prod.protection.outlook.com
+X-Forefront-Antispam-Report: CIP:104.47.2.236;IPV:NLI;CTRY:;EFV:NLI;SFV:NSPM;SFS:(7916004)(8196002)(2980300002)(189002)(199003)(501624003)(6916009)(356003)(733005)(6666003)(6436002)(16586007)(6392003)(33716001)(105586002)(7636002)(7846003)(50986999)(6486002)(7066003)(16526018)(4326008)(54356999)(42882006)(606006)(5660300001)(86362001)(5140100006)(9686003)(16003)(9906002)(5890100001)(6306002)(555904003)(106466001)(5008630100001)(74482002)(8676002)(236005)(53946003)(1096003)(19619215002)(25786009)(66066001)(53386004)(104016004)(2351001)(6116002)(19627405001)(305945005)(189998001)(57986006)(5008620100001)(246002)(3846002)(6496005)(15974865002)(956001)(84326002)(16200700003)(7736002)(10490500001)(142123002)(166563002)(14444003)(55084003)(19610500003)(569006);DIR:INB;SFP:;SCL:1;SRVR:VI1PR0501MB2688;H:EUR01-DB5-obe.outbound.protection.outlook.com;FPR:;SPF:Neutral;PTR:mail-db5eur01hn0236.outbound.protection.outlook.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR02FT028;1:23LUqxonwqFklmY5iCKrcQeu19zloarbIQU4AOunlTsf+8RMuJlntQbNjRu9GfLgsnFDPNv2RWKmfaZ2f24P0iQYgWCjJvYrK22vTj6mUarJ/pzuiIZLJQYU9U03JChV
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(23075)(3001016)(4534020)(71702078);SRVR:VI1PR0501MB2688;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2688;3:YL4AVjf7x9ncqmhoRG9ncwv/taS/Y5wolwMm/ImzsL4dHwAqtIR84CJ8QxWozqFBO+kiCflclrHGPXqWUx9jDTNmasGFn6EkXOY5V44MAZi9wdZXg2SaZCRVoEqm3a3Yf1tiT7+Coh61LQdHiFuguoFz0DyJpsnFbr4vQ4X15a3qDOeoDb3G3hTV/cxCO8VD49IAvDbhPCIUOSqEvNERwMF99yCCaH6cyPuDoRe+9pHB9KZ/VbfGttylj+X3ugqu0ekZEUq2rm2INHFT5SNVjmwm5nZVP4D+FA2NGAyrXCDHPhR+lUQJKHuy+WMJNzU+h+N7Rdv5zgYT8R6Tfhlm+w==;25:ya/5VBKVhJzGQC4amZ6VHsKwgSbhKmGnHDyBW1QogickYUJI5w6PEJGfjRZw86WwGnqCVHI9cIcZGov7Qhn1oSrM3O+HCQ+LOtcBGNJPMpqEtpCwhQh9OnxlY9KxIjiz4VJrDpp2uFbC89jd00Eeb+ZBv68rszKgmGDFYKsU2VnNLdYzjVeyNfM0P96B54NuLhS6nGS8ns50xMET8bsMEmB2fEOQ3hTDbmQ1J+N2boyRm2tRncCT7hKynmtND27qe6N4DKX2nBV+gEUtRcjrv2HkaGwXLoVVzZ3bUTxSmN647iy+g2U5KLQHqh/27imQ583MoinxV7uDWCz8RhD81A==;31:90Q59hA3NhJnLwoB9q7+DZBPfON6kIyppQ5BJ6cFg6d+aOyli78Gb5XR2cgqZPHYnjchgdHqD2n1BzHK4UbVC7spe/zp492B+dVVAxuOKITsw3qofHeF88KBXqIY3qLwoqYdTSfn7CZnJ8Or68aNMD4S6JYqgf7qna+MG8pHJhTx+OFk+M6En56RgAF7SdYuqxzM/zAzuMFhxSCe0NWHwfdeOTE11xSVaoh4TXf1u5U=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2688;4:hPYSVrUdrVWQ7ghLbwo+ksst0dy3IflPMOELkZKLO1c+UxJNN11+SWK+r7s6P0LgPWnmBcwgKgWmmUCfmzQPpiiRZM4VfqeZUPJ3rLAkxxRM9s9z2l1CxefELu+IIjQOdx/H3uOtD4lLBEuoFDdiBhipXQZ9iiECiFzgmrGZRu+51221/JGuQuUi2cctk7fWFLouJG7w1/H33Xsnt1gAVuCFV9QWkfWAGsA1eafI4DZPrbbkx9//QOdCLha24EiEItB/T3Oh7Mjxqjnmk8dBBSXB8T4zot3HGb3AQG7OVcKDrUg1/NKhETs3XHSI2OOTQW029gwvwCRKz1TkTKy/c6VvcO7+k/lrJAu/MV3Q2DU=
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;VI1PR0501MB2688;23:KC28wHp8ifgYrnyrO3MqxPPec4pfiFKjjro/y3c?=
+ =?us-ascii?Q?duq/OWyXyMuUNsKaPQgMzFL2EOMRsAVqjnkmmnX+gl4dHea4gsroF06lTbkV?=
+ =?us-ascii?Q?Qg+GyJYk6NMpKrSGEzaTG+E4h8S6sKNt3Q3OFVQopMoQUUQ8b1c2A18dlqfL?=
+ =?us-ascii?Q?/1ZK3PmxS9Wy3FQT3zNOwNyGvwD/ApwtyJz0rapP3whXBzt6b7jr498n7nVX?=
+ =?us-ascii?Q?JuRPlGzh153Jsft3/dn05coIdud/FnScx5HPUYhWzX9gvFnR63NDbgigqSrk?=
+ =?us-ascii?Q?M0Kwo4fWD5TtVKbSzpwPl7gvU5hM0GS2EgKg5SQ0nblK+Rq/RUArILZycLau?=
+ =?us-ascii?Q?/mp99dbTACIfZ7wWNiMmrtc+UVPoBG0RQhCnV6OPdVAWQZ/TaFABeJ8xtrvz?=
+ =?us-ascii?Q?AYJ6hlIxR0bRcR25HkS+i7AuGMoHPyFCqzQIF2Kfx6MfWSgDuY3OKhB190Hn?=
+ =?us-ascii?Q?N6BIlUBSYPpm270vInUJfoZfhrEr/0vWSMLdYvEA56DA1nb9cAcX7w4OsN5w?=
+ =?us-ascii?Q?ZCEXI2SoqvaqjRYALa7FJgnbY4kYf394XVnOB5qAO8bNiNiTnHz8ceRZKlRp?=
+ =?us-ascii?Q?KcQ0J4647tbr36S/BQimCBt0bE3FNilJhorFklXLzrP3JcwhcJrpUKx17rVE?=
+ =?us-ascii?Q?cY27RP5O7K+FoV34ukjyDRUuqLhHm2KJeNE266P18IK/fXSaoGttxNEGFn8c?=
+ =?us-ascii?Q?n/CMJR7CkE0hWMs2WecKlE5PU9ShhDKLsOyeXiw1vPFo9gHbqMNqqPXL/w5j?=
+ =?us-ascii?Q?D0kJFXFUI2frZjbAsa67oqccE50NutqorTaBBsr4Fbi6NdwDxL2VNhTqW05W?=
+ =?us-ascii?Q?jqmtrkvLA6wWK6OhV7E63OEvS7nDaVuL99Vi+ZpOpkdv7KnnRD/TW9J/oUOy?=
+ =?us-ascii?Q?nhUUIIuIIYWtuRBcDk+GjimljKSbStnuoqAdSRNkUc+DK0JOjeMgh3+L3+z8?=
+ =?us-ascii?Q?rPnBqcGyA/CPgzMK72C7VIEkSPIEIcW42MMfZKlK3Ul3oh0cHjGBZVCEniyn?=
+ =?us-ascii?Q?Sm0I2CeO07c/NULidUmNrFRJ1TE5JmiVQz9zM6Nh1o6NdNDXuMNy7S6f3ry/?=
+ =?us-ascii?Q?QDT2cQDmvS0S4KgYvy/oKPbS7xZb4Iyx4SYgQZ8SVkOGGPRAzyFkb77zdREp?=
+ =?us-ascii?Q?cw1lZqyg1SkGw6/ubkHtsjfFKwVR4k53lOrrfwOo6hH1mIg0fe1YgkbBQH5Q?=
+ =?us-ascii?Q?4StTBL7dSAvq1sMgZGrKfWtGMs1HnZXpAzmlR6Ctpb/bEJkDTMsdbBNXiXv5?=
+ =?us-ascii?Q?ycJdr0tPa2YfWyb/Il3rFJp7DwBFzT5bx5SHkxwFmdjlSdWijOwDXfkW9RYz?=
+ =?us-ascii?Q?StuOSiWvZjIFajMxsO85jZCXrZ4MUQ9QecST057/mFtuybJg18/ksrZVBEVc?=
+ =?us-ascii?Q?Dr/1nVvRdubIXykI9EEJyDhov1KD6TIK4662oBIMItrUkYpkvxiIBJ27mGaw?=
+ =?us-ascii?Q?dJTGOjBt3HkUqKsoas3Qp3c5LSL5CUG2Rs/2pgUKmByxrpxPsPKswiEEnNBT?=
+ =?us-ascii?Q?m0w/7MesmBOdKIDILdslHBGdd9BbwGp6EZbb2rvBTdU7nlm7/gMv9EBAxguP?=
+ =?us-ascii?Q?WkfocIwoYPs3rmDg+1vTvcuTO0N0bH1p8jtAvr+E=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2688;6:nWHFKft2e37gcf0eGFJfgLfM4BDX/yGzI4XBfz4F6JZLsmJZlyxNbW1fmoINYogGxJHkmwKmOWS3UmFcYTDJ+VsLmb1fkCRG1fhIHX+TWt3SqNmBS+fHX17PFbjrvCKLl23N73StZwdcpp/F6nz93aUNqq6NlbQ6S15l7IaRi+o1OIuHQTijjydglq7kHIuwK7mrvi9YCqhVqptTRzqbRRV78leEXngT7xAL0aqGPjJmmzYA6dgoNWMI+sUKF8jltwFJq7cuTu+zcHOvg0GFOdjqmQXZYpAqghchOnmTjV3lVZAXgdheAj7klKeYJ/vvhwcud1PyGJC+1Xm7cXB3fdt7X41rC7yC0GhWlNx3ipY=;5:AE51jqe5ijVn6lJX4gaZOUe+voP/nJHc26wdpiQUUQ4/E9E3CE8c2Pu+kBsvV8VkN797xxcsBeNejvJIm+f/YfGc8RuA2wzLWVkfAJ4ZKRu1ukWkwCnxv6BniqVIzcqGU1EmGKI9eUEaa+vb3BoWujbhc6dYWWqylS97pnPOgLI=;24:PkBOI2nFzUVItOOVtCWMOrrQMHTX7UOTvENj3IDl5bSeAlatMkD0p4h6QDAASrBfK3w9EjISBNGXJVVebfpVCZqX8tLhzw0xHCWamy9EGY0=;7:f/KiGvOUfjX6fp325ai63cGtkarbsE3b9NMCnyrOL0r5+7Ao1puL4LVxxCDKQILWH9/cE0B8OfZLAvPYEFL1kKmhJo3W3Y9ttJ/mwNbDkk7pHJOxJW+vEhZCf2SP+FqRisxPhP5XBXCC7bgrpBEmh/Xtg+B3+r8INUIC6tfhygm+xqxuUO18qD/WpaY0AgPUlq9kddl/oWDaxDJcF0Z5eBzUJKHBN40dS1tDn33XUVPKcgH+CVg25eAdqhIBNfDc
+SpamDiagnosticMetadata: Default
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Nov 2017 14:07:02.8705
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4b092a88-ae17-420a-0c29-08d5277b2723
+X-MS-Exchange-CrossTenant-Id: e0de6a38-ef26-45c6-8b15-231b92c678b8
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0501MB2688
+MIME-Version: 1.0
+
+--=_5cab876771df01f1e9576ae2eb8f8745
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0A=0A=0A*|MC:SUBJECT|*=0A=0A=0A=0A=0A=0A=0A    =0A        =0A   =
+     =0A            =0A                =0A                =0A          =
+          =0A                    =0A                        =0A        =
+                    =0A                            =0A                 =
+               =0A                                =0A                  =
+                  =0A                                =0A               =
+                 =0A                            =0A                    =
+        =0A                        =0A                    =0A          =
+          =0A                        =0A                            =0A=
+                            =0A                                =0A     =
+                           =0A                                    =0A  =
+                                      =0A                              =
+              =0A                                            =0A       =
+                                         =0A                           =
+                         =0A                                           =
+             =0A                                                       =
+ =0A                                                            =0A=0A =
+                                                               =0A=0A  =
+                                                          =0A          =
+                                              =0A                      =
+                                  =0A                                  =
+                  =0A                                                =0A=
+                                            =0A                        =
+                    =0A                                        =0A     =
+                               =0A                                =0A  =
+                              =0A                            =0A       =
+                     =0A                        =0A                   =
+ =0A                    =0A                        =0A                 =
+           =0A                            =0A                          =
+      =0A                                =0A                           =
+         =0A                                        =0A                =
+                            =0A                                        =
+    =0A                                                =0A             =
+                                       =0A=0A                          =
+                          =0A                                          =
+          =0A                                                        =0A=
+                                                        =0A=0A         =
+                                                   =0A=0A              =
+                                                  Hi Paul,=0A=0A       =
+                                                         My name is Ali=
+ Elaouzi and I am part of the sales team=C2=A0with Legit Claims. I manag=
+ed to speak to Alix who kindly requested I contact you.=C2=A0 I am writi=
+ng to extend our=C2=A0offer to your law firm=C2=A0for a free 3-month=C2=
+=A0trial.=0A=0A=0A=0AThis opportunity means Legit Claims will list your=
+ profile on our website,=0A                                            =
+                        =C2=A0 and market your law firm's profile to pot=
+ential personal injury claimants, specifically focusing on legal assista=
+nce from Road Accident, Work Accident, Holiday Accidents, Trip and Slip,=
+ Medical Negligence and more=E2=80=A6=0A                               =
+                                     =0A=0A                            =
+                                        =0A=0A                         =
+                                           Legit Claims is an on-line co=
+mmunity connecting=C2=A0law firms to potential claimants and vice-versa.=
+=C2=A0 Our end-users can search for a specific solicitor, via geo-locati=
+on, services or activate our intuitive claims calculator. We provide you=
+r law firm full access to an intuitive dashboard, displaying their accou=
+nt portfolio.=0A=0A=0A=0AContinuing to enjoy the benefits of our communi=
+ty, after completion of your free trial=C2=A0we=C2=A0offer=C2=A0two memb=
+ership options. Furthermore, we have a dedicated team=C2=A0to handle you=
+r portfolio from inception to service delivery.=0A                     =
+                                           =0A=0A=0A=0A                =
+                                            =0A                        =
+                                =0A                                    =
+                    =0A                                                =
+    =0A                                                    =0A=0A      =
+                                              =0A                      =
+                          =0A                                          =
+  =0A                                            =0A                   =
+                     =0A                                        =0A    =
+                                        =0A                            =
+                =0A                                                =0A =
+                                                   =0A                 =
+                                       =0A                             =
+                           =0A                                         =
+                   =0A                                                 =
+               =0A                                                     =
+       =0A                                                        =0A  =
+                                                      =0A              =
+                                      =0A                              =
+                      =0A                                              =
+  =0A                                            =0A                   =
+                         =0A                                        =0A=
+                                        =0A                            =
+                =0A                                            =0A     =
+                                           =0A                         =
+                           =0A=0A                                      =
+              =0A                                                    =0A=
+                                                        =0A            =
+                                            =0A=0A                     =
+                                       =0A=0A                          =
+                                      To get a preliminary idea about ou=
+r offer to you, please feel free to visit our website=0A               =
+                                                 =0A=0A                =
+                                            =0A                        =
+                                =0A                                    =
+                    =0A                                                =
+    =0A                                                    =0A=0A      =
+                                              =0A                      =
+                          =0A                                          =
+  =0A                                            =0A                   =
+                     =0A                                        =0A    =
+                                        =0A                            =
+                =0A                                                =0A =
+                                                   =0A                 =
+                                       =0A                             =
+                           =0A                                         =
+                   =0A                                                 =
+               LegitClaims.co.uk=0A                                    =
+                        =0A                                            =
+            =0A                                                       =
+ =0A                                                    =0A            =
+                                    =0A                                =
+            =0A                                            =0A         =
+                               =0A                                     =
+   =0A                                            =0A                  =
+                          =0A                                          =
+      =0A                                                    =0A       =
+                                                 =0A                   =
+                                     =0A                               =
+                             =0A=0A                                    =
+                            =0A=0A                                     =
+                       =0A                                             =
+           =0A                                                       =
+ =0A                                                    =0A            =
+                                    =0A                                =
+            =0A                                            =0A         =
+                               =0A                                     =
+   =0A                                            =0A                  =
+                          =0A                                          =
+      =0A                                                    =0A=0A    =
+                                                =0A                    =
+                                =0A                                    =
+                    =0A                                                =
+        =0A=0A                                                         =
+   =0A=0A                                                              =
+  We offer you a great set of Features and Benefits that set our system=
+ apart from other companies=0A=0A                                      =
+                          =0A                                          =
+                          Qualified lead Generation=0A                 =
+                                                   =0A                 =
+                                                   Intuitive Graphic Use=
+r Interface=0A                                                         =
+           =0A                                                         =
+           Secure user Authentication=0A                               =
+                                     =0A                               =
+                                     Solicitors Directory Outlining your=
+ services=0A                                                           =
+         =0A                                                           =
+         Connecting you to your Potential Clients=0A                   =
+                                                 =0A                   =
+                                                 Social media Presence=
+=0A                                                                   =
+ =0A                                                                   =
+ Search Engine Optimization=0A                                         =
+                           =0A                                         =
+                           Rank higher on Prominent Search Engines=0A  =
+                                                                  =0A  =
+                                                                  Video=
+ Testimonials=0A                                                       =
+             =0A                                                       =
+             Showcase your expertise AND experience=0A                 =
+                                                   =0A                 =
+                                                   Unlimited Published B=
+logs with your Opinions on Hot Topics=0A                               =
+                                     =0A                               =
+                                     Webchat Initiate Live Chat with Per=
+spective Clients=0A                                                    =
+                =0A                                                    =
+                Client reviews=0A                                      =
+                              =0A                                      =
+                              Geolocations Tracking user=E2=80=99s Geogr=
+aphic locations=0A                                                     =
+               =0A                                                     =
+               Appointed Account Managers delegated Mon-Fri 9am-6pm=0A =
+                                                                   =0A =
+                                                                   Multi=
+ user Access=0A                                                        =
+            =0A                                                        =
+            Dashboard=0A                                               =
+                     =0A                                               =
+                     Web Call back Feature=0A                          =
+                                          =0A                          =
+                                          Fixed Flat Rate Fees =E2=80=93=
+=C2=A0Annual & Monthly payments benefit cash flow and marketing budgets=
+=0A                                                                   =
+ =0A                                                                   =
+ Trusted=C2=A0And=C2=A0Secure=C2=A0Electronic=C2=A0Communication=C2=A0Sy=
+stem=0A                                                                =
+    =0A                                                                =
+    All=C2=A0payments are taken via=C2=A0Direct Debit=C2=A0using our=C2=
+=A0BACS=C2=A0Approved Agency ensuring your fully covered by the=C2=A0Dir=
+ect Debit Guarantee Scheme=0A                                          =
+                          =0A                                          =
+                          Industry Regulated And Compliant=0A          =
+                                                          =0A          =
+                                                      =0A=0A           =
+                                                 =0A                   =
+                                     =0A                               =
+                         =0A                                           =
+         =0A                                                    =0A=0A =
+                                                   =0A                 =
+                               =0A                                     =
+       =0A                                            =0A              =
+                          =0A                                        =0A=
+                                            =0A                        =
+                    =0A                                               =
+ =0A                                                    =0A            =
+                                            =0A                        =
+                                =0A                                    =
+                        =0A                                            =
+                    =0A                                                =
+            =0A                                                       =
+ =0A                                                        =0A        =
+                                            =0A                        =
+                            =0A                                        =
+        =0A                                            =0A             =
+                               =0A                                     =
+   =0A                                        =0A                      =
+                      =0A                                            =0A=
+                                                =0A                    =
+                                =0A=0A                                 =
+                   =0A                                                 =
+   =0A                                                        =0A      =
+                                                  =0A=0A               =
+                                             =0A                       =
+                                         =0A=0A                        =
+                                            =0A                        =
+                                                =0A                    =
+                                                        I will need a br=
+ief=C2=A0discussion with you and would appreciate if we could schedule a=
+ call for some time tomorrow.=C2=A0 I will only need around 3 minutes of=
+ your time as the service we offer is pretty much self-explanatory.=0A=
+=0ALooking forward to speak with you. Wishing you a wonderful day.=0A=0A=
+                                                                       =
+ =0A=0A                                                                =
+        Kind regards,=0A                                               =
+                     =0A                                               =
+                 =0A=0A=0A                                             =
+               =0A                                                     =
+   =0A                                                        =0A      =
+                                              =0A                      =
+                          =0A                                          =
+  =0A                                            =0A                   =
+                     =0A                                    =0A        =
+                        =0A                                =0A         =
+                   =0A                        =0A                    =0A=
+                    =0A                =0A                =0A          =
+  =0A        =0A        =0A    =0A=0A=0A=0AAli Elaouzi=0ASales Executive=
+=0A=0ALegit Claims Limited=0ASuite 6057, 1 Fore Street, London EC2Y 9DT=
+=0A=0A                =09=09=09=09                  Email=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 : =C2=A0 ali@legitcl=
+aims.co.uk=0ATelephone =C2=A0 =C2=A0: =C2=A0 =C2=A00203 004 8323=0AMobil=
+e=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 : =C2=A0 =C2=A00=
+7469 195 284=C2=A0=0AWebsite=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 :=
+ www.legitclaims.co.uk=0A=0A                =09=09=09=09               =
+                                     =09=09=09=09=09=09=09=09 =09=09=09=
+=09=09=09=09=09=09 =09=09=09    =09=09=09=09                  www.legitc=
+laims.co.uk=C2=A0is a website operated by Legit Claims Ltd a company reg=
+istered in England and Wales.=C2=A0 This website allows subscribed solic=
+itors to advertise their services to general public.=C2=A0 Facilitating=
+ direct communication between Law Firm solicitors and the public.=C2=A0=
+ We do not provide any other claims management or legal services.=C2=A0=
+ Users of the website are under no obligation to enter into any contract=
+ with any of the solicitors advertising on the website.=C2=A0 This is a=
+ free facility to public users.=0A=0A                =09=09=09=09      =
+                                              =09=09=09    =09=09=09=09=
+                  Approved by Ministry of Justice=0A Claims Management R=
+egulator 43212=C2=A0                =09=09=09=09                       =
+                             =09=09=09    =09=09=09=09                 =
+ Disclaimer=0AThis e-mail (including any attachments) is only for the pe=
+rson or organisation it is addressed to. If you are not the intended rec=
+ipient, you must let me know immediately and then delete this e-mail. If=
+ you use this e-mail without permission, or if you allow anyone else to=
+ see, copy or distribute the e-mail, or if you do, or do not do somethin=
+g because you have read this e-mail, you may be breaking the law.=0ALiab=
+ility cannot be accepted for any loss or damage arising from this e-mail=
+ (or any attachments) or from incompatible scripts or any virus transmit=
+ted.=0AE-mails and attachments sent to or received from employees may be=
+ monitored and read and the right is reserved to reject or return or del=
+ete any which are considered to be inappropriate or unsuitable.=0A=0AWe=
+ love our environment: Do you really need to print this email? It will u=
+se paper, add to your waste disposal costs and harm the environment.=C2=
+=A0=0A                =09=09=09=09              =09=09=09    =09=09=09=
+=09                  =0A=0A=0A                =09=09=09=09             =
+     =0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A            =
+    =09=09=09=09                                                    =09=
+=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=09=09 =09=09=09    =09=09=09=
+=09                  =0A=0A=0A                =09=09=09=09             =
+                                       =09=09=09    =09=09=09=09       =
+           =0A                =09=09=09=09                             =
+                       =09=09=09    =09=09=09=09                  =0A=C2=
+=A0=0A=0A=0A=0A=0A=0A
+--=_5cab876771df01f1e9576ae2eb8f8745
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!-- NAME: 1 COLUMN - FULL WIDTH --><!--[if gte mso 15]>=0A=
+		<xml>=0A=
+			<o:OfficeDocumentSettings>=0A=
+			<o:AllowPNG></o:AllowPNG>=0A=
+			<o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+			</o:OfficeDocumentSettings>=0A=
+		</xml>=0A=
+		<![endif]--><meta http-equiv=3D"Content-Type" content=3D"text/html; chars=
+et=3Dutf-8">=0A=
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>=0A=
+<title>*|MC:SUBJECT|*</title>=0A=
+=0A=
+<!--*|IF:MC_PREVIEW_TEXT|*-->=0A=
+<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"display:=
+none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacit=
+y:0; overflow:hidden; visibility:hidden; mso-hide:all;"></span>=0A=
+<!--<![endif]-->=0A=
+<!--*|END:IF|*-->=0A=
+<center>=0A=
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"100%" width=3D"100%" id=3D"bodyTable">=0A=
+        <tbody>=0A=
+        <tr>=0A=
+            <td align=3D"center" valign=3D"top" id=3D"bodyCell">=0A=
+                <!-- BEGIN TEMPLATE // -->=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%">=0A=
+                    <tbody>=0A=
+                    <tr>=0A=
+                        <td align=3D"center" valign=3D"top" id=3D"templateP=
+reheader">=0A=
+                            <!--[if (gte mso 9)|(IE)]>=0A=
+                            <table align=3D"center" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">=0A=
+                            <tr>=0A=
+                            <td align=3D"center" valign=3D"top" width=3D"60=
+0" style=3D"width:600px;">=0A=
+                            <![endif]-->=0A=
+                            <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"templateContainer">=0A=
+                                <tbody>=0A=
+                                <tr>=0A=
+                                    <td valign=3D"top" class=3D"preheaderCo=
+ntainer"></td>=0A=
+                                </tr>=0A=
+                                </tbody>=0A=
+                            </table>=0A=
+                            <!--[if (gte mso 9)|(IE)]>=0A=
+                            </td>=0A=
+                            </tr>=0A=
+                            </table>=0A=
+                            <![endif]-->=0A=
+                        </td>=0A=
+                    </tr>=0A=
+                    <tr>=0A=
+                        <td align=3D"center" valign=3D"top" id=3D"templateH=
+eader">=0A=
+                            <!--[if (gte mso 9)|(IE)]>=0A=
+                            <table align=3D"center" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">=0A=
+                            <tr>=0A=
+                            <td align=3D"center" valign=3D"top" width=3D"60=
+0" style=3D"width:600px;">=0A=
+                            <![endif]-->=0A=
+                            <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"templateContainer">=0A=
+                                <tbody>=0A=
+                                <tr>=0A=
+                                    <td valign=3D"top" class=3D"headerConta=
+iner">=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" style=3D"min-wi=
+dth:100%;">=0A=
+                                            <tbody class=3D"mcnImageBlockOu=
+ter">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" style=3D=
+"padding:9px" class=3D"mcnImageBlockInner">=0A=
+                                                    <table align=3D"left" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcn=
+ImageContentContainer" style=3D"min-width:100%;">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+                                                            <td class=3D"mc=
+nImageContent" valign=3D"top" style=3D"padding-right: 9px; padding-left: 9p=
+x; padding-top: 0; padding-bottom: 0;">=0A=
+=0A=
+                                                                <img align=
+=3D"left" alt=3D"" src=3D"https://gallery.mailchimp.com/0f9d1bb7c76842a7bfb=
+11e935/images/0bfc0989-8010-4ae8-94f2-e7fd18281736.png" width=3D"251.5" sty=
+le=3D"max-width:503px; padding-bottom: 0; display: inline !important; verti=
+cal-align: bottom;" class=3D"mcnImage">=0A=
+=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                    </td>=0A=
+                                </tr>=0A=
+                                </tbody>=0A=
+                            </table>=0A=
+                            <!--[if (gte mso 9)|(IE)]>=0A=
+                            </td>=0A=
+                            </tr>=0A=
+                            </table>=0A=
+                            <![endif]-->=0A=
+                        </td>=0A=
+                    </tr>=0A=
+                    <tr>=0A=
+                        <td align=3D"center" valign=3D"top" id=3D"templateB=
+ody">=0A=
+                            <!--[if (gte mso 9)|(IE)]>=0A=
+                            <table align=3D"center" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">=0A=
+                            <tr>=0A=
+                            <td align=3D"center" valign=3D"top" width=3D"60=
+0" style=3D"width:600px;">=0A=
+                            <![endif]-->=0A=
+                            <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"templateContainer">=0A=
+                                <tbody>=0A=
+                                <tr>=0A=
+                                    <td valign=3D"top" class=3D"bodyContain=
+er">=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-wid=
+th:100%;">=0A=
+                                            <tbody class=3D"mcnTextBlockOut=
+er">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" class=3D=
+"mcnTextBlockInner" style=3D"padding-top:9px;">=0A=
+                                                    <!--[if mso]>=0A=
+<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"width:100%;">=0A=
+<tr>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+<![endif]-->=0A=
+                                                    <table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:100%; mi=
+n-width:100%;" width=3D"100%" class=3D"mcnTextContentContainer">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+=0A=
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent" style=3D"padding: 0px 18px 9px; line-height: 1=
+50%;">=0A=
+=0A=
+                                                                <h1><span s=
+tyle=3D"font-size:12px"><span style=3D"font-family:helvetica neue,helvetica=
+,arial,verdana,sans-serif">Hi Paul,</span></span></h1>=0A=
+=0A=
+                                                                <p style=3D=
+"line-height: 150%;"><span style=3D"font-size:12px"><span style=3D"font-fam=
+ily:helvetica neue,helvetica,arial,verdana,sans-serif">My name is Ali Elaou=
+zi and I am part of the sales team&nbsp;with Legit Claims. I managed to spe=
+ak to Alix who kindly requested I contact you.&nbsp; I am writing to extend=
+ our&nbsp;offer to your law firm&nbsp;for a <strong>free 3-month&nbsp;trial=
+</strong>.<br>=0A=
+<br>=0A=
+This opportunity means Legit Claims will list your profile on<a href=3D"htt=
+p://legitclaims.co.uk/" target=3D"_blank"> </a></span></span><a href=3D"htt=
+p://www.legitclaims.co.uk" target=3D"_blank">our website</a>,=0A=
+                                                                    <a href=
+=3D"http://www.legitclaims.co.uk"></a><span style=3D"font-size:12px"><span =
+style=3D"font-family:helvetica neue,helvetica,arial,verdana,sans-serif"><a =
+href=3D"http://www.legitclaims.co.uk"></a>&nbsp; and market your law firm's=
+ profile to potential personal injury claimants, specifically focusing on l=
+egal assistance from Road Accident, Work Accident, Holiday Accidents, Trip =
+and Slip, Medical Negligence and more=E2=80=A6</span></span>=0A=
+                                                                    <br>=0A=
+                                                                    <br>=0A=
+                                                                    <span s=
+tyle=3D"font-size:12px"><span style=3D"font-family:helvetica neue,helvetica=
+,arial,verdana,sans-serif">Legit Claims is an on-line community connecting&=
+nbsp;law firms to potential claimants and vice-versa.&nbsp; Our end-users c=
+an search for a specific solicitor, via geo-location, services or activate =
+our intuitive claims calculator. We provide your law firm full access to an=
+ intuitive dashboard, displaying their account portfolio.<br>=0A=
+<br>=0A=
+Continuing to enjoy the benefits of our community, after completion of your=
+ free trial&nbsp;we&nbsp;offer&nbsp;<a href=3D"https://www.legitclaims.co.u=
+k/signup-solicitor" target=3D"_blank">two membership options</a>. Furthermo=
+re, we have a dedicated team&nbsp;to handle your portfolio from inception t=
+o service delivery.</span></span>=0A=
+                                                                </p>=0A=
+=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                    <!--[if mso]>=0A=
+</td>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+</tr>=0A=
+</table>=0A=
+<![endif]-->=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnDividerBlock" style=3D"min-=
+width:100%;">=0A=
+                                            <tbody class=3D"mcnDividerBlock=
+Outer">=0A=
+                                            <tr>=0A=
+                                                <td class=3D"mcnDividerBloc=
+kInner" style=3D"min-width:100%; padding:18px;">=0A=
+                                                    <table class=3D"mcnDivi=
+derContent" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"min-width: 100%;border-top: 2px solid #EAEAEA;">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+                                                            <td>=0A=
+                                                                <span></spa=
+n>=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                    <!--=0A=
+<td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;">=0A=
+<hr class=3D"mcnDividerContent" style=3D"border-bottom-color:none; border-l=
+eft-color:none; border-right-color:none; border-bottom-width:0; border-left=
+-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom=
+:0; margin-left:0;" />=0A=
+-->=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-wid=
+th:100%;">=0A=
+                                            <tbody class=3D"mcnTextBlockOut=
+er">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" class=3D=
+"mcnTextBlockInner" style=3D"padding-top:9px;">=0A=
+                                                    <!--[if mso]>=0A=
+<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"width:100%;">=0A=
+<tr>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+<![endif]-->=0A=
+                                                    <table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:100%; mi=
+n-width:100%;" width=3D"100%" class=3D"mcnTextContentContainer">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+=0A=
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; pa=
+dding-bottom:9px; padding-left:18px;">=0A=
+=0A=
+                                                                <div style=
+=3D"text-align: center;"><span style=3D"font-size:12px"><span style=3D"font=
+-family:helvetica neue,helvetica,arial,verdana,sans-serif">To get a prelimi=
+nary idea about our offer to you, please feel free to visit our website</sp=
+an></span>=0A=
+                                                                </div>=0A=
+=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                    <!--[if mso]>=0A=
+</td>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+</tr>=0A=
+</table>=0A=
+<![endif]-->=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnButtonBlock" style=3D"min-w=
+idth:100%;">=0A=
+                                            <tbody class=3D"mcnButtonBlockO=
+uter">=0A=
+                                            <tr>=0A=
+                                                <td style=3D"padding-top:0;=
+ padding-right:18px; padding-bottom:18px; padding-left:18px;" valign=3D"top=
+" align=3D"center" class=3D"mcnButtonBlockInner">=0A=
+                                                    <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnButtonContentCo=
+ntainer" style=3D"border-collapse: separate !important;border-radius: 3px;b=
+ackground-color: #4555A5;">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+                                                            <td align=3D"ce=
+nter" valign=3D"middle" class=3D"mcnButtonContent" style=3D"font-family: Ar=
+ial; font-size: 16px; padding: 15px;">=0A=
+                                                                <a class=3D=
+"mcnButton " title=3D"LegitClaims.co.uk" href=3D"http://legitclaims.co.uk" =
+target=3D"_blank" style=3D"font-weight: bold;letter-spacing: normal;line-he=
+ight: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">LegitC=
+laims.co.uk</a>=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" style=3D"min-wi=
+dth:100%;">=0A=
+                                            <tbody class=3D"mcnImageBlockOu=
+ter">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" style=3D=
+"padding:0px" class=3D"mcnImageBlockInner">=0A=
+                                                    <table align=3D"left" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcn=
+ImageContentContainer" style=3D"min-width:100%;">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+                                                            <td class=3D"mc=
+nImageContent" valign=3D"top" style=3D"padding-right: 0px; padding-left: 0p=
+x; padding-top: 0; padding-bottom: 0; text-align:center;">=0A=
+=0A=
+                                                                <img align=
+=3D"center" alt=3D"" src=3D"https://gallery.mailchimp.com/0f9d1bb7c76842a7b=
+fb11e935/images/b61d6df8-e090-4e5c-8537-54a6a1125e65.png" width=3D"600" sty=
+le=3D"max-width:800px; padding-bottom: 0; display: inline !important; verti=
+cal-align: bottom;" class=3D"mcnImage">=0A=
+=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-wid=
+th:100%;">=0A=
+                                            <tbody class=3D"mcnTextBlockOut=
+er">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" class=3D=
+"mcnTextBlockInner" style=3D"padding-top:9px;">=0A=
+                                                    <!--[if mso]>=0A=
+<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"width:100%;">=0A=
+<tr>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+<![endif]-->=0A=
+                                                    <table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:100%; mi=
+n-width:100%;" width=3D"100%" class=3D"mcnTextContentContainer">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+=0A=
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; pa=
+dding-bottom:9px; padding-left:18px;">=0A=
+=0A=
+                                                                <span style=
+=3D"font-size:12px"><span style=3D"font-family:helvetica neue,helvetica,ari=
+al,verdana,sans-serif">We offer you a great set of <strong>Features and Ben=
+efits</strong> that set our system apart from other companies</span></span>=
+=0A=
+=0A=
+                                                                <ul>=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Qualified<=
+/strong> lead <strong>Generation</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Intuitive =
+</strong>Graphic User<strong> Interface</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Secure</st=
+rong> user <strong>Authentication</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Solicitors=
+ </strong>Directory <strong>Outlining</strong> your services</span></span>=
+=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Connecting=
+ </strong>you to your<strong> Potential Clients</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Social</st=
+rong> media <strong>Presence</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Search</st=
+rong> Engine <strong>Optimization</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Rank</stro=
+ng> higher on <strong>Prominent</strong> Search <strong>Engines</strong></s=
+pan></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Video</str=
+ong> Testimonials</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Showcase</=
+strong> your expertise <strong>AND</strong> experience</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Unlimited<=
+/strong> Published <strong>Blogs</strong> with your <strong>Opinions</stron=
+g> on <strong>Hot</strong> Topics</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Webchat </=
+strong>Initiate Live <strong>Chat</strong> with <strong>Perspective</strong=
+> Clients</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Client</st=
+rong> reviews</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Geolocatio=
+ns </strong>Tracking user=E2=80=99s <strong>Geographic</strong> locations</=
+span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Appointed<=
+/strong> Account <strong>Managers</strong> delegated Mon-Fri 9am-6pm</span>=
+</span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Multi</str=
+ong> user <strong>Access</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Dashboard<=
+/strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Web</stron=
+g> <strong>C</strong>all back <strong>Feature</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Fixed</str=
+ong> Flat <strong>Rate</strong> Fees =E2=80=93&nbsp;<strong>Annual</strong>=
+ &amp; <strong>Monthly</strong> payments benefit cash flow and marketing bu=
+dgets</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Trusted</s=
+trong>&nbsp;And&nbsp;<strong>Secure</strong>&nbsp;Electronic&nbsp;<strong>C=
+ommunication</strong>&nbsp;System</span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>All</stron=
+g><strong>&nbsp;payments</strong> are taken via&nbsp;<strong>Direct</strong=
+> <strong>Debit</strong>&nbsp;using our&nbsp;<strong>BACS</strong>&nbsp;App=
+roved <strong>Agency</strong> ensuring your fully covered by the&nbsp;<stro=
+ng>Direct Debit Guarantee Scheme</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                    <li sty=
+le=3D"line-height: 1;"><span style=3D"font-size:12px"><span style=3D"font-f=
+amily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Industry</=
+strong> Regulated And <strong>Compliant</strong></span></span>=0A=
+                                                                    </li>=
+=0A=
+                                                                </ul>=0A=
+=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                    <!--[if mso]>=0A=
+</td>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+</tr>=0A=
+</table>=0A=
+<![endif]-->=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnDividerBlock" style=3D"min-=
+width:100%;">=0A=
+                                            <tbody class=3D"mcnDividerBlock=
+Outer">=0A=
+                                            <tr>=0A=
+                                                <td class=3D"mcnDividerBloc=
+kInner" style=3D"min-width:100%; padding:18px;">=0A=
+                                                    <table class=3D"mcnDivi=
+derContent" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"min-width: 100%;border-top: 2px solid #EAEAEA;">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+                                                            <td>=0A=
+                                                                <span></spa=
+n>=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                    <!--=0A=
+<td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;">=0A=
+<hr class=3D"mcnDividerContent" style=3D"border-bottom-color:none; border-l=
+eft-color:none; border-right-color:none; border-bottom-width:0; border-left=
+-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom=
+:0; margin-left:0;" />=0A=
+-->=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-wid=
+th:100%;">=0A=
+                                            <tbody class=3D"mcnTextBlockOut=
+er">=0A=
+                                            <tr>=0A=
+                                                <td valign=3D"top" class=3D=
+"mcnTextBlockInner" style=3D"padding-top:9px;">=0A=
+                                                    <!--[if mso]>=0A=
+<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"width:100%;">=0A=
+<tr>=0A=
+<![endif]-->=0A=
+=0A=
+                                                    <!--[if mso]>=0A=
+<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+<![endif]-->=0A=
+                                                    <table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width:100%; mi=
+n-width:100%;" width=3D"100%" class=3D"mcnTextContentContainer">=0A=
+                                                        <tbody>=0A=
+                                                        <tr>=0A=
+=0A=
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; pa=
+dding-bottom:9px; padding-left:18px;">=0A=
+                                                                <p>=0A=
+=0A=
+                                                                    <span s=
+tyle=3D"font-size:12px">=0A=
+                                                                        <sp=
+an style=3D"font-family:helvetica neue,helvetica,arial,verdana,sans-serif">=
+=0A=
+                                                                           =
+ I will need a brief&nbsp;discussion with you and would appreciate if we co=
+uld schedule a call for some time tomorrow.&nbsp; I will only need around 3=
+ minutes of your time as the service we offer is pretty much self-explanato=
+ry.<br><br>Looking forward to speak with you. Wishing you a wonderful day.<=
+br>=0A=
+                                                                        </s=
+pan><br>=0A=
+                                                                        <sp=
+an style=3D"font-family:helvetica neue,helvetica,arial,verdana,sans-serif">=
+Kind regards,</span>=0A=
+                                                                    </span>=
+=0A=
+                                                                </p>=0A=
+                                                            </td>=0A=
+                                                        </tr>=0A=
+                                                        </tbody>=0A=
+                                                    </table>=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                            </tbody>=0A=
+                                        </table>=0A=
+                                    </td>=0A=
+                                </tr>=0A=
+                                </tbody>=0A=
+                            </table>=0A=
+                        </td>=0A=
+                    </tr>=0A=
+                    </tbody>=0A=
+                </table>=0A=
+                <!-- // END TEMPLATE -->=0A=
+            </td>=0A=
+        </tr>=0A=
+        </tbody>=0A=
+    </table>=0A=
+</center><p><br></p><span style=3D"font-size:9pt; font-family:Arial,Helveti=
+ca,sans-serif"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td align=3D"center" id=3D"templateBody" valign=3D"to=
+p"><table width=3D"100%" align=3D"center" class=3D"templateContainer" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"bodyCon=
+tainer" valign=3D"top"><table width=3D"100%" class=3D"mcnTextBlock" style=
+=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbod=
+y class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInner" valign=3D=
+"top" style=3D"padding-top:9px;"><table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" id=3D"templat=
+eBody" valign=3D"top"><table width=3D"100%" align=3D"center" class=3D"templ=
+ateContainer" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><=
+td class=3D"bodyContainer" valign=3D"top"><table width=3D"100%" class=3D"mc=
+nTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBloc=
+kInner" valign=3D"top" style=3D"padding-top:9px;"><table width=3D"100%" ali=
+gn=3D"left" class=3D"mcnTextContentContainer" style=3D"max-width:300px;" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnT=
+extContent" valign=3D"top" style=3D"padding-top:0; padding-left:18px; paddi=
+ng-bottom:9px; padding-right:18px;"><p><span style=3D"font-size:14px"><stro=
+ng>Ali Elaouzi</strong></span><br><span style=3D"font-size:12px">Sales Exec=
+utive</span></p><p><span style=3D"font-size:12px"><span style=3D"font-famil=
+y:helvetica neue,helvetica,arial,verdana,sans-serif">Legit Claims Limited</=
+span></span><br><span style=3D"font-size:12px"><span style=3D"font-family:h=
+elvetica neue,helvetica,arial,verdana,sans-serif">Suite 6057, 1 Fore Street=
+, London EC2Y 9DT</span></span></p></td></tr></tbody></table><!--[if mso]>=
+=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"300" style=3D"width:300px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:300px;" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTextContent" valig=
+n=3D"top" style=3D"padding-top:0; padding-left:18px; padding-bottom:9px; pa=
+dding-right:18px;"><p><span style=3D"font-size:12px"><span style=3D"font-fa=
+mily:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>Email</stro=
+ng>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nb=
+sp; <a href=3D"mailto:ali@legitclaims.co.uk" target=3D"_blank"><u><font col=
+or=3D"#0066cc">ali@legitclaims.co.uk</font></u></a></span></span><br><span =
+style=3D"font-size:12px"><span style=3D"font-family:helvetica neue,helvetic=
+a,arial,verdana,sans-serif"><strong>Telephone</strong> &nbsp; &nbsp;: &nbsp=
+; &nbsp;0203 004 8323</span></span><br><span style=3D"font-size:12px"><span=
+ style=3D"font-family:helvetica neue,helvetica,arial,verdana,sans-serif"><s=
+trong>Mobile</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ : &nbsp; &nbsp;07469 195 284&nbsp;</span></span><br><span style=3D"font-si=
+ze:12px"><span style=3D"font-family:helvetica neue,helvetica,arial,verdana,=
+sans-serif"><strong>Website</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; : <a href=3D"http://demo.legitclaims.co.uk/" target=3D"_blank"><u><font=
+ color=3D"#0066cc">www.legitclaims.co.uk</font></u></a></span></span></p></=
+td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 0px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #EAEAEA;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table></td></tr></tbody></table><!--[if=
+ (gte mso 9)|(IE)]>=0A=
+									</td>=0A=
+									</tr>=0A=
+									</table>=0A=
+									<![endif]-->								 </td></tr><tr><td align=3D"center" id=3D"temp=
+lateFooter" valign=3D"top"><!--[if (gte mso 9)|(IE)]>=0A=
+									<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:600px;">=0A=
+									<tr>=0A=
+									<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:6=
+00px;">=0A=
+									<![endif]-->									 <table width=3D"100%" align=3D"center" class=
+=3D"templateContainer" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td class=3D"footerContainer" valign=3D"top"><table width=3D"100%" =
+class=3D"mcnTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=
+=3D"mcnTextBlockInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if ms=
+o]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><p style=3D"text-align: left;"><span styl=
+e=3D"font-size:11px"><span style=3D"font-family:helvetica neue,helvetica,ar=
+ial,verdana,sans-serif"><a id=3D"LPNoLP" href=3D"http://www.legitclaims.co.=
+uk/" target=3D"_blank"><span style=3D"color:#000000"><u>www.legitclaims.co.=
+uk</u></span></a><span style=3D"color:#000000">&nbsp;is a website operated =
+by Legit Claims Ltd a company registered in England and Wales.&nbsp; This w=
+ebsite allows subscribed solicitors to advertise their services to general =
+public.&nbsp; Facilitating direct communication between Law Firm solicitors=
+ and the public.&nbsp; We do not provide any other claims management or leg=
+al services.&nbsp; Users of the website are under no obligation to enter in=
+to any contract with any of the solicitors advertising on the website.&nbsp=
+; This is a free facility to public users.</span></span></span></p></td></t=
+r></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 5px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #BDBDBD;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table><table width=3D"100%" class=3D"mc=
+nTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBloc=
+kInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if mso]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><div style=3D"text-align: left;"><span st=
+yle=3D"font-size:12px"><span style=3D"font-family:helvetica neue,helvetica,=
+arial,verdana,sans-serif">Approved by Ministry of Justice<br> Claims Manage=
+ment Regulator 43212</span></span></div><div style=3D"text-align: left;">&n=
+bsp;</div></td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 0px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #BDBDBD;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table><table width=3D"100%" class=3D"mc=
+nTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBloc=
+kInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if mso]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><div style=3D"text-align: left;"><span st=
+yle=3D"font-size:10px"><span style=3D"font-family:helvetica neue,helvetica,=
+arial,verdana,sans-serif"><strong><em>Disclaimer</em></strong><br><em>This =
+e-mail (including any attachments) is only for the person or organisation i=
+t is addressed to. If you are not the intended recipient, you must let me k=
+now immediately and then delete this e-mail. If you use this e-mail without=
+ permission, or if you allow anyone else to see, copy or distribute the e-m=
+ail, or if you do, or do not do something because you have read this e-mail=
+, you may be breaking the law.</em><br><em>Liability cannot be accepted for=
+ any loss or damage arising from this e-mail (or any attachments) or from i=
+ncompatible scripts or any virus transmitted.</em><br><em>E-mails and attac=
+hments sent to or received from employees may be monitored and read and the=
+ right is reserved to reject or return or delete any which are considered t=
+o be inappropriate or unsuitable.</em><br><br><strong><em>We love our envir=
+onment: </em></strong><em>Do you really need to print this email? It will u=
+se paper, add to your waste disposal costs and harm the environment.</em></=
+span></span></div><div style=3D"text-align: left;">&nbsp;</div></td></tr></=
+tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr=
+></tbody></table><b></b><i></i><u></u><sub></sub><sup></sup><strike></strik=
+e><br></td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=
+=3D"mcnTextBlockInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if ms=
+o]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"300" style=3D"width:300px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:300px;" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTextContent" valig=
+n=3D"top" style=3D"padding-top:0; padding-left:18px; padding-bottom:9px; pa=
+dding-right:18px;"><p><b></b><i></i><u></u><sub></sub><sup></sup><strike></=
+strike><br></p></td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"300" style=3D"width:300px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:300px;" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTextContent" valig=
+n=3D"top" style=3D"padding-top:0; padding-left:18px; padding-bottom:9px; pa=
+dding-right:18px;"><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><=
+p><br></p></td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 0px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #EAEAEA;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table></td></tr></tbody></table><!--[if=
+ (gte mso 9)|(IE)]>=0A=
+									</td>=0A=
+									</tr>=0A=
+									</table>=0A=
+									<![endif]-->								 </td></tr><tr><td align=3D"center" id=3D"temp=
+lateFooter" valign=3D"top"><!--[if (gte mso 9)|(IE)]>=0A=
+									<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:600px;">=0A=
+									<tr>=0A=
+									<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:6=
+00px;">=0A=
+									<![endif]-->									 <table width=3D"100%" align=3D"center" class=
+=3D"templateContainer" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td class=3D"footerContainer" valign=3D"top"><table width=3D"100%" =
+class=3D"mcnTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=
+=3D"mcnTextBlockInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if ms=
+o]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><p style=3D"text-align: left;"><br></p></=
+td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 5px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #BDBDBD;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table><table width=3D"100%" class=3D"mc=
+nTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBloc=
+kInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if mso]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><div style=3D"text-align: left;"><br></di=
+v></td></tr></tbody></table><!--[if mso]>=0A=
+				</td>=0A=
+				<![endif]-->                				 <!--[if mso]>=0A=
+				</tr>=0A=
+				</table>=0A=
+				<![endif]-->             </td></tr></tbody></table><table width=3D"100%=
+" class=3D"mcnDividerBlock" style=3D"min-width:100%;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tbody class=3D"mcnDividerBlockOuter"><tr><td c=
+lass=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 0px 18px;"=
+><table width=3D"100%" class=3D"mcnDividerContent" style=3D"min-width: 100%=
+;border-top: 2px solid #BDBDBD;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><span></span>                         </td></tr></tbo=
+dy></table><!--            =0A=
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>=0A=
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />=0A=
+-->             </td></tr></tbody></table><table width=3D"100%" class=3D"mc=
+nTextBlock" style=3D"min-width:100%;" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBloc=
+kInner" valign=3D"top" style=3D"padding-top:9px;"><!--[if mso]>=0A=
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">=0A=
+				<tr>=0A=
+				<![endif]-->			    				 <!--[if mso]>=0A=
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">=0A=
+				<![endif]-->                 <table width=3D"100%" align=3D"left" class=
+=3D"mcnTextContentContainer" style=3D"max-width:100%; min-width:100%;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnTex=
+tContent" valign=3D"top" style=3D"padding-top:0; padding-right:18px; paddin=
+g-bottom:9px; padding-left:18px;"><div style=3D"text-align: left;"><span st=
+yle=3D"font-size:10px"><span style=3D"font-family:helvetica neue,helvetica,=
+arial,verdana,sans-serif"><br></span></span></div><div style=3D"text-align:=
+ left;">&nbsp;</div></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr></tbody></table><p><br></p></span><p><br><=
+/p>=
+
+--=_5cab876771df01f1e9576ae2eb8f8745--
+

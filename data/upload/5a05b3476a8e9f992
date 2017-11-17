@@ -1,0 +1,10 @@
+Reporting-MTA: dns;AM0PR0502MB3892.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Wed, 8 Nov 2017 14:02:27 +0000
+
+Final-Recipient: rfc822;shatty333@gmailo.com
+Action: failed
+Status: 5.4.316
+Diagnostic-Code: smtp;550 5.4.316 Message expired, connection refused
+
+

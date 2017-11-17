@@ -1,0 +1,10 @@
+Reporting-MTA: dns;VI1PR0502MB3903.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Fri, 10 Nov 2017 05:45:31 +0000
+
+Final-Recipient: rfc822;BDMElaine@salesteamrecruiters.co.uk
+Action: failed
+Status: 5.4.310
+Diagnostic-Code: smtp;550 5.4.310 DNS domain salesteamrecruiters.co.uk does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=salesteamrecruiters.co.uk] [VE1EUR01FT013.eop-EUR01.prod.protection.outlook.com]
+
+

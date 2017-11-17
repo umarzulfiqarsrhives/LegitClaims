@@ -1,0 +1,5 @@
+Install following PHP extensions before start.
+-gd
+-mbstring
+-imap
+-curl

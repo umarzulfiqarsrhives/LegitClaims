@@ -1,0 +1,163 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=ejqtFqpt5xsyIimQcZoXAHTwOL6VtRtQxgC2Iejv3TI=;
+ b=cK7XwNx5/48TkH2NmukOaoK9ZyWfxIfBLxlzqmJY2Po19ruVync2a/Te01gJ6MOsK1KeUP2LFylR3BZpi0HwSsEjEksrwt3rM6Wbw3JmeoCSHCtsMd/wK14ycNmp2BE7SgP3+8l864rc/uWJOvqorT3w/4BNdkaZW5bF3oPQjPI=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=shehryar.shaukut@legitclaims.co.uk; 
+Received: from admin (18.220.103.184) by
+ VI1PR0501MB2414.eurprd05.prod.outlook.com (2603:10a6:800:67::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.197.13; Tue, 7
+ Nov 2017 06:05:05 +0000
+Date: Tue, 07 Nov 2017 06:04:43 +0000
+From: =?UTF-8?Q?Shehryar=20Shaukut?= <shehryar.shaukut@legitclaims.co.uk>
+Sender: <shehryar.shaukut@legitclaims.co.uk>
+To: muhammad.shahzad@drhives.com
+Subject: =?UTF-8?Q?testing?=
+Content-Type: multipart/alternative;
+ boundary="=_891852691df25ee6dec144ee4feedf8d"
+Message-ID: <ae2b1fca515949e5d54fb22b8ed95575/1510034683/7970@espo>
+X-Originating-IP: [18.220.103.184]
+X-ClientProxiedBy: CY4PR18CA0028.namprd18.prod.outlook.com
+ (2603:10b6:903:9a::14) To VI1PR0501MB2414.eurprd05.prod.outlook.com
+ (2603:10a6:800:67::18)
+Return-Path: shehryar.shaukut@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 970bcb4c-500c-429e-4643-08d525a57e5d
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603199);SRVR:VI1PR0501MB2414;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2414;3:+dNkemh7+3i1HGCWta+BgXiEyOdTTmgiRrBoawOAmWKPMabcvXyiNlQcjD/EP6Y/1hLhztN4HJeG1weUjmjxyjfpYgRijHsJYpxdJGjqHSYDQnxeOeB3Eyqm0ToscB2H/IR+S1tycia63HU4GfO4FGxexlnE2z3t2F8drYm6sgNvQdlPPiNLt45QnjmcB5VoDboKDCG9Z5ojvoB+W5NGQl4gLkcwcsqYSwrH4X0oZgXeYVPVOIud+Xu+D80kNRtw;25:p2pNXOF1NyJJuj42L+ubFFqy5Coz9nURheQFq3kPmBovv6jQ8GQ/7SUCNJv9dgsJxsVhvP4yG4vNUwSrSzpZAj+JcJkeq5fc3abnhYzOvOWkNFMLisfMRz5Q2J+dklkOVj5wywMQ3Yl3BrJep91wETYcXjYen4piYCfzz2WnMIzX8uA7fGLMqLwhDxRoc8l639e7naRTT0iZP4xqaG55EVTyHfqQz4VUq95cL30VwMqeFmoDH5x2BwnxUjtuJ5cHpkBT0Lx51aEkz/t6kq1Ko459Ge/GA14MBM2xhvYxt4d1jlfB5XcaqEbWoJjvF9E8srrvcEyZQv+HD+PZDOMeNg==;31:hW04zoo/n809iafbzi4tPoF/a5C8lfqoUxJHJ1q8SpDXRD4F6bc2por+Ixi1f1RAZkD8OW/B4XGfICOaYOEw0upiMvMkNsdB0aQpTmEb77NvN7fkpdTD3b/OPEc9hVSD7ghI9nVq7/yRSc64ljzP/TPqqsykUvFlDqN5Lre9VHdExfiy8ro6ivvTU/D8BYmS2rn3lllFMIIJIdOqf2tZ4/aa9Qg1ZA2uXHw/WEK00s4=
+X-MS-TrafficTypeDiagnostic: VI1PR0501MB2414:
+X-Exchange-Antispam-Report-Test: UriScan:(269995582827781)(179696456005106)(229838945174439)(231433314529491);
+X-Microsoft-Antispam-PRVS: <VI1PR0501MB241435CD6EF7FC0295EEB280C7510@VI1PR0501MB2414.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(8121501046)(5005006)(3002001)(100000703101)(100105400095)(93006095)(93001095)(10201501046)(3231021)(6041248)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123562025)(20161123564025)(20161123560025)(20161123555025)(20161123558100)(2016111802025)(6072148)(6043046)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:VI1PR0501MB2414;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:VI1PR0501MB2414;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2414;4:pbIYZGr8ojDz/rE3fjBDe/iKozLreWTy+K5PWn6FjiR6RrvGidRlbD1kN+N+uavHIaqNBOvIX8GAXcQ1kJpp9obZp8sclWdSXnwQVQFjcW/LPtFEH5bY1//VTIQE9QmRqrsGVIPp3Y8X0eB5bZi6AmBGmG7iKEuewU68SnXiP65RGAwbSDofONK4Z//6AKNZVg77/CvqEoDK1+/SWlCnKD1IKffNkC0TS6q6bx6QgC8cZ3DuYwVmZMzq+RrNO6tgfIAO9moF5WHOnGo0K9elbrubyEmIj2XIgV4uZV6etXEQK2DMfW7c9eseKo8DKB2Bzm/nH5QDs434+oAOQ47EN5GHYDrdXSKRE7bgVKz5D2H7sPNCOvoes4cQ0bJDYajNN8CGMaccDJwAwprQiOS7MG8w+qzXyGWqaQ6pVvd/clg=
+X-Forefront-PRVS: 0484063412
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(7916004)(39830400002)(346002)(376002)(199003)(189002)(305945005)(15974865002)(6116002)(50986999)(101416001)(5660300001)(68736007)(2361001)(8936002)(861006)(16586007)(7116003)(33646002)(7846003)(74482002)(84326002)(6392003)(54356999)(3846002)(478600001)(316002)(3480700004)(733005)(25786009)(5000100001)(6496005)(118296001)(2906002)(16526018)(221733001)(2351001)(8676002)(97736004)(81156014)(189998001)(7736002)(9686003)(53936002)(5140100006)(6306002)(81166006)(86362001)(236005)(6486002)(6916009)(33716001)(6666003)(606006)(42882006)(66066001)(105586002)(106356001)(105646017)(16866105001)(220243001);DIR:OUT;SFP:1101;SCL:1;SRVR:VI1PR0501MB2414;H:admin;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;VI1PR0501MB2414;23:URzWZtH79fNkGMgLOENmIimG9ogaDQe/VDtEY5R?=
+ =?us-ascii?Q?NRBgqzqXNej06LbJpEsGbiTCnSyrweejHUlJoklzgnjOh7wzWeN7pArMzfG9?=
+ =?us-ascii?Q?KAkuWF9KOB+NpV91Dr1VPPvMUh+KKnGz56gDhc6/jrg61IBjO8dKwEqGZ9j0?=
+ =?us-ascii?Q?56ddUqikBLpvQN3WR+WOPXMUkhgjmETpYGf2TlNmm4WK6Ney76eRt5QLB9ek?=
+ =?us-ascii?Q?Ptjd4H2ZU0kAP9TzpVqSMkoP1JkQtFstFtjP8r1kV+BP8MpkqAi08eNig0kU?=
+ =?us-ascii?Q?HxVbKuOXD+/KL6reEAzg2xg7KWOVW8YKMPwMAl2pdYuGiJXQup1ns6YtWBt3?=
+ =?us-ascii?Q?YQt/S1DmKEFH9KpY+iQAATvI655XSyMFiEJGKddf/XRdHTv6A0YxMhlxmMkp?=
+ =?us-ascii?Q?7UH3U/0npgy7MNFzbq/fQbZuqHoBNTg1pqrMENJF6ONg57eUuT7eD8A7bXz1?=
+ =?us-ascii?Q?Z7atHC+BSB+63iRcEyKx2PoJwcf3dA1DgeN1iepWu38eTdjm7EOFZxcuOVSW?=
+ =?us-ascii?Q?QsRgNX7UhOYNt3UqgUrcOq5I9PO7TiidWaBzATmOqwWRI+YA4yX5XNypp5jp?=
+ =?us-ascii?Q?1c6cArQz4u8SN8y0RfadO6l5gHnDulypWNrnG87XYMkY/0eeoxUb72zcKvT5?=
+ =?us-ascii?Q?UnL4l0trHlCFD/WVTu55Rn2/RQDFNgvSzrKEH+p5gELcEb4Ipr6kPF0Q4fbR?=
+ =?us-ascii?Q?EULxCj+TSSlCNI1gnVFodAcVmLeyYVpq9NinlKV0T5Y2MhbS+IpIhkk3de74?=
+ =?us-ascii?Q?FGAismwryssOGw5gh1GminOQzdASGKm6YVq8CwDqC732A+j8TbI0SnNMeB1a?=
+ =?us-ascii?Q?Bp2pgnvY9WDAf7cymBxXZbMu1KtcxhFSAt/4a32HkmaTr8RlArft+s9yRHkW?=
+ =?us-ascii?Q?wfJDDJkQ6EkB1ho696/jqbYr5/n/n+Vba5cj7itMDazW4cMCxEnygHPqm7gs?=
+ =?us-ascii?Q?Zu/S7y78+P7BuB1KKj1/6Fh36eB3FulvDHmi7IsF2YloLRYmXGEmg7DOC4HL?=
+ =?us-ascii?Q?qbKQ5ydzSDhPfVYb8liQuTn3SRS3c7hJJNDWwT5PrVrykC7yFICme5MrALlQ?=
+ =?us-ascii?Q?4tBU7OwH2C88/9RtC79dgzuSZP9f7sq7bIdSFj1SM/vBFzyz+MxSRqlsOjTm?=
+ =?us-ascii?Q?gMLLn3FPVsEOJ8iPeM5r16UO5JUmNZlp4ahF9rsw3CDuYKRK+at25X17D6m8?=
+ =?us-ascii?Q?Z9S+sB2dL5k5fb2PyctuXfXvQbVvVivs6/ZxF9oBBXacOtbB1FE5fthXkYjV?=
+ =?us-ascii?Q?v7ZpqZbVviYLrYdW4chB5x2OGlHV/AVhtCgZo8vaT0G71iJ9njvoj3m73hRJ?=
+ =?us-ascii?Q?q0HlAe7OORt2Vp9sYuELEj/iItAyujMoT82YoVZUkvPRVxlFt/nsQJbhU6Sj?=
+ =?us-ascii?Q?BpKLXXkeqwVk4y+6tJ6mCTWdU+DY=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0501MB2414;6:zEqCM0LC+7nC/+dKew0w1friTwyTpqihUfleCfMHdE/1WVvpUYEcjQ2SRKkiSgjtWFbbHoQyFsitx5AOJzkPE71YfxoREeUJsvfHCXlKtaIBgpq/LpV9YhP7a6LEu8g6HE8RS1piBMHHUqwIiBrX+tNco0a7yjBlsGjhVidGIAfi5cpUyCJKpZ8UTCFzONN0lVY8ydXTFPVjZ0paJpFkMIneuqdE52pigea6G0WTyos1ppVOswuiOUdq3/cOlpBpy+HYbGxT/ABE3nsvkoGb4hqXCA6/StsoJZuO8mtqfvWPRbOt1dplAvnzo5QDuLSTM1cLcLb1VUIMXTaizNPZ7nYgQN2yMIy8gllReKremSc=;5:+TYbv7sl0iaazE7ynHmOeScjhQhD3vTba6UhVoJe3kihf3fKH1Q7trKBplB24okL5Uxhf5W9p80PCpPTKBt4bF00Or5RURPzOYiGkcLAazkByQzDYj+TYaB7oS0n/PkIxzZCrAscNw8++/aVDX5hmLOz5Smhk8+hSu9ZQ3UtKe0=;24:jWAegkPqTxRWF8Kp3D0Q4SVhc/Bk67sYvt1VTGraF/roFKS5AkY2Tmma/5ITHE+CgkdEgPha2fKJTCBKcP5U59EUsBPripVfyZgAupB+sfU=;7:Q8BuBGOYMWzErqGejIPTgSEPERuPJBL1lrHwYpLJqqDbDrduO6iL8Ke+e6TS7o4NmId3DX08hS6Ye0lEr7JcGKVC5ILj1smQGkO2sUNUcBgXcChB1J8y8qEhj9NYQEdz4sEPWTSlAswDM+OTXw6iV7hP1KNpHul2f4pfsB7yL7suEUDspTeiDOUwazhXHpWy1LGFJ70cH1POIkzYGQR7zIjde/dASaHhOx9dnm6oHQyvvAWxgEs0RcunriaKfJHD
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Nov 2017 06:05:05.6573 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 970bcb4c-500c-429e-4643-08d525a57e5d
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0501MB2414
+MIME-Version: 1.0
+
+--=_891852691df25ee6dec144ee4feedf8d
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0Atest=0A=0A=0A=0A=0A=0A=0AShehryar=0A=0APASSO Digital=0A=0A02038=
+657978=0A=0A=0ASuite 6057 | 1 Fore Street | Moorgate | London | EC2Y 9DT=
+=0A=0A=0Awww.passodigital.co.uk=0A=0A=0Ashehryar.shaukut@passodigital.co=
+.uk=0A=0A=0A=0A=0A=0A=0A
+--=_891852691df25ee6dec144ee4feedf8d
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+><br></p>test<br><p><b style=3D"font-weight:normal;" id=3D"docs-internal-gu=
+id-28f08a78-9513-3693-357a-8bda3a54d44c"><br></b></p><div dir=3D"ltr" style=
+=3D"margin-left:0pt;"><table style=3D"border:none;border-collapse:collapse"=
+><colgroup><col width=3D"158"><col width=3D"327"></colgroup><tbody><tr styl=
+e=3D"height:0pt"><td style=3D"border-left:dashed #bbbbbb 0.5pt;border-right=
+:dashed #bbbbbb 0.5pt;vertical-align:top;padding:0pt 4.55pt 0pt 0pt;"><p di=
+r=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span=
+ style=3D"font-size:9pt;font-family:Arial;color:#333333;background-color:tr=
+ansparent;font-weight:400;font-style:normal;font-variant:normal;text-decora=
+tion:none;vertical-align:baseline;white-space:pre-wrap;"><img src=3D"https:=
+//lh3.googleusercontent.com/riv39HiZf05w9kHdAXQRR-vj7Qqa3h29C0U3ID8MPguliO6=
+AR49XVm3UHAN4SdxYW-uWd76BNhk_vtLsHway4j1ZFjy3af82vkbO-8j8F754ieaw17LNRTII2u=
+P_Y2cKY0p5w1pfN7RlrbJfIA" width=3D"152" height=3D"152" style=3D"border: non=
+e; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" alt=3D"=
+https://gallery.mailchimp.com/0f9d1bb7c76842a7bfb11e935/images/5751e3d7-79f=
+c-4d7e-a58b-88bc2239f734.png"></span></p></td><td style=3D"border-left:dash=
+ed #bbbbbb 0.5pt;border-right:dashed #bbbbbb 0.5pt;border-bottom:dashed #bb=
+bbbb 0.5pt;border-top:dashed #bbbbbb 0.5pt;vertical-align:top;padding:0pt 0=
+pt 0pt 7.8pt;"><br><div dir=3D"ltr" style=3D"margin-left:0pt;"><table style=
+=3D"border:none;border-collapse:collapse"><colgroup><col width=3D"315"><col=
+ width=3D"1"></colgroup><tbody><tr style=3D"height:0pt"><td colspan=3D"2" s=
+tyle=3D"border-left:dashed #bbbbbb 0.5pt;border-right:dashed #bbbbbb 0.5pt;=
+border-bottom:dashed #bbbbbb 0.5pt;border-top:dashed #bbbbbb 0.5pt;vertical=
+-align:middle;padding:0pt 0pt 3.25pt 0pt;"><p dir=3D"ltr" style=3D"line-hei=
+ght:1.2;margin-top:0pt;margin-bottom:0pt;"><span style=3D"font-size:10.5pt;=
+font-family:'Helvetica Neue';color:#202020;background-color:transparent;fon=
+t-weight:700;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap;">Shehryar</span></p></td></tr><t=
+r style=3D"height:0pt"><td colspan=3D"2" style=3D"border-left:dashed #bbbbb=
+b 0.5pt;border-right:dashed #bbbbbb 0.5pt;border-bottom:dashed #bbbbbb 0.5p=
+t;border-top:dashed #bbbbbb 0.5pt;vertical-align:middle;"><p dir=3D"ltr" st=
+yle=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style=3D"fo=
+nt-size:9pt;font-family:'Helvetica Neue';color:#333333;background-color:tra=
+nsparent;font-weight:700;font-style:normal;font-variant:normal;text-decorat=
+ion:none;vertical-align:baseline;white-space:pre-wrap;">PASSO Digital</span=
+></p></td></tr><tr style=3D"height:0pt"><td style=3D"border-left:dashed #bb=
+bbbb 0.5pt;border-right:dashed #bbbbbb 0.5pt;border-bottom:dashed #bbbbbb 0=
+.5pt;border-top:dashed #bbbbbb 0.5pt;vertical-align:middle;padding:3.9pt 0p=
+t 0pt 0pt;"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-b=
+ottom:0pt;"><span style=3D"font-size:9pt;font-family:'Helvetica Neue';color=
+:#333333;background-color:transparent;font-weight:400;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;">02038657978</span></p></td><td style=3D"border-left:dashed #bbbbb=
+b 0.5pt;border-top:dashed #bbbbbb 0.5pt;vertical-align:middle;"><br></td></=
+tr><tr style=3D"height:0pt"><td style=3D"border-left:dashed #bbbbbb 0.5pt;b=
+order-right:dashed #bbbbbb 0.5pt;border-bottom:dashed #bbbbbb 0.5pt;border-=
+top:dashed #bbbbbb 0.5pt;vertical-align:top;padding:3.9pt 0pt 0pt 0pt;"><p =
+dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><sp=
+an style=3D"font-size:9pt;font-family:'Helvetica Neue';color:#333333;backgr=
+ound-color:transparent;font-weight:400;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Suite=
+ 6057 | 1 Fore Street | Moorgate | London | EC2Y 9DT</span></p></td><td sty=
+le=3D"border-left:dashed #bbbbbb 0.5pt;vertical-align:middle;"><br></td></t=
+r><tr style=3D"height:0pt"><td style=3D"border-left:dashed #bbbbbb 0.5pt;bo=
+rder-right:dashed #bbbbbb 0.5pt;border-bottom:dashed #bbbbbb 0.5pt;border-t=
+op:dashed #bbbbbb 0.5pt;vertical-align:top;padding:3.9pt 0pt 0pt 0pt;"><p d=
+ir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><a h=
+ref=3D"http://www.passodigital.co.uk/" style=3D"text-decoration:none;"><spa=
+n style=3D"font-size:9pt;font-family:'Helvetica Neue';color:#1da1db;backgro=
+und-color:transparent;font-weight:400;font-style:normal;font-variant:normal=
+;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">www.pa=
+ssodigital.co.uk</span></a></p></td><td style=3D"border-left:dashed #bbbbbb=
+ 0.5pt;vertical-align:middle;"><br></td></tr><tr style=3D"height:0pt"><td s=
+tyle=3D"border-left:dashed #bbbbbb 0.5pt;border-right:dashed #bbbbbb 0.5pt;=
+border-bottom:dashed #bbbbbb 0.5pt;border-top:dashed #bbbbbb 0.5pt;vertical=
+-align:top;padding:3.9pt 0pt 0pt 0pt;"><p dir=3D"ltr" style=3D"line-height:=
+1.2;margin-top:0pt;margin-bottom:0pt;"><a href=3D"mailto:shehryar.shaukut@p=
+assodigital.co.uk" style=3D"text-decoration:none;"><span style=3D"font-size=
+:9pt;font-family:'Helvetica Neue';color:#1da1db;background-color:transparen=
+t;font-weight:400;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;">shehryar.shaukut@passodigi=
+tal.co.uk</span></a></p></td><td style=3D"border-left:dashed #bbbbbb 0.5pt;=
+vertical-align:middle;"><br></td></tr></tbody></table></div><br></td></tr><=
+/tbody></table></div><p><br></p>=
+
+--=_891852691df25ee6dec144ee4feedf8d--
+

@@ -1,0 +1,10 @@
+Reporting-MTA: dns;VI1PR04MB1293.eurprd04.prod.outlook.com
+Received-From-MTA: dns;gmy2-mh876.smtproutes.com
+Arrival-Date: Thu, 9 Nov 2017 10:30:49 +0000
+
+Final-Recipient: rfc822;wm@aandco.co.uk
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient wm@aandco.co.uk not found by SMTP address lookup
+
+

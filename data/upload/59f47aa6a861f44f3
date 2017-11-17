@@ -1,0 +1,76 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=ydfuohapkfRVJdLttljjp7h4xuGXonpmyR0bjDlwCf8=;
+ b=Pain+/qld4tB/ELvthclULbgtqFPrPF/5z4rxBMS7+nTlow1XmfGywjAIVeE+t8U+eRr0uTbnpd8d0Rube/qmIwvTb9Zsyp0ezfedwRZpbP3zbJAYqk6WINAXGh/F3U+qKoqwMM6TyMDI1jyUmkz1fAUoWac/9fIsUYuWuplO0s=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from localhost (203.128.31.180) by
+ HE1PR0502MB3899.eurprd05.prod.outlook.com (2603:10a6:7:87::30) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.156.4; Sat, 28
+ Oct 2017 12:36:59 +0000
+Date: Sat, 28 Oct 2017 12:36:48 +0000
+To: sajdhj@gmail.com
+From: Legit Claims <hello@legitclaims.co.uk>
+Subject: Legit Claims
+Message-ID: <36b271d6bebea1ee6ecca826ec1f5698@localhost>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: text/html; charset=UTF-8
+X-Originating-IP: [203.128.31.180]
+X-ClientProxiedBy: DB6PR1001CA0040.EURPRD10.PROD.OUTLOOK.COM
+ (2603:10a6:4:55::26) To HE1PR0502MB3899.eurprd05.prod.outlook.com
+ (2603:10a6:7:87::30)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 44f7893d-4bb9-4a9f-3112-08d51e009603
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(2017052603199);SRVR:HE1PR0502MB3899;
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0502MB3899;3:MzZ3C+dWf/bbJf6b+iY4iNtsyGXIcQWs0aAwUNatIBRzg4PUoKRsiNFo2R4sWE3VsEsn0VzV8MQHBTQv6P4T8ktTNklzMlK6EYq+eWoDbyn7Hzc+tkoDe6pKSSllEhrYPDwWbyuluZXQ9txENS/TXFWoRFqMoinUVWnVUFYQBPhbsBhlWfYrL1R9ZPpw/c8X9ao93UQz/QXtlTRQXhnz1n5eWyvE7WFraMcI23gFq0Gv4uIPHYXCzFqLaE4msBtn;25:A++HIH3SooyHGgyNM7G0ncwcS2Bj1ll03RzLglc0KvEmWmjIp+VOupbNtqhrJZ0KZvB1TAqV/hnG8lWC2QuY61Gj9fGC7Rgc/+ScOHJN3SbEKiHNfBEkVe8GzOmvhIWzIj10vgOf6wBBrud0uvyW2F1p1M5gdtUuF/skYuefv645EGxV5FW0/e5v0mXY0iDLXXdhehPbVQs1+LuBJkWdk2bBgQwljoytqsybCh8IXdrg0Da9ly1AubeB5niJ9M2px/foG6ylXpgsT3ZKfT4NIG0WmUoBO7AHrJfcRkpTR0y6V+9cH53Tat/nHsIqBXNPS+fleplFD7HFRX0H44St/Q==;31:8o6v1UqfNBenJkjNfJZ4/zb6V8Vie/HVvNDzeld+b0BPdv7lLY8IfvoyC2fm6wlpIcNAGw8nfP1Ple6kQTt7ZMxamES/4LDTKTEB6P1AXjMifGNOpdir7F+gGbAoL0ZpRwRk/zqcTPPP/p886ZtbMgNV+QNWXFzu6AmXEAAbBHjt1+ALxVLKk/jt/ON+cX5hh+9LGsHPoaLsi5IrUfA4kMA5aiYleGGTUaSRjHgpHbo=
+X-MS-TrafficTypeDiagnostic: HE1PR0502MB3899:
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Microsoft-Antispam-PRVS: <HE1PR0502MB3899AD7870A5FCC4DD006C56E05B0@HE1PR0502MB3899.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(5005006)(8121501046)(10201501046)(100000703101)(100105400095)(3002001)(3231020)(93006095)(93001095)(6041248)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123558100)(20161123555025)(20161123562025)(20161123564025)(20161123560025)(2016111802025)(6072148)(6043046)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:HE1PR0502MB3899;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:HE1PR0502MB3899;
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0502MB3899;4:IkhXk/NTJ9grqNf0zUyU7EF4O0k0q8C0hivfKmz7xyybiOlKu/S573s0XnmoMEeogr45bySlqYY0Pm53ejX+Nu3/tHwgAphXRJJDssUQ8Yz5TtG74xEtO/ys5+L0o96PuOUOnN0tylO92i524PDnFWle/KK/YI1+QlZZNQm9lbTrOyF0cTj2V6vR18w1Wbp2Vwgf+fvwBaPkBcwVDB6r6RyZR22bssmOYvGBcEAL+uHGMeAIMQbryy1F8DTe890L
+X-Forefront-PRVS: 04740D25F1
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(6009001)(6069001)(39830400002)(346002)(376002)(199003)(189002)(42882006)(6666003)(9686003)(50986999)(55016002)(478600001)(2930100006)(4270600006)(50466002)(33716001)(86362001)(189998001)(6916009)(2361001)(23846002)(3480700004)(50226002)(316002)(5566004)(39060400002)(81156014)(81166006)(8676002)(16586007)(97736004)(2351001)(68736007)(89996002)(66066001)(23466002)(16526018)(33646002)(8936002)(24736003)(305945005)(221733001)(3846002)(7736002)(2906002)(53936002)(5660300001)(101416001)(558084003)(6116002)(7116003)(23676002)(106356001)(74482002)(588024002)(108616004)(76506005)(6496005)(25786009)(105586002)(32236002)(14943795004);DIR:OUT;SFP:1101;SCL:1;SRVR:HE1PR0502MB3899;H:localhost;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;HE1PR0502MB3899;23:voqmQ7MMAQq/cvtcW8uDbrQaYN+dORzOULKr5LT?=
+ =?us-ascii?Q?NMk8ip5uj7t6hlRWjXKNWvDrD9EdCOk4WCS0o1C7hyp4FlVxQxO4a5d0PKr2?=
+ =?us-ascii?Q?IGkZRLVi+dyP6gVy7vwKHfpvIIMB7htG9AO4QAHpCxU/SLlB22Z+W/oPgtnA?=
+ =?us-ascii?Q?cYG8blkZhs1ZaBEtspUEHrKSCqLWqufsYmHfhDxR8yIfH+6BWsDzG4KJeP0B?=
+ =?us-ascii?Q?LdyQadS/3npeTzN7BUzIsTQe2jQKXH9K0pil28B8gkAJQsz6/d2a4JG4Whmu?=
+ =?us-ascii?Q?BzRX4vFiBA8sb+ecIQKeGhCNMGqYWT/ZWpASv1z9zYv7/BtCvNToVfIGzGsN?=
+ =?us-ascii?Q?jncG45VHHSAjnYcHqTKSgg4e0jPPNVqY6LhRZjz+87UYBrdFxV4vdHTMx3yQ?=
+ =?us-ascii?Q?wMGv4t6icXvvcKqbO1bu0bOk+0uCgjl5rGXd1r+VLrQXjKUmM5rjaA/4DhSI?=
+ =?us-ascii?Q?CQdI2CkizC6679P4qlUFNmMtgz8kULrp1KdE4fe7V4+QDVy9zf015NU63mDY?=
+ =?us-ascii?Q?1fF++f1lCZU8+NnEbqpAKpPyr71zJ9dMPs5a9FcxguIWqcuxGaGw1fTbOJxe?=
+ =?us-ascii?Q?T4SVGXhqGOAfMj4fGoxwi/GLOwcDXhefdczlBl4t6n1pyPJofQTo0EpAQaN0?=
+ =?us-ascii?Q?E2ZH1KDAmei23hRfmH4prJ1yx157QLbA/G+zt+FvaAlX4BKzBuoWG6n0zSuc?=
+ =?us-ascii?Q?gbqrVw0Z6j9wzX6mnG9VdmiqtirmCbh2/W+lndmj8JbuqzZo6Dg9TdTO+9b9?=
+ =?us-ascii?Q?r252fuaM7yDGT6Z5xXR8VFuMdY2dyyhHclDEgVhRc4O7coiIm1HIp5l5ghZH?=
+ =?us-ascii?Q?i+ODkCC2PWAMcMqB1pUFjOXlufdjZQw2tAt0LIpl8Fgrzy3cZRBPwaRJa+6K?=
+ =?us-ascii?Q?/pyn4J+cvSZFhd42cmYDzF8UoDXEInw/rT99+7IJYJ1TS65bH6cD+DxOO2RP?=
+ =?us-ascii?Q?1IpbCa1m5RvyfcZvZeuHl68DosXve5AkX/9gaaFTq6BLGC5yDaurHvgt6/fI?=
+ =?us-ascii?Q?RerRYMxBXVdL7GhY1gkJ7ifiYZaVKyEgI9X/2eZ8zmHbphUnT3FR8++OiLe9?=
+ =?us-ascii?Q?qvgEUKMbpcbxw24dCx4AqdpXFKUQOzDU+XY2DqXWvNHIzAhEkAWdp3zwkLlv?=
+ =?us-ascii?Q?Mtx3xmbf8XelrbsRzDOFZu5x8/ozYyBNLgGB95JYRgwC0PZ/cIq+A5qX+Qty?=
+ =?us-ascii?Q?Bn4JezzgFMd2oBAZ3kOs6rUXf23D9adUNZ8k5k0n2MY8sx7OYNSe8SVzX1KS?=
+ =?us-ascii?Q?kGPvWfcV2QilIBXmMyHdo/gBXDkthT4Zc9xiQAYzKLg43EJYRlBAWnmGF5tV?=
+ =?us-ascii?Q?LA72Qaa3kcSXE0lm0L9kIblO0VzvGMUut2l+jAItUwNWqaAe5+6NGVOqVSr1?=
+ =?us-ascii?Q?Py7HOvMwA+AeegZX0E7JPasw7aUijs8/c5AiL6ioI296o/93/JbLOiDAwDEp?=
+ =?us-ascii?Q?Js6RqBRktQYNyrjKgU+KsOQB4NKFGOt6ofU7gxHihS5StbIcOvleN?=
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0502MB3899;6:9AyVvI12ACR4U4XzH01sjvRRtaccinL32BhhgWRcLbbgZNJy2jY1q90E39V/Q23jp7f3WqNHoXFbDZkOoCyS4rLTP8ifHZQlOYJiDQtsYmeot0TTw7oGmMPOfdHxSP/qzy75OIK1jF+AsUHMypI+SDckkuGzHpB/izM1tkGMaLlKKVymtzjA9gb9FOimg/an86VEeqRKoPTyf/xzNXfmYtoBy+tQm6UHhhyRyEVtIj2FmV+G5ddEse0r6y6Do8rdc7OsCi2e0Huxe3ZBvsfOY0p3vAGjQmGVz77HWtGOoAws1xxCShRv5ueJPr+3UYRSzpqyQ97b1G1RUjtuGc0N5Q==;5:SZHB2qzVh0p5IWF4TzXGG7NVw/RIcDN6PVxsX1xGttwq5WhpI4pM7Etv+k+yGd5JybqaJBKCP182jtAaAn31zZ7eOlVfm7cZE5LkBhXeYnnNqzvOij5LzR+mZ92C5PLVpkcg15H/W7xeL+OWNJKkrQ==;24:c738V/c+GNV029ZtNL7e50nGXau8Qx3dR3HrBLVLAdguWhGBdntA4NzRbERa0xCwg1HTfk3ob7pa7TJXbGUX2orDYM5bQjsumZ4W9UxTQBU=;7:WZ9d9JIdLi4a4eXcM3EORqgLGEMQahb9FLzku6F7eyKDCgNfG3VJTdjDBAkX1EDlC+ItoqPndeglz2LmMO4tSuUm35r74wauBfjcynL9K/jMlEODdExknhNRBoDyiAqKpay7b4W0eJT1p6Kx6FxJQ5ttHn7e8q71ibc6Uwn8I2NSvJCg48j8VSfK1AH5MdRZf5W8CCnneHMAsjE266+Uip6d6JZzXPCFoqgIG2D2TGo=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Oct 2017 12:36:59.5449 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 44f7893d-4bb9-4a9f-3112-08d51e009603
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR0502MB3899
+MIME-Version: 1.0
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><p>Thanks for Subscription.</p><br>
+
+

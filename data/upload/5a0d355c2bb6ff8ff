@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM0PR0502MB3891.eurprd05.prod.outlook.com
+Received-From-MTA: dns;www.legitclaims.co.uk
+Arrival-Date: Thu, 16 Nov 2017 06:51:07 +0000
+
+Final-Recipient: rfc822;0ilgd545.zk3@20mail.eu
+Action: failed
+Status: 5.1.351
+Diagnostic-Code: smtp;550 5.1.351 Remote server returned unknown recipient or mailbox unavailable -> 550 Unknown user
+Remote-MTA: dns;20minute.email
+
+

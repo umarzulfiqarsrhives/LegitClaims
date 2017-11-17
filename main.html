@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>SevenHives</title>
+        <script type="text/javascript" src="client/sevenhives.min.js?r=1449586584809"></script>
+        <link href="{{stylesheet}}?r=1449586584809" rel="stylesheet" id='main-stylesheet'>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="Seven Hives is an easy to use cloud based Customer Relationship Management System.">
+
+        <link rel="icon" href="client/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="client/img/favicon.ico" type="image/x-icon">
+        <script type="text/javascript">
+            $(function () {
+                Espo.require('app', function (App) {
+                    var app = new App({
+                        useCache: {{useCache}},
+                        cacheTimestamp: {{cacheTimestamp}}
+                    }, function (app) {
+                        {{runScript}}
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container content"></div>
+        <footer>
+            <p class="credit small">&copy; 2016 <a href="http://www.sevenhives.co.uk" title="Powered by SevenHives" alt="Visit official SevenHives website">SevenHives</a></p>
+        </footer>
+    </body>
+</html>

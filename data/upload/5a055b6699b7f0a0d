@@ -1,0 +1,452 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=KieVwGp2yBMLvIq3lwKFwCwQEDh2EIgA9WD03yRBJ6I=;
+ b=YBDlrTXQxXsOtpUZoxZemKMK3WbeVvIBl5iM80W8jnSRm/nD3ZTIzMy+C541VEltzkFH4yNlcwjbgle4Y0zpKgEUxoCUce/2cyiCUlPvpdhkCrP6ptEg3gZsMMi/789m5QfW1IE05c+iRM9pVju8DcGJ7dw8jM5Bb2jpfqvxTjM=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from www.legitclaims.co.uk (46.101.48.166) by
+ AM0PR0502MB3892.eurprd05.prod.outlook.com (2603:10a6:208:20::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Fri, 10
+ Nov 2017 07:55:04 +0000
+Date: Fri, 10 Nov 2017 07:54:28 +0000
+To: 0ilgd545.zk3@20mail.eu, eddiemunz@mailcatch.com, faisal.ishfaq@srhives.com, faisalwahab1230@gmail.com, mae@b.searchengineranker.email
+From: Legit Claims <hello@legitclaims.co.uk>
+Subject: Legit Claims Post
+Message-ID: <51446c35209f0484bdee03eb66537ba3@www.legitclaims.co.uk>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [46.101.48.166]
+X-ClientProxiedBy: LNXP265CA0042.GBRP265.PROD.OUTLOOK.COM
+ (2603:10a6:600:5c::30) To AM0PR0502MB3892.eurprd05.prod.outlook.com
+ (2603:10a6:208:20::22)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 17b9cd88-134c-4726-7b91-08d528105a8b
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603199);SRVR:AM0PR0502MB3892;
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3892;3:n8p0NSuIcSVYWgR6ZG01kUPMCGumKBylUPpc/9QJJJMyg5XNLBTDE3rTpL2x8TkdWAIW+U5oBq7ArPK0Ic4W/oGZUtURoYVy3FzsjHR1MdxqA2XS45Hv0+ZFDdIZmuyqyS82IKa+cR4tzlk3gseLQJn2V/hCLXe4Hpi/LCVoZMbzl4hqF5dHBvyV7wANQrEx9qjDvy/QLOLUg+mWbGfKUzKDKJgP0YVOV8K9A+53ngOLzfx4Hnrj2Nzb92yV/MzR;25:+Dg1+Of/gwiyg89bI1ngoXuHeynAqjt0Iz/N66HZrYLyirHzAmqSEvRhfLLWwTIj2lqMXr/OgFAxSwQiJmbvwUr/3hqxydlHJeblD6t6B0fEY130mNE2bEy9bQ2ZnPb+geyRe665ot6orua7jDYLtwhMcIEcacDbNgH3GkRzG2EfX+I5gYDso77gRc0jKLXskThpkTLqZFRYA5oU52a9iMI0LDG2MBMZGIul1rwXk2tWrvDEyRZb2UKRWNJIj2kfulstTdK8BNpxuYj7xzhPr8oi4KNVsxAw+C1tkWQ0eivhZj3zYUUsMaNw8FDimYJUrLzbv6ey3qm5Hj2a7kPYaw==;31:4hnJoLOGwN3+lFc7me/U83fck4LJp+UAG/CLcnMRp0kmTEeakUFtEWIVYIzm2Yp5SKxFq/isKZjDmNcIQo9rhrRcW8CzFCF4i1aapFe1cukyPSgU7IWz0dKLUAamYANEc0wnbthEKw4GF2pzNawzsfAQCXF7/kQbmG7WuFtMmg8Jlo2BX3HZptNcnkBBl1I43ZXohFvuqMkygMnxwB1kvTx7K6zWHdK/LV9tMlPnouw=
+X-MS-TrafficTypeDiagnostic: AM0PR0502MB3892:
+X-Exchange-Antispam-Report-Test: UriScan:(148322886591682)(62403747172241)(231433314529491)(81227570615382)(21532816269658);
+X-Microsoft-Antispam-PRVS: <AM0PR0502MB38928B2D219772795A02480DE0540@AM0PR0502MB3892.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(8121501046)(5005006)(3002001)(93006095)(93001095)(100000703101)(100105400095)(3231021)(10201501046)(6041248)(20161123558100)(2016111802025)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123564025)(20161123562025)(20161123560025)(20161123555025)(6072148)(6043046)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM0PR0502MB3892;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM0PR0502MB3892;
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3892;4:7La5k2zpuTuzOBlqn6HBwINWfLWrcs0hTa/eOWmg9yLOCPTT02vwEwHvvMvgtDmp1FrlvjPX3xRXrSRkSW9cN6zBv/f4OyINbBEWda2Gxlsqmk9kgPr88eUBY6vlFRrCL49MB9hbT0BHopOgtGmUaMH1spSTnbG4FCek9k5TQI2b68MEavOcyZGKr5o7NvQBYDGt9ot+VaAwUChWIkh8YQZYBJw9cQl19GRy0Ug6/FgwjNHOo4nJwpAX2NCpRl0Y7U/CJPTwQiA7tR8SeX0AKVCBtVfwvpqFXsDX5bLgMg5DAa2sJTN50EgtvaYlTiDlwsv0Cgj68Klc5XyGbDVbUhjL9WeOaT1yFq8FcVbVgZP/B6l9wkU5743bMT0Gme+OSKoCwHxiKbAfby0ZJ7Va1CYBWwdeUU1ARhoAuExzDel2lB+Hs8/w9zh9wkLh9W9AOTMphpMcCB/rTFUBTFM/Vw==
+X-Forefront-PRVS: 0487C0DB7E
+X-Forefront-Antispam-Report: SFV:SPM;SFS:(10009020)(376002)(39830400002)(346002)(189002)(199003)(8746002)(5566004)(81156014)(81166006)(42882006)(861006)(316002)(8936002)(6666003)(74826001)(50466002)(19626245004)(89996002)(7736002)(8676002)(23466002)(19619215002)(23676003)(53936002)(66066001)(68736007)(5660300001)(7116003)(3480700004)(478600001)(74482002)(606006)(86362001)(106356001)(236005)(101416001)(69596002)(105586002)(733005)(24736003)(25786009)(33646002)(53416004)(2906002)(16526018)(97736004)(50226002)(55016002)(6116002)(19630485002)(108616004)(39060400002)(3846002)(6306002)(13146002)(23846002)(50986999)(189998001)(19627405001)(18360200003)(423614002)(110116018)(105646017);DIR:OUT;SFP:1501;SCL:5;SRVR:AM0PR0502MB3892;H:www.legitclaims.co.uk;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;AM0PR0502MB3892;23:fMOQXYf9JAWE4t5OJvhf2pJT8/RMV1bJ9NDtZC3?=
+ =?us-ascii?Q?JGBpIPHqZ4+7Z7+Jeu9UzFJnsQTelw8k9x4ru84Bnbq60PX8H4/1yW9lWEk0?=
+ =?us-ascii?Q?gvSQBavj7FXFFr/ia57yDTzbRcvIcG4w3UeNpD7mNHHBuQAQQr0gB2qJsrOO?=
+ =?us-ascii?Q?pU4Urlc25WApQkuLfcGmMOKGOan6dT/nh89UQEWR3bq0OGMAhuzBcKzmHgC8?=
+ =?us-ascii?Q?jdOUDHG3FO77KNMsEjfUUnUr4UU769r4F0FiwryuAJAbMmZTKe5Z0kshNmEi?=
+ =?us-ascii?Q?O98uJEb4ze3ex0Vqljq/UDG/7daT3FKmwZ9kDTl7ieVWNFnAUOwLST4NO1pz?=
+ =?us-ascii?Q?WKMQjj+jCzgq+UktdeDcNLlfntmYZjIfl7bklI9wP+2x5EnxoJL3+gRoiBVR?=
+ =?us-ascii?Q?gPKVk2WJI7ihH0qy4nGuuu3/dwfRIi3O12v21LhsE4c0XtopZQ6z8+HsrR4q?=
+ =?us-ascii?Q?bGUefTo/jekNm13b66uRMhkVGuHIQyV8BLmLPnDhEGxZnF6JbzbngNV8rdaq?=
+ =?us-ascii?Q?f1tUVo4zJzGy2/dFB8rTMi2okVLYH50FpGQvD5t2IU7VI1RcdHPhAqpTozQR?=
+ =?us-ascii?Q?ay0RCn33+YANIpxKbBphFaCa0f5/wwBlRd9vW3g0tXowH4yJVq2GI9jntGfx?=
+ =?us-ascii?Q?Bya8RpWOhZs0zE2EscgFdp/W/eajisYpTuLCQCKSOesx7lQzRuOoeunj8okS?=
+ =?us-ascii?Q?yPgR18dv1O0RMvOc3RRg8YOcBpQPo8sSSXRdPzhFYjC19QrzA5ScLu2IdEyY?=
+ =?us-ascii?Q?gTcM/MpkEPlE41nanE/nxRBLkWIqFvkYn1uTZyEwLSRSZIEEjFlpbUwqGSMw?=
+ =?us-ascii?Q?S0aDskAveDH8RqkVYkANyEXkeHN3U9cCWOuCZk/jNGkuj9LYnZL7rkWTaRhv?=
+ =?us-ascii?Q?NxtZUCDz/S4wDmfhfvJuKzJoQmf4p6sCZkfbSqi4KSVO/qXZQQPqeq/TMR59?=
+ =?us-ascii?Q?+6dPRLGlBNX0BXereBA8utNsjwLmyFAb6TDr6DYCZvbdhrR6/E2dyNMoWuOT?=
+ =?us-ascii?Q?voUJk5UZ3EVLSzxNumPn0nZDmjrcXrogErQcq8/Ix7I/g9xIwQ8ScUKq/UML?=
+ =?us-ascii?Q?A7gU1til932jXawDp6RKYuZL+0jRU0i6oZCS/9Ub0X/vhZx/4I1CDjrbqhBB?=
+ =?us-ascii?Q?C7AV++6SViqKNFM/NUYSemWuei6cnn/Cms1qw+dWNQ9BdAV73cIKaJUEet5X?=
+ =?us-ascii?Q?3KLfFbxvWv++253XqH+HG08Lbi+94oK5ybRey/eeU6G59oBW5kLh0NJr823v?=
+ =?us-ascii?Q?BTsv1ZXFgBMDL4nlttl9XYwUo0rKGSd+0jU1lZid1BTKguYGc26lRGMAZXlI?=
+ =?us-ascii?Q?TeihiTzyKasaWDqwP6tSucVzz8efG2O2Tdv7Qf3DxwIaP50FuB2fNw6ELvFs?=
+ =?us-ascii?Q?G3nE/UVN1I/nq9Wz1QOd05mZx0LDvv8BEjcE3jggPZ0OC/Phbxw0bwxeIgm2?=
+ =?us-ascii?Q?KQELSwKqr6KGdyEAiFKX/WuFEt199FFafaxG/0/uyUG3cgKUebQiU+/I+rVX?=
+ =?us-ascii?Q?mu4dGSq1fvZOrnKHZePCNxX65OiPdPP+5LNM=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;AM0PR0502MB3892;6:WPovaLgjtjl+zjEchSxstp4F1c9CetjrVaJrYJV5gDLOf2YnT7teiAgp/BkAlZBH7ZkTG3b2WsgH870c12+nBWxjdyvLOLk89x/1x6sLyGcmdpQ7Dc92Ca0k/WAujlCcr2lA3DAvY+XTyoUp5Dlu7JhCwWny3m4/CfWnEa26POcEaB96iPax+yAamNAAnrMtMSLZLlOa5DRntDXr+yUkHp9BTg9AggKLdXG0R2kUFKb2GFMbrdUKFKkzPW0f8Wpx/Jgsd5ed77qPTcfFycJy9s39FOFqizchgrKVkeMH+8vDf1bRqdan9LwCImNZxdqfQIDXBnOjARDmuXGAQ5Dz41WaFDAwpqXYYNscWB11yLY=;5:ivlQeyAeawBHEo2bvMY+cOX+sYPX+4P2WbXVZDs0whT69UPWqQnP+oB/Oauq+dCWG3+B85RE1YagPB5UKcK2R0BT/X04f6Y6BXUvN6EHglmXF7flq5CF/C97vxs1m+O49wAm5gHhR+UWB2825u8A91GG1hzHbKVK+pqjnGs8COg=;24:YyhPJ1vU1iu8PPAWo9jjPhB+xccQ5aho5nP9S0EWaqNe1QwjZ7EZiom3M3lENYVVOwXc9aUlqgwb7+yOgBbRMg==;7:k3SDL7TqKVT8byC1YL+3dPqG7b4HhUSmw04uuElPzjnkTI85he/vVYb4c358B0S+WghkIV3HdXz03ipd+G83HJ/CAS8WbXUWRTSMffOEBpdjZBvcR5CHlR4WAv6h1YDlQYnPg8jhZvepuIZpXLkfP82JSqCoJpDO/eEaeiwXCI7HHMCbOp+YtO6KeepJ92ZhGlcn2X9OLvUSGPVxOCw0LDDdtr7Rt9d9pcpCc1czYTmGoeo+WaZW3VZMMc5YkbmU
+SpamDiagnosticOutput: 1:22
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Nov 2017 07:55:04.5690 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 17b9cd88-134c-4726-7b91-08d528105a8b
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR0502MB3892
+MIME-Version: 1.0
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><!--[if gte mso 15]><xml><o:OfficeDocumentSettings><o:AllowPNG/><=
+o:PixelsPerInch></o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif=
+]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"> <=
+meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <meta name=3D"vi=
+ewport" content=3D"width=3Ddevice-width, initial-scale=3D1"><title></title>=
+ <style type=3D"text/css">p{margin:10px 0;padding:0;}table{border-collapse:=
+collapse;}h1,h2,h3,h4,h5,h6{display:block;margin:0;padding:0;}img,a img{bor=
+der:0;height:auto;outline:none;text-decoration:none;}body,#bodyTable,#bodyC=
+ell{height:100%;margin:0;padding:0;width:100%;}.mcnPreviewText{display:none=
+ !important;}#outlook a{padding:0;}img{-ms-interpolation-mode:bicubic;}tabl=
+e{mso-table-lspace:0pt;mso-table-rspace:0pt;}.ReadMsgBody{width:100%;}.Exte=
+rnalClass{width:100%;}p,a,li,td,blockquote{mso-line-height-rule:exactly;}a[=
+href^=3Dtel],a[href^=3Dsms]{color:inherit;cursor:default;text-decoration:no=
+ne;}p,a,li,td,body,table,blockquote{-ms-text-size-adjust:100%;-webkit-text-=
+size-adjust:100%;}.ExternalClass,.ExternalClass p,.ExternalClass td,.Extern=
+alClass div,.ExternalClass span,.ExternalClass font{line-height:100%;}a[x-a=
+pple-data-detectors]{color:inherit !important;text-decoration:none !importa=
+nt;font-size:inherit !important;font-family:inherit !important;font-weight:=
+inherit !important;line-height:inherit !important;}.templateContainer{max-w=
+idth:600px !important;}a.mcnButton{display:block;}.mcnImage{vertical-align:=
+bottom;}.mcnTextContent{word-break:break-word;}.mcnTextContent img{height:a=
+uto !important;}.mcnDividerBlock{table-layout:fixed !important;}/*@tab Page=
+@section Heading 1@style heading 1*/h1{/*@editable*/color:#222222;/*@editab=
+le*/font-family:Helvetica;/*@editable*/font-size:40px;/*@editable*/font-sty=
+le:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@ed=
+itable*/letter-spacing:normal;/*@editable*/text-align:center;}/*@tab Page@s=
+ection Heading 2@style heading 2*/h2{/*@editable*/color:#222222;/*@editable=
+*/font-family:Helvetica;/*@editable*/font-size:34px;/*@editable*/font-style=
+:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@edit=
+able*/letter-spacing:normal;/*@editable*/text-align:left;}/*@tab Page@secti=
+on Heading 3@style heading 3*/h3{/*@editable*/color:#444444;/*@editable*/fo=
+nt-family:Helvetica;/*@editable*/font-size:22px;/*@editable*/font-style:nor=
+mal;/*@editable*/font-weight:bold;/*@editable*/line-height:150%;/*@editable=
+*/letter-spacing:normal;/*@editable*/text-align:left;}/*@tab Page@section H=
+eading 4@style heading 4*/h4{/*@editable*/color:#999999;/*@editable*/font-f=
+amily:Georgia;/*@editable*/font-size:20px;/*@editable*/font-style:italic;/*=
+@editable*/font-weight:normal;/*@editable*/line-height:125%;/*@editable*/le=
+tter-spacing:normal;/*@editable*/text-align:left;}/*@tab Header@section Hea=
+der Container Style*/#templateHeader{/*@editable*/background-color:#373b44;=
+/*@editable*/background-image:none;/*@editable*/background-repeat:no-repeat=
+;/*@editable*/background-position:center;/*@editable*/background-size:cover=
+;/*@editable*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/paddin=
+g-top:6px;/*@editable*/padding-bottom:6px;}/*@tab Header@section Header Int=
+erior Style*/.headerContainer{/*@editable*/background-color:transparent;/*@=
+editable*/background-image:none;/*@editable*/background-repeat:no-repeat;/*=
+@editable*/background-position:center;/*@editable*/background-size:cover;/*=
+@editable*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-t=
+op:0;/*@editable*/padding-bottom:0;}/*@tab Header@section Header Text*/.hea=
+derContainer .mcnTextContent,.headerContainer .mcnTextContent p{/*@editable=
+*/color:#808080;/*@editable*/font-family:Helvetica;/*@editable*/font-size:1=
+6px;/*@editable*/line-height:150%;/*@editable*/text-align:left;}/*@tab Head=
+er@section Header Link*/.headerContainer .mcnTextContent a,.headerContainer=
+ .mcnTextContent p a{/*@editable*/color:#00ADD8;/*@editable*/font-weight:no=
+rmal;/*@editable*/text-decoration:underline;}/*@tab Body@section Body Conta=
+iner Style*/#templateBody{/*@editable*/background-color:#FFFFFF;/*@editable=
+*/background-image:none;/*@editable*/background-repeat:no-repeat;/*@editabl=
+e*/background-position:center;/*@editable*/background-size:cover;/*@editabl=
+e*/border-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:36px;=
+/*@editable*/padding-bottom:45px;}/*@tab Body@section Body Interior Style*/=
+.bodyContainer{/*@editable*/background-color:transparent;/*@editable*/backg=
+round-image:none;/*@editable*/background-repeat:no-repeat;/*@editable*/back=
+ground-position:center;/*@editable*/background-size:cover;/*@editable*/bord=
+er-top:0;/*@editable*/border-bottom:0;/*@editable*/padding-top:0;/*@editabl=
+e*/padding-bottom:0;}/*@tab Body@section Body Text*/.bodyContainer .mcnText=
+Content,.bodyContainer .mcnTextContent p{/*@editable*/color:#808080;/*@edit=
+able*/font-family:Helvetica;/*@editable*/font-size:16px;/*@editable*/line-h=
+eight:150%;/*@editable*/text-align:left;}/*@tab Body@section Body Link*/.bo=
+dyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{/*@editabl=
+e*/color:#00ADD8;/*@editable*/font-weight:normal;/*@editable*/text-decorati=
+on:underline;}/*@tab Footer@section Footer Style*/#templateFooter{/*@editab=
+le*/background-color:#373b44;/*@editable*/background-image:none;/*@editable=
+*/background-repeat:no-repeat;/*@editable*/background-position:center;/*@ed=
+itable*/background-size:cover;/*@editable*/border-top:0;/*@editable*/border=
+-bottom:0;/*@editable*/padding-top:11px;/*@editable*/padding-bottom:11px;}/=
+*@tab Footer@section Footer Interior Style*/.footerContainer{/*@editable*/b=
+ackground-color:transparent;/*@editable*/background-image:none;/*@editable*=
+/background-repeat:no-repeat;/*@editable*/background-position:center;/*@edi=
+table*/background-size:cover;/*@editable*/border-top:0;/*@editable*/border-=
+bottom:0;/*@editable*/padding-top:0;/*@editable*/padding-bottom:0;}/*@tab F=
+ooter@section Footer Text*/.footerContainer .mcnTextContent,.footerContaine=
+r .mcnTextContent p{/*@editable*/color:#FFFFFF;/*@editable*/font-family:Hel=
+vetica;/*@editable*/font-size:12px;/*@editable*/line-height:150%;/*@editabl=
+e*/text-align:center;}/*@tab Footer@section Footer Link*/.footerContainer .=
+mcnTextContent a,.footerContainer .mcnTextContent p a{/*@editable*/color:#F=
+FFFFF;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underlin=
+e;}@media only screen and (min-width:768px){.templateContainer{width:600px =
+!important;}}@media only screen and (max-width: 480px){body,table,td,p,a,li=
+,blockquote{-webkit-text-size-adjust:none !important;}}@media only screen a=
+nd (max-width: 480px){body{width:100% !important;min-width:100% !important;=
+}}@media only screen and (max-width: 480px){.mcnImage{width:100% !important=
+;}}@media only screen and (max-width: 480px){.mcnCartContainer,.mcnCaptionT=
+opContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentC=
+ontainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnC=
+aptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCap=
+tionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnIma=
+geCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{max-w=
+idth:100% !important;width:100% !important;}}@media only screen and (max-wi=
+dth: 480px){.mcnBoxedTextContentContainer{min-width:100% !important;}}@medi=
+a only screen and (max-width: 480px){.mcnImageGroupContent{padding:9px !imp=
+ortant;}}@media only screen and (max-width: 480px){.mcnCaptionLeftContentOu=
+ter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{padding-to=
+p:9px !important;}}@media only screen and (max-width: 480px){.mcnImageCardT=
+opImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnT=
+extContent{padding-top:18px !important;}}@media only screen and (max-width:=
+ 480px){.mcnImageCardBottomImageContent{padding-bottom:9px !important;}}@me=
+dia only screen and (max-width: 480px){.mcnImageGroupBlockInner{padding-top=
+:0 !important;padding-bottom:0 !important;}}@media only screen and (max-wid=
+th: 480px){.mcnImageGroupBlockOuter{padding-top:9px !important;padding-bott=
+om:9px !important;}}@media only screen and (max-width: 480px){.mcnTextConte=
+nt,.mcnBoxedTextContentColumn{padding-right:18px !important;padding-left:18=
+px !important;}}@media only screen and (max-width: 480px){.mcnImageCardLeft=
+ImageContent,.mcnImageCardRightImageContent{padding-right:18px !important;p=
+adding-bottom:0 !important;padding-left:18px !important;}}@media only scree=
+n and (max-width: 480px){.mcpreview-image-uploader{display:none !important;=
+width:100% !important;}}@media only screen and (max-width: 480px){/*@tab Mo=
+bile Styles@section Heading 1@tip Make the first-level headings larger in s=
+ize for better readability on small screens.*/h1{/*@editable*/font-size:30p=
+x !important;/*@editable*/line-height:125% !important;}}@media only screen =
+and (max-width: 480px){/*@tab Mobile Styles@section Heading 2@tip Make the =
+second-level headings larger in size for better readability on small screen=
+s.*/h2{/*@editable*/font-size:26px !important;/*@editable*/line-height:125%=
+ !important;}}@media only screen and (max-width: 480px){/*@tab Mobile Style=
+s@section Heading 3@tip Make the third-level headings larger in size for be=
+tter readability on small screens.*/h3{/*@editable*/font-size:20px !importa=
+nt;/*@editable*/line-height:150% !important;}}@media only screen and (max-w=
+idth: 480px){/*@tab Mobile Styles@section Heading 4@tip Make the fourth-lev=
+el headings larger in size for better readability on small screens.*/h4{/*@=
+editable*/font-size:18px !important;/*@editable*/line-height:150% !importan=
+t;}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@section =
+Boxed Text@tip Make the boxed text larger in size for better readability on=
+ small screens. We recommend a font size of at least 16px.*/.mcnBoxedTextCo=
+ntentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextConten=
+t p{/*@editable*/font-size:14px !important;/*@editable*/line-height:150% !i=
+mportant;}}@media only screen and (max-width: 480px){/*@tab Mobile Styles@s=
+ection Header Text@tip Make the header text larger in size for better reada=
+bility on small screens.*/.headerContainer .mcnTextContent,.headerContainer=
+ .mcnTextContent p{/*@editable*/font-size:16px !important;/*@editable*/line=
+-height:150% !important;}}@media only screen and (max-width: 480px){/*@tab =
+Mobile Styles@section Body Text@tip Make the body text larger in size for b=
+etter readability on small screens. We recommend a font size of at least 16=
+px.*/.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{/*@edi=
+table*/font-size:16px !important;/*@editable*/line-height:150% !important;}=
+}@media only screen and (max-width: 480px){/*@tab Mobile Styles@section Foo=
+ter Text@tip Make the footer content text larger in size for better readabi=
+lity on small screens.*/.footerContainer .mcnTextContent,.footerContainer .=
+mcnTextContent p{/*@editable*/font-size:14px !important;/*@editable*/line-h=
+eight:150% !important;}}</style></head> <body><span class=3D"mcnPreviewText=
+" style=3D"display:none; font-size:0px; line-height:0px; max-height:0px; ma=
+x-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">=
+</span> <center> <table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable"> <tr> <td al=
+ign=3D"center" valign=3D"top" id=3D"bodyCell"> <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td align=3D"center" valign=
+=3D"top" id=3D"templateHeader" data-template-container=3D""><!--[if gte mso=
+ 9]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"600" style=3D"width:600px;"><tr><td align=3D"center" valign=3D"t=
+op" width=3D"600" style=3D"width:600px;"><![endif]--><table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"=
+templateContainer"><tr> <td valign=3D"top" class=3D"headerContainer"><table=
+ class=3D"mcnImageBlock" style=3D"min-width:100%;" width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0"> <tbody class=3D"mcnImageBlockOuter=
+"> <tr> <td style=3D"padding:9px" class=3D"mcnImageBlockInner" valign=3D"to=
+p"> <table class=3D"mcnImageContentContainer" style=3D"min-width:100%;" wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"=
+> <tbody><tr> <td class=3D"mcnImageContent" style=3D"padding-right: 9px; pa=
+dding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" val=
+ign=3D"top"> <img alt=3D"" src=3D"http://staging.zapro.uk/htmzil/legit_emai=
+ls_images/legitclaims-logo.png" style=3D"max-width:617px; padding-bottom: 0=
+; display: inline !important; vertical-align: bottom;" class=3D"mcnImage" w=
+idth=3D"308.5" align=3D"middle"> </td></tr></tbody></table> </td></tr></tbo=
+dy></table></td></tr></table><!--[if gte mso 9]></td></tr></table><![endif]=
+--></td></tr><tr><td align=3D"center" valign=3D"top" id=3D"templateBody" da=
+ta-template-container=3D""><!--[if gte mso 9]><table align=3D"center" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:60=
+0px;"><tr><td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:=
+600px;"><![endif]--><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" class=3D"templateContainer"><tr> <td valig=
+n=3D"top" class=3D"bodyContainer"><table class=3D"mcnTextBlock" style=3D"mi=
+n-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0"> <tbody class=3D"mcnTextBlockOuter"> <tr> <td class=3D"mcnTextBlockInne=
+r" style=3D"padding-top:9px;" valign=3D"top"><!--[if mso]><table align=3D"l=
+eft" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"width:100%;"><tr><![endif]--><!--[if mso]><td valign=3D"top" width=3D"6=
+00" style=3D"width:600px;"><![endif]--> <table style=3D"max-width:100%; min=
+-width:100%;" class=3D"mcnTextContentContainer" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=
+=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; padding-bot=
+tom:9px; padding-left:18px;" valign=3D"top"> <h3> <a href=3D"https://www.le=
+gitclaims.co.uk/blog/slip-trip-fall-accident-claims/"> Slip, trip and fall =
+accident claims</a></h3><p><h1 style=3D"text-align: center;">Slips, Trips a=
+nd Falls are Quite Prevalent and are most Common in Public and Work Places.=
+</h1>=0A=
+<p style=3D"text-align: left;">There are many different types of accident c=
+laims that you can claim compensation for. The worst of these kinds of acci=
+dents can prove to be fatal. Although, they can also lead to head injuries,=
+ back injuries, fractures and in the worst cases, paralysis. Slips, trips a=
+nd falls can happen for a number of reasons like:</p>=0A=
+<ul>=0A=
+<li>Tripping over wires, boxes or litter</li>=0A=
+<li>Falling from height because of something like a faulty ladder</li>=0A=
+<li>Slips on wet or icy surfaces due to a lack of warning signs in the area=
+</li>=0A=
+<li>Trips over uneven paving slabs</li>=0A=
+<li>Tripping down staircases which have been poorly-maintained</li>=0A=
+<li>Personal injury compensation claims</li>=0A=
+</ul>=0A=
+<p>&nbsp;</p>=0A=
+<p><img class=3D"aligncenter size-large wp-image-451" src=3D"https://www.le=
+gitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Slip-And-Trip-=
+1024x682.jpg" alt=3D"Legit Claims - Slip And Trip" width=3D"500" height=3D"=
+333" srcset=3D"https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/1=
+1/Legit-Claims-Slip-And-Trip-1024x682.jpg 1024w, https://www.legitclaims.co=
+.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Slip-And-Trip-300x200.jpg =
+300w, https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-C=
+laims-Slip-And-Trip-768x512.jpg 768w, https://www.legitclaims.co.uk/blog/wp=
+-content/uploads/2017/11/Legit-Claims-Slip-And-Trip-900x600.jpg 900w, https=
+://www.legitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Slip-=
+And-Trip.jpg 1600w" sizes=3D"(max-width: 500px) 100vw, 500px"></p>=0A=
+<p>If someones negligence led you to getting injured,&nbsp; you have every =
+right to pursue a personal injury compensation claim. For incidents in publ=
+ic spaces, the local council is usually at fault because it=E2=80=99s the c=
+ouncil=E2=80=99s responsibility to ensure public safety. For indoors, it=E2=
+=80=99s whoever owns the building =E2=80=93 the business owner or, in the c=
+ase of state-run buildings, the council. In any situation of slip and trip,=
+ personal injury solicitor can help you.</p>=0A=
+<h2>Factors to Consider When Making Accident Claims</h2>=0A=
+<p>The number one thing you should do is seek immediate medical attention a=
+nd record the accident. If an accident happens, always keep a record and ta=
+ke photographs of the location of the accident, the cause as well as the re=
+sulting injury (if visible). Be sure to take the names and home addresses o=
+f witnesses; keep evidence of doctors visited and treatments received and k=
+eep receipts for any injury related expenses.</p>=0A=
+<p><img class=3D"aligncenter wp-image-447" src=3D"https://www.legitclaims.c=
+o.uk/blog/wp-content/uploads/2017/11/Legit-Claims-Medical-Checkup.jpg" alt=
+=3D"Legit Claims - Medical Checkup" width=3D"499" height=3D"376" srcset=3D"=
+https://www.legitclaims.co.uk/blog/wp-content/uploads/2017/11/Legit-Claims-=
+Medical-Checkup.jpg 600w, https://www.legitclaims.co.uk/blog/wp-content/upl=
+oads/2017/11/Legit-Claims-Medical-Checkup-300x226.jpg 300w" sizes=3D"(max-w=
+idth: 499px) 100vw, 499px"></p>=0A=
+<h2>How Legit Claims can Help you</h2>=0A=
+<p>It is advisable to seek the appropriate legal advice as soon as is possi=
+ble after suffering an accident as certain time limits apply for dealing wi=
+th personal injury compensation claims. In most cases, Slip, trip And fall&=
+nbsp; accident claims require the assistance of solicitors who are well awa=
+re of the procedure with hands-on experience in dealing with such claims. N=
+o win no fee services can also aid you in making a personal injury claim wi=
+thout any upfront legal costs, you can use our <a href=3D"https://www.legit=
+claims.co.uk/claim-calculator" target=3D"_blank" rel=3D"noopener"><em>claim=
+ calculator</em></a> for claim estimation and you will not be liable to pay=
+ your solicitor any money if your compensation claim is unsuccessful.</p>=
+=0A=
+<p>Through <a href=3D"https://www.legitclaims.co.uk/" target=3D"_blank" rel=
+=3D"noopener"><em>Legit claims</em></a>, you can directly connect with the =
+best legal experts who specialize in dealing with all kinds of no win no fe=
+e accident claims to ensure that the claimants get the personal injury comp=
+ensation they deserve. <a href=3D"https://www.legitclaims.co.uk/contact-us"=
+ target=3D"_blank" rel=3D"noopener"><em>Contact us</em></a> and allow us to=
+ help you to&nbsp;<em>connect </em>with a legal expert today.</p>=0A=
+</p></td></tr></tbody></table><!--[if mso]></td><![endif]--><!--[if mso]></=
+tr></table><![endif]--> </td></tr></tbody></table></td></tr></table><!--[if=
+ gte mso 9]></td></tr></table><![endif]--></td></tr><tr><td align=3D"center=
+" valign=3D"top" id=3D"templateFooter" data-template-container=3D""><!--[if=
+ gte mso 9]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"600" style=3D"width:600px;"><tr><td align=3D"center" val=
+ign=3D"top" width=3D"600" style=3D"width:600px;"><![endif]--><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ class=3D"templateContainer"><tr> <td valign=3D"top" class=3D"footerContain=
+er"><table class=3D"mcnFollowBlock" style=3D"min-width:100%;" width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody class=3D"mcnFoll=
+owBlockOuter"> <tr> <td style=3D"padding:9px" class=3D"mcnFollowBlockInner"=
+ valign=3D"top" align=3D"center"> <table class=3D"mcnFollowContentContainer=
+" style=3D"min-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0"> <tbody><tr> <td style=3D"padding-left:9px;padding-right:9=
+px;" align=3D"center"> <table style=3D"min-width:100%;" class=3D"mcnFollowC=
+ontent" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <t=
+body><tr> <td style=3D"padding-top:9px; padding-right:9px; padding-left:9px=
+;" valign=3D"top" align=3D"center"> <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center"> <tbody><tr> <td valign=3D"top" align=3D"=
+center"><!--[if mso]> <table align=3D"center" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"> <tr><![endif]--><!--[if mso]> <td align=3D"center" val=
+ign=3D"top"><![endif]--> <table style=3D"display:inline;" cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td style=3D"pa=
+dding-right:10px; padding-bottom:9px;" class=3D"mcnFollowContentItemContain=
+er" valign=3D"top"> <table class=3D"mcnFollowContentItem" width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody><tr> <td style=3D"pa=
+dding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" v=
+align=3D"middle" align=3D"left"> <table width=3D"" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=3D"mcnFollow=
+IconContent" width=3D"24" valign=3D"middle" align=3D"center"> <a href=3D"#"=
+ target=3D"_blank"><img src=3D"https://cdn-images.mailchimp.com/icons/socia=
+l-block-v2/color-facebook-48.png" style=3D"display:block;" class=3D"" width=
+=3D"24" height=3D"24"></a> </td><td class=3D"mcnFollowTextContent" style=3D=
+"padding-left:5px;" valign=3D"middle" align=3D"left"> <a href=3D"#" target=
+=3D"" style=3D"font-family: Helvetica;font-size: 14px;text-decoration: none=
+;color: #FFFFFF;">Facebook</a> </td></tr></tbody></table> </td></tr></tbody=
+></table> </td></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if =
+mso]> <td align=3D"center" valign=3D"top"><![endif]--> <table style=3D"disp=
+lay:inline;" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+"> <tbody><tr> <td style=3D"padding-right:10px; padding-bottom:9px;" class=
+=3D"mcnFollowContentItemContainer" valign=3D"top"> <table class=3D"mcnFollo=
+wContentItem" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0"> <tbody><tr> <td style=3D"padding-top:5px; padding-right:10px; padding-b=
+ottom:5px; padding-left:9px;" valign=3D"middle" align=3D"left"> <table widt=
+h=3D"" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tb=
+ody><tr> <td class=3D"mcnFollowIconContent" width=3D"24" valign=3D"middle" =
+align=3D"center"> <a href=3D"#" target=3D"_blank"><img src=3D"https://cdn-i=
+mages.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style=3D"di=
+splay:block;" class=3D"" width=3D"24" height=3D"24"></a> </td><td class=3D"=
+mcnFollowTextContent" style=3D"padding-left:5px;" valign=3D"middle" align=
+=3D"left"> <a href=3D"#" target=3D"" style=3D"font-family: Helvetica;font-s=
+ize: 14px;text-decoration: none;color: #FFFFFF;">Twitter</a> </td></tr></tb=
+ody></table> </td></tr></tbody></table> </td></tr></tbody></table><!--[if m=
+so]> </td><![endif]--><!--[if mso]> <td align=3D"center" valign=3D"top"><![=
+endif]--> <table style=3D"display:inline;" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"left"> <tbody><tr> <td style=3D"padding-right:10p=
+x; padding-bottom:9px;" class=3D"mcnFollowContentItemContainer" valign=3D"t=
+op"> <table class=3D"mcnFollowContentItem" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0"> <tbody><tr> <td style=3D"padding-top:5px; =
+padding-right:10px; padding-bottom:5px; padding-left:9px;" valign=3D"middle=
+" align=3D"left"> <table width=3D"" cellspacing=3D"0" cellpadding=3D"0" bor=
+der=3D"0" align=3D"left"> <tbody><tr> <td class=3D"mcnFollowIconContent" wi=
+dth=3D"24" valign=3D"middle" align=3D"center"> <a href=3D"#" target=3D"_bla=
+nk"><img src=3D"https://cdn-images.mailchimp.com/icons/social-block-v2/colo=
+r-instagram-48.png" style=3D"display:block;" class=3D"" width=3D"24" height=
+=3D"24"></a> </td><td class=3D"mcnFollowTextContent" style=3D"padding-left:=
+5px;" valign=3D"middle" align=3D"left"> <a href=3D"#" target=3D"" style=3D"=
+font-family: Helvetica;font-size: 14px;text-decoration: none;color: #FFFFFF=
+;">Instagram</a> </td></tr></tbody></table> </td></tr></tbody></table> </td=
+></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if mso]> <td alig=
+n=3D"center" valign=3D"top"><![endif]--> <table style=3D"display:inline;" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr>=
+ <td style=3D"padding-right:0; padding-bottom:9px;" class=3D"mcnFollowConte=
+ntItemContainer" valign=3D"top"> <table class=3D"mcnFollowContentItem" widt=
+h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"> <tbody><tr> <t=
+d style=3D"padding-top:5px; padding-right:10px; padding-bottom:5px; padding=
+-left:9px;" valign=3D"middle" align=3D"left"> <table width=3D"" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td class=
+=3D"mcnFollowIconContent" width=3D"24" valign=3D"middle" align=3D"center"> =
+<a href=3D"https://www.legitclaims.co.uk/" target=3D"_blank"><img src=3D"ht=
+tps://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" sty=
+le=3D"display:block;" class=3D"" width=3D"24" height=3D"24"></a> </td><td c=
+lass=3D"mcnFollowTextContent" style=3D"padding-left:5px;" valign=3D"middle"=
+ align=3D"left"> <a href=3D"https://www.legitclaims.co.uk/" target=3D"" sty=
+le=3D"font-family: Helvetica;font-size: 14px;text-decoration: none;color: #=
+FFFFFF;">Website</a> </td></tr></tbody></table> </td></tr></tbody></table> =
+</td></tr></tbody></table><!--[if mso]> </td><![endif]--><!--[if mso]> </tr=
+></table><![endif]--> </td></tr></tbody></table> </td></tr></tbody></table>=
+ </td></tr></tbody></table> </td></tr></tbody></table><table class=3D"mcnDi=
+viderBlock" style=3D"min-width:100%;" width=3D"100%" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0"> <tbody class=3D"mcnDividerBlockOuter"> <tr> <td=
+ class=3D"mcnDividerBlockInner" style=3D"min-width: 100%; padding: 10px 18p=
+x;"> <table class=3D"mcnDividerContent" style=3D"min-width: 100%;border-top=
+: 2px solid #454952;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0"> <tbody><tr> <td> <span></span> </td></tr></tbody></table><!-- <=
+td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"> <hr class=3D"mc=
+nDividerContent" style=3D"border-bottom-color:none; border-left-color:none;=
+ border-right-color:none; border-bottom-width:0; border-left-width:0; borde=
+r-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left=
+:0;"/>--> </td></tr></tbody></table><table class=3D"mcnTextBlock" style=3D"=
+min-width:100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0"> <tbody class=3D"mcnTextBlockOuter"> <tr> <td class=3D"mcnTextBlockI=
+nner" style=3D"padding-top:9px;" valign=3D"top"><!--[if mso]><table align=
+=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" s=
+tyle=3D"width:100%;"><tr><![endif]--><!--[if mso]><td valign=3D"top" width=
+=3D"600" style=3D"width:600px;"><![endif]--> <table style=3D"max-width:100%=
+; min-width:100%;" class=3D"mcnTextContentContainer" width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left"> <tbody><tr> <td c=
+lass=3D"mcnTextContent" style=3D"padding-top:0; padding-right:18px; padding=
+-bottom:9px; padding-left:18px;" valign=3D"top"> Suite 6057 | 1 Fore Street=
+ | Moorgate | London | EC2Y 9DT | United Kingdom | 02038657978<br>Legit Cla=
+ims =C2=A9 2017<br>&nbsp; </td></tr></tbody></table><!--[if mso]></td><![en=
+dif]--><!--[if mso]></tr></table><![endif]--> </td></tr></tbody></table></t=
+d></tr></table><!--[if gte mso 9]></td></tr></table><![endif]--></td></tr><=
+/table> </td></tr></table> </center> </body></html>
+

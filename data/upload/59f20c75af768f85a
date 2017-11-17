@@ -1,0 +1,11 @@
+Reporting-MTA: dns;MMXP123MB0717.GBRP123.PROD.OUTLOOK.COM
+Received-From-MTA: dns;EUR01-DB5-obe.outbound.protection.outlook.com
+Arrival-Date: Tue, 24 Oct 2017 16:03:58 +0000
+
+Final-Recipient: rfc822;info@timms-law.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+X-Display-Name: info@timms-law.com
+
+

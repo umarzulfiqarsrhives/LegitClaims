@@ -1,0 +1,10 @@
+Reporting-MTA: dns;AM5PR0501MB2402.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Fri, 10 Nov 2017 00:00:33 +0000
+
+Final-Recipient: rfc822;amanda.smith@robinsonsolicitors.com
+Action: failed
+Status: 5.4.310
+Diagnostic-Code: smtp;550 5.4.310 DNS domain robinsonsolicitors.com does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=robinsonsolicitors.com] [VE1EUR03FT058.eop-EUR03.prod.protection.outlook.com]
+
+

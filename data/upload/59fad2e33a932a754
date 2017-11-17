@@ -1,0 +1,11 @@
+Reporting-MTA: dns;HE1PR0502MB3899.eurprd05.prod.outlook.com
+Received-From-MTA: dns;localhost
+Arrival-Date: Thu, 2 Nov 2017 08:07:24 +0000
+
+Final-Recipient: rfc822;develop@zapro.uk
+Action: failed
+Status: 5.4.1
+Diagnostic-Code: smtp;550 5.4.1 [develop@zapro.uk]: Recipient address rejected: Access denied [AM5EUR03FT057.eop-EUR03.prod.protection.outlook.com]
+Remote-MTA: dns;AM5EUR03FT057.mail.protection.outlook.com
+
+

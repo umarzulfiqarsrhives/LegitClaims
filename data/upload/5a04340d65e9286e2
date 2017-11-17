@@ -1,0 +1,11 @@
+Reporting-MTA: dns;VI1PR0501MB2416.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Tue, 7 Nov 2017 06:06:44 +0000
+
+Final-Recipient: rfc822;muhammad.shahzad@drhives.com
+Action: failed
+Status: 5.7.350
+Diagnostic-Code: smtp;550 5.7.350 Remote server returned message detected as spam -> 550 <muhammad.shahzad@drhives.com> recipient rejected
+Remote-MTA: dns;bosimpinc13
+
+

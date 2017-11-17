@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM4PR0501MB2820.eurprd05.prod.outlook.com
+Received-From-MTA: dns;admin
+Arrival-Date: Thu, 9 Nov 2017 09:25:08 +0000
+
+Final-Recipient: rfc822;prhoward181@btconnect.com
+Action: failed
+Status: 5.4.1
+Diagnostic-Code: smtp;550 5.4.1 [prhoward181@btconnect.com]: Recipient address rejected: Access denied [HE1EUR02FT042.eop-EUR02.prod.protection.outlook.com]
+Remote-MTA: dns;HE1EUR02FT042.mail.protection.outlook.com
+
+

@@ -1,0 +1,92 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT1945665.onmicrosoft.com; s=selector1-legitclaims-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=Nu+Wkm3BPlzRi3N/1hPM1oHQfHtlJjzNo6m0g+lX0K8=;
+ b=i8gWY5tEtyPr6/tLhtJepo9Qm9Ryj33g0vtcPh2EFseBNdNdz08xT9HwQq1KXeisMpNJBVW9KfHqh4rx4xllIiXk7nkn4u/qyRCvB7T+EgHQjOGnh090jsqPUa+Jk4c6bAZh3O3BP1YTW0SzaneE5MUMFJSmYFGj5MzCja7A70A=
+Authentication-Results: spf=none (sender IP is )
+ smtp.mailfrom=hello@legitclaims.co.uk; 
+Received: from admin (203.128.31.180) by
+ AM6PR0502MB3893.eurprd05.prod.outlook.com (2603:10a6:209:b::26) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Wed, 15
+ Nov 2017 11:01:04 +0000
+Date: Wed, 15 Nov 2017 11:01:04 +0000
+From: =?UTF-8?Q?Ali=20Elaouzi?= <hello@legitclaims.co.uk>
+Sender: <hello@legitclaims.co.uk>
+Reply-To: hello@legitclaims.co.uk
+To: notifications-noreply@linkedin.com
+Subject: =?UTF-8?Q?[#]=20Unavailable=20at=20my=20Desk?=
+Content-Type: multipart/alternative;
+ boundary="=_258cd5a379494e83936b1f339a457df5"
+Message-ID: <67823a0c04e2813c955d2c8f5f56d932/1510743664/3292@espo>
+X-Originating-IP: [203.128.31.180]
+X-ClientProxiedBy: DB6PR1001CA0022.EURPRD10.PROD.OUTLOOK.COM
+ (2603:10a6:4:b7::32) To AM6PR0502MB3893.eurprd05.prod.outlook.com
+ (2603:10a6:209:b::26)
+Return-Path: hello@legitclaims.co.uk
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9e812182-4233-4ceb-483e-08d52c182aeb
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4603075)(4627115)(201702281549075)(2017052603258);SRVR:AM6PR0502MB3893;
+X-Microsoft-Exchange-Diagnostics: 1;AM6PR0502MB3893;3:7CeQOMxRdn1MuXQWIruoa8n3R+/zmd3u3BSbJ3LGF0BEeBgUH3Jw2GtM7hyOrlzXoJ3d3WuWFvCK2H3VeTZtXOt7j1sH+lKjYl8s8gUVX8vm/euXwHOiRfdX2HZtFzxTvPK2ehCJqKOVIjNjNBsoaN3pvPm7TSaNj0TsWe13k6MHLTlSHUdftRlaHGct2qp8OH1j6/Wm2oibneuS7PUOWPwK9O+V9wZmwJrkypFBLTfXWri1pyB9NeHgPvStwITG;25:4VSGLBlUk6ILW1/RUYmFOlItuB3j6iCInl8sSKd8DtIabqkeWp+ViL9MTlS7g1tkzFSSwMM86sqO1MagQbgKKYQ8jZIXYgwRBobWS1R1/kx76BcCjsk3MQzQ61Ep4SquHV79ez1JWt5JwbsMmZ7hdJ+rJS3ggCpECIMRvz11SIvzJy5ynxl/LJB7TZAG6JD1zl2zRUTqC3I4+ct4lgz3wLceOLc6hbDVDIDyY2eouX0bAIImYegL4xYpDlAM+/eEYruAYlPVkAlweTAAtgrNRcT++A1PzGfCNOG1i8fGss1AJkMYcdEEFsrSzBwNrJWFNvmKwWd8l9No8iLMMbbxGA==;31:SuaYEcCSakQ7uj7QFzQzLhsKdnM3cyxbDrJdF82bl9UcnNdGU7gRaEfUENlJktzxX5bCBU7vI84ozWmMe2FRE8zbOh3AavBdVIjNK+tgcEYSCh1U4QugoXtXnGps5Ysyf/8XYK4c3dPK4b7WpVbX7AACpfhXaHmS+yzcmKFMKSyzzUjpAgP5Ez+5/M4U1eoEavE9EKOVa4fRX4Jwew4tA7SRsxIxbByE78ufg8lALQI=
+X-MS-TrafficTypeDiagnostic: AM6PR0502MB3893:
+X-Microsoft-Antispam-PRVS: <AM6PR0502MB38939424A5C68840FC7F96FAE0290@AM6PR0502MB3893.eurprd05.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:(116415991822766);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(2401047)(8121501046)(5005006)(93006095)(93001095)(100000703101)(100105400095)(3231022)(10201501046)(3002001)(6041248)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123555025)(20161123558100)(2016111802025)(20161123562025)(20161123560025)(20161123564025)(6072148)(6043046)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM6PR0502MB3893;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM6PR0502MB3893;
+X-Microsoft-Exchange-Diagnostics: 1;AM6PR0502MB3893;4:5qkNq5R9OWHJcMxu9nxbrUK/b14pSiudhzEvmhgQ1O9l/kWlqp//AitqmSQkcvn2soTZ2W4JkGt6TvChMbHMFysC9XsYAgKkVJJv37/MIkFGpDRudYQ2wZaf9JudMhqGdirwnnlibYZdCPbk5iMW1Y3Soh/Lo+wMn13y/f5ELm2medSUVRgumwplfQAGcqV8jC2dTrpDXOktHguC8G8ZgK8S2dEBRw+TdXspASy8zTfpCwnYNoG7vnlOVZOJAKDUEAwGXCSTD9oif/1K1QN6K2viLN4P9e3byuZtVnwMa8hGe+smq9IwFJxr5q72Ptb3
+X-Forefront-PRVS: 0492FD61DD
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(10009020)(6009001)(7916004)(376002)(346002)(39830400002)(189002)(199003)(33646002)(43066004)(478600001)(68736007)(8656006)(101416001)(6116002)(54356999)(6916009)(42882006)(50986999)(345774005)(305945005)(53936002)(6496005)(45080400002)(16526018)(7736002)(3846002)(2361001)(86362001)(106356001)(16586007)(316002)(105586002)(66066001)(3450700001)(9686003)(8936002)(189998001)(2906002)(118296001)(7846003)(5000100001)(6486002)(81156014)(8676002)(33716001)(5660300001)(6392003)(25786009)(97736004)(84326002)(81166006)(2351001)(74482002);DIR:OUT;SFP:1101;SCL:1;SRVR:AM6PR0502MB3893;H:admin;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: legitclaims.co.uk does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;AM6PR0502MB3893;23:PD2Tvgjeg3KCkf8oHxPxsy4tWgmfVuXxQCtS4kv?=
+ =?us-ascii?Q?MLCiw7gR/4Wego9y60H6v44mDP4veaY/AKAafNCqHXJGs0v5G8bN9Tw4pJ90?=
+ =?us-ascii?Q?q+DZ610cKOfgbgo56Yl6yu/5v9RVlXfAETZghgmqRrlEh82ajIpBXFnlOwTe?=
+ =?us-ascii?Q?s9iga7Q67Sl1avzapPeYtr6oe3BuyAkl+H3nzDJVQYq2IY7rMDfCO8XFe08y?=
+ =?us-ascii?Q?8VyuqbDNJvs3+OvY5VEHpZHT5cFLJ1sY08Kca4huU7j1oVY7y5yYgVsyL6Cd?=
+ =?us-ascii?Q?SG+fD4xsEPneu5IOTUtzUQ9O3zJ7h5miF0VYiHYjtQkPelD3LceqdiiCorXI?=
+ =?us-ascii?Q?y+hFoVlvzctFWxXzMcNenRvyACbdgYGNmHstCjwVWMN7heuGTPKY3aUON3V/?=
+ =?us-ascii?Q?V5AW4nSVI0r1PDjIEeKdcBsZPo8IAm3ZZKFcdd3z2BBaTS3XNFie8D8nEKD0?=
+ =?us-ascii?Q?FThWjnEZglL+jOro7ODrEs6KeLI+ihqtii9WqyPlp9vWnHLAPz4oyhvbNNno?=
+ =?us-ascii?Q?+kas7DORYdgxsNn+JXJ0UHIKTl6eb8vjLRE3A8M9jIb3O3PLJlY38INNVq3G?=
+ =?us-ascii?Q?9A7bJQ9sfNNMPjy42A/FApubuD1KbRbBdOt4N2ZKb7cBMzc16FM0tBqNZhV7?=
+ =?us-ascii?Q?daQ/Ql0Pyj9RULmYwqslwufWiokBsMTJKSgNGCzEPa5OH7+nnhHt/ePct5Qb?=
+ =?us-ascii?Q?1i4zMJjleYvX0c/pSZfgcr+wtC9KqVrlFm0xG63k4ch2MyjsDuMMJAGA9dL/?=
+ =?us-ascii?Q?BNN3S4HgSYsFFQQXliepwnrSXA8ZdLn5FdvDAYAEejN9CYvDZgx/kOgOKjEd?=
+ =?us-ascii?Q?85A6N5uATqTUuJfRHmleOMd08ATEIbT3OpmHZgFFtDs3KWUMXQkGZ3g5+xWt?=
+ =?us-ascii?Q?iADcZBQcsHgbOJmAXS9LmEzwaeQJdgx3B27FsBw30ie+GbbPdWTthNu6nGik?=
+ =?us-ascii?Q?U2PKAGVftMcXkXEkFMNevPxNfcWkiSggZUrxj1r7cUCNwc9uW606tcsKMCiA?=
+ =?us-ascii?Q?boDmBcZAiyy3R6lB9p1Y5pI/fZpOeZFz3F5UEkL4tc/BtE8ufHvTBjbPiEy8?=
+ =?us-ascii?Q?AFpBNrP+p4+VH/c7v5Bq2TW+W9CJP6czhy2Lh4fLLKdcRHK6OK9wITtShHXx?=
+ =?us-ascii?Q?e+bRsdaVf0KLjXxRhpXvORew6jVZauXFdUbfKDaXZPJv3FDr90DJKhKPTGyh?=
+ =?us-ascii?Q?Hrq92lZ10iXqe7wMZ4uZdc6KoK/ON3KmRzw1C6te0CDJ2lFm5POw42EFh0Q?=
+ =?us-ascii?Q?=3D=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;AM6PR0502MB3893;6:rW7fW94Kca+zBsOMn26WGPASXhqE+AdMCU+7hmg27JFKUIXjf+Dkfk841BcQ4XPA1/45DbuCGx+44b14X8SQxDvK1xkR/UNcJRLYzjUu+K4yGQ3Ij3hPztgmYw5ME39rj5rIZkt5DLnwL8mC0FsWjvCKjbbDKrNTSsuIC5kjRWzbHtRDoWS0X1jjs1ux6q+eGhqgXrQKSxY75XIeeDITDfepNSNJlZloLUjK+6ClmT+Aug9VWfD/sPuIEqmi8u5yBMTQ32ssoHbryFnlRdxb2JSpGMQsPlVpvvrjWNVe0NLswaIu+RrhtzT/cZjPiIOQImKmnApBaA/JlzLh/xuBmefRoVfKXOH1Vhd8e/8R5sc=;5:2h4Z6QOtQbfBV9pB5mxHW8XzdoEEis45vol5FmWixBuY009B7z/mplWpfljzpgfNcy5IJHrHZ02+u4WY71GDXjfTHoFVjSGKY345DCmrnR++WPBNoma1hODeM2w1vUhs2bxi/3n0RgOpt/TMDzwzMThXYZYOlOjy6nGWEMcQfE0=;24:ROne2jK9HZTAe+IoeWt3dFVQGk+nuFYrpMNXIlIOfqenckHQBmi0YmoOUt3zXXoErKTPe1qfCS3jqioqecpddUnKvubueRBjKu9Cd8ZUdPA=;7:EnARImFWq8LK/FUba28P30/PrYHIXfJmNq1fgu7fM/5G+GBbbr70E696xm+DG9eM+6dN0+cRWnh9N0ht4wo9cykyxWMvuEv8fKDoFknLXlCGHa46GOEgXtPCQ+6QjCFJOGIi4FClm+/XWbzdiESXto3KuNFC9ybggPHqvq+YGrW23lR7JPKvbCSeHTZ9cWUB5Ft6XzJqHosCctchfqd+DYjTDFWTJr/ZCenTNU1RAraN82CQi/OMQxzNNYUp3DRc
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: legitclaims.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Nov 2017 11:01:04.3224 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9e812182-4233-4ceb-483e-08d52c182aeb
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: a187c6f9-8bcc-4f76-959a-4f01f429b90c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR0502MB3893
+MIME-Version: 1.0
+
+--=_258cd5a379494e83936b1f339a457df5
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello&nbsp;LinkedIn=0D=0AThank you for your e-mail.Sorry I'm away from m=
+y desk and will respond to you as soon as &nbsp;I am available. If this=
+ message needs an urgent response, please call &nbsp;my office on 020371=
+45676=0D=0AKind RegardsAli Elaouzi
+--=_258cd5a379494e83936b1f339a457df5
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+>Hello&nbsp;LinkedIn</p><p><br></p><p>Thank you for your e-mail.</p><p>Sorr=
+y I'm away from my desk and will respond to you as soon as &nbsp;I am avail=
+able. If this message needs an urgent response, please call &nbsp;my office=
+ on 02037145676</p><p><br>Kind Regards</p><p>Ali Elaouzi</p>=
+
+--=_258cd5a379494e83936b1f339a457df5--
+
